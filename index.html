@@ -487,22 +487,22 @@
           const lists = data.lists || {};
           if (lists.gazette) await populateGazette(lists.gazette);
           if (lists.press) await populatePress(lists.press);
+          const gazetteModes = ['readable', 'raw', 'pdf', 'meta'];
           document.querySelectorAll('#gazette-reader .mode').forEach((btn, idx) => {
-            btn.onclick = () => {
+            btn.addEventListener('click', () => {
               document.querySelectorAll('#gazette-reader .mode').forEach((x) => x.classList.remove('active'));
               btn.classList.add('active');
-              const mode = ['readable', 'raw', 'pdf', 'meta'][idx];
-              if (state.currentGazette) setGazetteMode(state.currentGazette, mode);
-            };
+              if (state.currentGazette) setGazetteMode(state.currentGazette, gazetteModes[idx]);
+            });
           });
 
+          const pressModes = ['readable', 'source', 'meta'];
           document.querySelectorAll('#press-reader .mode').forEach((btn, idx) => {
-            btn.onclick = () => {
+            btn.addEventListener('click', () => {
               document.querySelectorAll('#press-reader .mode').forEach((x) => x.classList.remove('active'));
               btn.classList.add('active');
-              const mode = ['readable', 'source', 'meta'][idx];
-              if (state.currentPress) setPressMode(state.currentPress, mode);
-            };
+              if (state.currentPress) setPressMode(state.currentPress, pressModes[idx]);
+            });
           });
 
           initGroupBrowser({
