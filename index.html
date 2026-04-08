@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ai readable government</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <div class="brand-lockup">
+          <span class="brand-kicker">PUBLIC DOCUMENT READER</span>
+          <a class="brand" href="#">Ai readable government</a>
+        </div>
+        <nav class="topnav">
+          <a href="#home">Home</a>
+          <a href="#gazette-reader">Gazette</a>
+          <a href="#press-reader">Press</a>
+          <a href="#about">About</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow">Government documents, made readable</p>
+            <h1>공식 기록과 설명 자료를<br />같이 읽는 정부 문서 리더</h1>
+            <p class="hero-body">
+              관보와 보도자료를 메타데이터, raw markdown, readable markdown,
+              원문 링크까지 한 인터페이스에서 이어보는 공공형 리더.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#gazette-reader">Browse Gazette</a>
+              <a class="btn btn-secondary" href="#press-reader">Browse Press</a>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="coverage-card">
+              <p class="card-label">Current coverage</p>
+              <div class="coverage-grid">
+                <div>
+                  <span class="coverage-value" id="coverage-gazette">315</span>
+                  <span class="coverage-unit">gazette docs</span>
+                </div>
+                <div>
+                  <span class="coverage-value" id="coverage-press">680+</span>
+                  <span class="coverage-unit">press docs</span>
+                </div>
+              </div>
+              <div class="coverage-meta">
+                <span class="badge badge-final">Readable</span>
+                <span class="badge badge-source">Source PDF</span>
+                <span class="badge badge-meta">Metadata</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="split-intro" id="about">
+          <article>
+            <p class="section-kicker">Two source layers</p>
+            <h2>보도자료는 설명이고,<br />관보는 공식 기록입니다.</h2>
+          </article>
+          <article class="support-copy">
+            <p>
+              이 사이트는 정부가 무엇을 설명했는지와 정부가 무엇을 공식적으로 기록했는지를
+              나란히 읽게 하는 인터페이스를 목표로 합니다.
+            </p>
+          </article>
+        </section>
+
+        <section class="surface-grid">
+          <article class="surface-block">
+            <div class="block-head">
+              <p class="section-kicker">Layer 01</p>
+              <h3>Press</h3>
+            </div>
+            <p>
+              정책브리핑 보도자료를 날짜별·부처별로 읽고, 설명성 높은 readable markdown 아카이브로 탐색합니다.
+            </p>
+            <ul class="feature-list">
+              <li>날짜별 아카이브</li>
+              <li>부처별 인덱스</li>
+              <li>원문 링크와 정책브리핑 source 연결</li>
+            </ul>
+          </article>
+
+          <article class="surface-block">
+            <div class="block-head">
+              <p class="section-kicker">Layer 02</p>
+              <h3>Gazette</h3>
+            </div>
+            <p>
+              관보 메타데이터, 원문 PDF, raw 추출, 후처리 readable-final까지 이어서 보는 공식 기록 레이어입니다.
+            </p>
+            <ul class="feature-list">
+              <li>관보 일반 API 기반 메타데이터</li>
+              <li>PDF 캐시 및 raw markdown/json</li>
+              <li>후처리된 readable-final</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="reader-preview" id="gazette-reader">
+          <div class="preview-header">
+            <div>
+              <p class="section-kicker">Gazette reader preview</p>
+              <h2>실제 관보 데이터 샘플</h2>
+            </div>
+            <div class="filter-strip">
+              <span class="filter-chip active" id="gazette-day-chip">loading…</span>
+              <span class="filter-chip" id="gazette-count-chip">0 docs</span>
+              <span class="filter-chip">Readable + Source</span>
+            </div>
+          </div>
+
+          <div class="reader-grid">
+            <aside class="archive-list" id="gazette-list"></aside>
+            <article class="document-pane">
+              <div class="document-head">
+                <p class="doc-kicker">Gazette detail</p>
+                <h3 id="gazette-title">로딩 중…</h3>
+                <div class="doc-meta-grid">
+                  <div><span class="meta-label">기관</span><strong id="gazette-publisher">-</strong></div>
+                  <div><span class="meta-label">발행일</span><strong id="gazette-date">-</strong></div>
+                  <div><span class="meta-label">형식</span><strong id="gazette-type">-</strong></div>
+                  <div><span class="meta-label">품질</span><strong id="gazette-quality">-</strong></div>
+                </div>
+              </div>
+              <div class="mode-switch">
+                <button class="mode active">Readable</button>
+                <button class="mode">Raw Markdown</button>
+                <button class="mode">Source PDF</button>
+                <button class="mode">Metadata</button>
+              </div>
+              <div class="document-body">
+                <p id="gazette-excerpt"></p>
+                <dl class="doc-links">
+                  <div><dt>Basis law</dt><dd id="gazette-basis">-</dd></div>
+                  <div><dt>Metadata path</dt><dd id="gazette-meta-path">-</dd></div>
+                  <div><dt>Raw path</dt><dd id="gazette-raw-path">-</dd></div>
+                  <div><dt>Readable path</dt><dd id="gazette-readable-path">-</dd></div>
+                </dl>
+                <p><a id="gazette-source-link" class="inline-link" href="#" target="_blank" rel="noreferrer">Open source PDF</a></p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="reader-preview reader-preview-press" id="press-reader">
+          <div class="preview-header">
+            <div>
+              <p class="section-kicker">Press reader preview</p>
+              <h2>실제 보도자료 데이터 샘플</h2>
+            </div>
+            <div class="filter-strip">
+              <span class="filter-chip active" id="press-day-chip">loading…</span>
+              <span class="filter-chip" id="press-count-chip">0 docs</span>
+              <span class="filter-chip">Readable + Source URL</span>
+            </div>
+          </div>
+
+          <div class="reader-grid">
+            <aside class="archive-list" id="press-list"></aside>
+            <article class="document-pane">
+              <div class="document-head">
+                <p class="doc-kicker">Press detail</p>
+                <h3 id="press-title">로딩 중…</h3>
+                <div class="doc-meta-grid">
+                  <div><span class="meta-label">부처</span><strong id="press-ministry">-</strong></div>
+                  <div><span class="meta-label">배포일</span><strong id="press-date">-</strong></div>
+                  <div><span class="meta-label">구분</span><strong id="press-group">-</strong></div>
+                  <div><span class="meta-label">소스</span><strong id="press-source">-</strong></div>
+                </div>
+              </div>
+              <div class="mode-switch">
+                <button class="mode active">Readable</button>
+                <button class="mode">Original URL</button>
+                <button class="mode">Metadata</button>
+              </div>
+              <div class="document-body">
+                <p id="press-excerpt"></p>
+                <dl class="doc-links">
+                  <div><dt>News item id</dt><dd id="press-news-id">-</dd></div>
+                  <div><dt>Path</dt><dd id="press-path">-</dd></div>
+                  <div><dt>Layer note</dt><dd>설명/보도 레이어</dd></div>
+                  <div><dt>Original</dt><dd id="press-original-host">korea.kr</dd></div>
+                </dl>
+                <p><a id="press-source-link" class="inline-link" href="#" target="_blank" rel="noreferrer">Open policy briefing source</a></p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="reader-preview browse-section" id="by-date">
+          <div class="preview-header">
+            <div>
+              <p class="section-kicker">Browse structure</p>
+              <h2>By Date</h2>
+            </div>
+            <div class="filter-strip">
+              <span class="filter-chip active">sorted by total docs</span>
+              <span class="filter-chip" id="by-date-count-chip">0 groups</span>
+            </div>
+          </div>
+
+          <div class="browse-grid">
+            <aside class="archive-list" id="date-group-list"></aside>
+            <article class="document-pane">
+              <div class="document-head">
+                <p class="doc-kicker">Date group</p>
+                <h3 id="date-group-title">로딩 중…</h3>
+                <div class="doc-meta-grid">
+                  <div><span class="meta-label">총 문서</span><strong id="date-total">-</strong></div>
+                  <div><span class="meta-label">Press</span><strong id="date-press-count">-</strong></div>
+                  <div><span class="meta-label">Gazette</span><strong id="date-gazette-count">-</strong></div>
+                  <div><span class="meta-label">성격</span><strong>일자별 흐름</strong></div>
+                </div>
+              </div>
+              <div class="document-body">
+                <div class="institution-highlight">
+                  <div>
+                    <span class="highlight-label">Day focus</span>
+                    <strong id="date-primary-layer">-</strong>
+                  </div>
+                  <div>
+                    <span class="highlight-label">Busiest institution</span>
+                    <strong id="date-busiest-institution">-</strong>
+                  </div>
+                  <div>
+                    <span class="highlight-label">Document mix</span>
+                    <strong id="date-doc-mix">-</strong>
+                  </div>
+                </div>
+                <div class="summary-list" id="date-summary-list"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="reader-preview browse-section" id="by-institution">
+          <div class="preview-header">
+            <div>
+              <p class="section-kicker">Browse structure</p>
+              <h2>By Institution</h2>
+            </div>
+            <div class="filter-strip">
+              <span class="filter-chip active">sorted by total docs</span>
+              <span class="filter-chip" id="by-institution-count-chip">0 groups</span>
+            </div>
+          </div>
+
+          <div class="browse-grid">
+            <aside class="archive-list" id="institution-group-list"></aside>
+            <article class="document-pane">
+              <div class="document-head">
+                <p class="doc-kicker">Institution group</p>
+                <h3 id="institution-group-title">로딩 중…</h3>
+                <div class="doc-meta-grid">
+                  <div><span class="meta-label">총 문서</span><strong id="institution-total">-</strong></div>
+                  <div><span class="meta-label">Press</span><strong id="institution-press-count">-</strong></div>
+                  <div><span class="meta-label">Gazette</span><strong id="institution-gazette-count">-</strong></div>
+                  <div><span class="meta-label">성격</span><strong>기관별 흐름</strong></div>
+                </div>
+              </div>
+              <div class="document-body">
+                <div class="institution-highlight">
+                  <div>
+                    <span class="highlight-label">Institution focus</span>
+                    <strong id="institution-primary-layer">-</strong>
+                  </div>
+                  <div>
+                    <span class="highlight-label">Latest date</span>
+                    <strong id="institution-latest-date">-</strong>
+                  </div>
+                  <div>
+                    <span class="highlight-label">Document mix</span>
+                    <strong id="institution-doc-mix">-</strong>
+                  </div>
+                </div>
+                <div class="summary-list" id="institution-summary-list"></div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      const $ = (id) => document.getElementById(id);
+
+      function renderBadgeRow(item, kind) {
+        if (kind === 'gazette') {
+          return `${item.hasReadable ? '<span class="badge badge-final">Readable</span>' : ''}${item.hasRaw ? '<span class="badge badge-raw">Raw MD</span>' : ''}<span class="badge badge-source">Source PDF</span>`;
+        }
+        return '<span class="badge badge-final">Readable</span><span class="badge badge-meta">Policy briefing</span>';
+      }
+
+      function initReader({ listId, dataset, kind, onSelect }) {
+        const list = $(listId);
+        list.innerHTML = dataset.map((item, idx) => `
+          <button class="archive-row ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+            <p class="row-title">${item.title}</p>
+            <div class="row-meta">
+              <span>${kind === 'gazette' ? item.publisher : item.ministry}</span>
+              <span>${kind === 'gazette' ? item.date : String(item.approveDate || '').split(' ')[0]}</span>
+              <span>${kind === 'gazette' ? item.formType : item.groupingCode}</span>
+            </div>
+            <div class="row-badges">${renderBadgeRow(item, kind)}</div>
+          </button>
+        `).join('');
+
+        function activate(index) {
+          list.querySelectorAll('.archive-row').forEach((el, i) => el.classList.toggle('active', i === index));
+          onSelect(dataset[index]);
+        }
+
+        list.addEventListener('click', (event) => {
+          const row = event.target.closest('.archive-row');
+          if (!row) return;
+          activate(Number(row.dataset.index));
+        });
+
+        if (dataset.length) activate(0);
+      }
+
+      function populateGazette(items) {
+        initReader({
+          listId: 'gazette-list',
+          dataset: items,
+          kind: 'gazette',
+          onSelect: (item) => {
+            $('gazette-title').textContent = item.title || '-';
+            $('gazette-publisher').textContent = item.publisher || '-';
+            $('gazette-date').textContent = item.date || '-';
+            $('gazette-type').textContent = item.formType || '기타';
+            $('gazette-quality').textContent = item.hasReadable ? 'Good' : 'Metadata only';
+            $('gazette-excerpt').textContent = item.excerpt || 'Excerpt unavailable.';
+            $('gazette-basis').textContent = item.basisLaw || '-';
+            $('gazette-meta-path').textContent = item.metaPath || '-';
+            $('gazette-raw-path').textContent = item.rawPath || '-';
+            $('gazette-readable-path').textContent = item.readablePath || '-';
+            $('gazette-source-link').href = item.pdfUrl || '#';
+          }
+        });
+      }
+
+      function populatePress(items) {
+        initReader({
+          listId: 'press-list',
+          dataset: items,
+          kind: 'press',
+          onSelect: (item) => {
+            $('press-title').textContent = item.title || '-';
+            $('press-ministry').textContent = item.ministry || '-';
+            $('press-date').textContent = item.approveDate || '-';
+            $('press-group').textContent = item.groupingCode || '-';
+            $('press-source').textContent = item.source || '-';
+            $('press-excerpt').textContent = item.excerpt || 'Excerpt unavailable.';
+            $('press-news-id').textContent = item.newsItemId || '-';
+            $('press-path').textContent = item.path || '-';
+            $('press-original-host').textContent = 'korea.kr / policy briefing';
+            $('press-source-link').href = item.originalUrl || '#';
+          }
+        });
+      }
+
+      function initGroupBrowser({ listId, dataset, titleId, totalId, pressId, gazetteId, summaryId, labelKey, onActivate, sortMode = 'total-desc' }) {
+        const sortedDataset = [...dataset].sort((a, b) => {
+          if (sortMode === 'date-desc') {
+            return String(b[labelKey] || '').localeCompare(String(a[labelKey] || ''));
+          }
+          if ((b.total || 0) !== (a.total || 0)) return (b.total || 0) - (a.total || 0);
+          return String(a[labelKey] || '').localeCompare(String(b[labelKey] || ''));
+        });
+
+        const list = $(listId);
+        list.innerHTML = sortedDataset.map((group, idx) => `
+          <button class="archive-row ${idx === 0 ? 'active' : ''}" data-index="${idx}">
+            <p class="row-title">${group[labelKey]}</p>
+            <div class="row-meta">
+              <span>Total ${group.total}</span>
+              <span>Press ${group.pressCount}</span>
+              <span>Gazette ${group.gazetteCount}</span>
+            </div>
+          </button>
+        `).join('');
+
+        function activate(index) {
+          list.querySelectorAll('.archive-row').forEach((el, i) => el.classList.toggle('active', i === index));
+          const group = sortedDataset[index];
+          $(titleId).textContent = group[labelKey] || '-';
+          $(totalId).textContent = group.total ?? '-';
+          $(pressId).textContent = group.pressCount ?? '-';
+          $(gazetteId).textContent = group.gazetteCount ?? '-';
+          $(summaryId).innerHTML = (group.items || []).slice(0, 8).map((item) => `
+            <div class="summary-row">
+              <span class="summary-badge ${item.layer === 'press' ? 'summary-press' : 'summary-gazette'}">${item.layer}</span>
+              <div>
+                <p class="summary-title">${item.title}</p>
+                <p class="summary-meta">${item.institution || ''} · ${item.date || ''} · ${item.docType || ''}</p>
+              </div>
+            </div>
+          `).join('');
+          if (onActivate) onActivate(group);
+        }
+
+        list.addEventListener('click', (event) => {
+          const row = event.target.closest('.archive-row');
+          if (!row) return;
+          activate(Number(row.dataset.index));
+        });
+
+        if (sortedDataset.length) activate(0);
+      }
+
+      async function boot() {
+        try {
+          const res = await fetch('./docs/index-data.json');
+          const data = await res.json();
+
+          const range = data.generatedForRange;
+          const activeDay = range ? `${range.start} → ${range.end}` : (data.generatedForDay || data.day || 'sample');
+          $('gazette-day-chip').textContent = activeDay;
+          $('press-day-chip').textContent = activeDay;
+          $('coverage-gazette').textContent = (data.coverage && data.coverage.gazetteSampleCount) || (data.gazette || []).length || 0;
+          $('coverage-press').textContent = (data.coverage && data.coverage.pressSampleCount) || (data.press || []).length || 0;
+          $('gazette-count-chip').textContent = `${(data.gazette || []).length} docs`;
+          $('press-count-chip').textContent = `${(data.press || []).length} docs`;
+          $('by-date-count-chip').textContent = `${(data.byDate || []).length} groups`;
+          $('by-institution-count-chip').textContent = `${(data.byInstitution || []).length} groups`;
+
+          populateGazette(data.gazette || []);
+          populatePress(data.press || []);
+          initGroupBrowser({
+            listId: 'date-group-list',
+            dataset: data.byDate || [],
+            titleId: 'date-group-title',
+            totalId: 'date-total',
+            pressId: 'date-press-count',
+            gazetteId: 'date-gazette-count',
+            summaryId: 'date-summary-list',
+            labelKey: 'date',
+            sortMode: 'total-desc',
+            onActivate: (group) => {
+              const items = group.items || [];
+              const counts = {};
+              for (const item of items) {
+                const name = item.institution || 'Unknown';
+                counts[name] = (counts[name] || 0) + 1;
+              }
+              const busiestInstitution = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+              const primaryLayer = (group.pressCount || 0) >= (group.gazetteCount || 0) ? 'Press-heavy' : 'Gazette-heavy';
+              const mix = `${group.pressCount || 0} press / ${group.gazetteCount || 0} gazette`;
+              $('date-primary-layer').textContent = primaryLayer;
+              $('date-busiest-institution').textContent = busiestInstitution ? `${busiestInstitution[0]} (${busiestInstitution[1]})` : '-';
+              $('date-doc-mix').textContent = mix;
+            }
+          });
+          initGroupBrowser({
+            listId: 'institution-group-list',
+            dataset: data.byInstitution || [],
+            titleId: 'institution-group-title',
+            totalId: 'institution-total',
+            pressId: 'institution-press-count',
+            gazetteId: 'institution-gazette-count',
+            summaryId: 'institution-summary-list',
+            labelKey: 'institution',
+            sortMode: 'total-desc',
+            onActivate: (group) => {
+              const items = group.items || [];
+              const latest = items.map((x) => x.date).filter(Boolean).sort().slice(-1)[0] || '-';
+              const primaryLayer = (group.pressCount || 0) >= (group.gazetteCount || 0) ? 'Press-heavy' : 'Gazette-heavy';
+              const mix = `${group.pressCount || 0} press / ${group.gazetteCount || 0} gazette`;
+              $('institution-primary-layer').textContent = primaryLayer;
+              $('institution-latest-date').textContent = latest;
+              $('institution-doc-mix').textContent = mix;
+            }
+          });
+        } catch (error) {
+          console.error(error);
+          $('gazette-title').textContent = '데이터 로딩 실패';
+          $('press-title').textContent = '데이터 로딩 실패';
+        }
+      }
+
+      boot();
+    </script>
+  </body>
+</html>
