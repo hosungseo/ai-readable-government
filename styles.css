@@ -105,6 +105,10 @@ body::before {
   align-items: end;
 }
 
+.hero-board {
+  padding: 64px 0 44px;
+}
+
 .hero h1,
 .split-intro h2,
 .preview-header h2 {
@@ -114,14 +118,14 @@ body::before {
 }
 
 .hero h1 {
-  font-size: clamp(42px, 5vw, 74px);
+  font-size: clamp(36px, 4.4vw, 60px);
 }
 
 .hero-body {
-  max-width: 720px;
+  max-width: 680px;
   color: var(--muted-ink);
-  font-size: 19px;
-  line-height: 1.75;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 .hero-actions {
@@ -269,6 +273,30 @@ body::before {
   color: var(--muted-ink);
 }
 
+.board-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 0 0 28px;
+}
+
+.board-panel {
+  padding: 18px 20px;
+  background: rgba(255,255,255,0.72);
+  border: 1px solid rgba(17, 19, 24, 0.08);
+  border-radius: 18px;
+}
+
+.board-panel h3 {
+  margin: 4px 0 8px;
+  font-size: 22px;
+}
+
+.board-panel p:last-child {
+  margin: 0;
+  color: var(--muted-ink);
+}
+
 .reader-preview {
   padding: 34px 0 48px;
 }
@@ -324,6 +352,35 @@ body::before {
 
 .archive-list {
   background: rgba(255, 255, 255, 0.72);
+}
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 6px 0;
+}
+
+.pager-btn {
+  border: 1px solid rgba(17,19,24,0.12);
+  background: rgba(255,255,255,0.75);
+  border-radius: 999px;
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.pager-btn:disabled {
+  opacity: 0.45;
+}
+
+.pager-status {
+  font-size: 13px;
+  color: var(--muted-ink);
+  font-weight: 700;
 }
 
 .archive-row {
@@ -547,8 +604,7 @@ body::before {
 
 @media (max-width: 1080px) {
   .hero,
-  .split-intro,
-  .surface-grid,
+  .board-strip,
   .reader-grid,
   .browse-grid,
   .preview-header,

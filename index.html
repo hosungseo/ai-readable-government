@@ -22,23 +22,22 @@
       </header>
 
       <main>
-        <section class="hero" id="home">
+        <section class="hero hero-board" id="home">
           <div class="hero-copy">
-            <p class="eyebrow">Government documents, made readable</p>
-            <h1>공식 기록과 설명 자료를<br />같이 읽는 정부 문서 리더</h1>
+            <p class="eyebrow">PUBLIC DOCUMENT BOARD</p>
+            <h1>정부 문서 게시판</h1>
             <p class="hero-body">
-              관보와 보도자료를 메타데이터, raw markdown, readable markdown,
-              원문 링크까지 한 인터페이스에서 이어보는 공공형 리더.
+              보도자료와 관보를 날짜·기관 기준으로 바로 훑고 들어가는 공공 문서 게시판형 리더.
             </p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#gazette-reader">Browse Gazette</a>
-              <a class="btn btn-secondary" href="#press-reader">Browse Press</a>
+              <a class="btn btn-primary" href="#by-date">최근 날짜 보기</a>
+              <a class="btn btn-secondary" href="#by-institution">기관별 보기</a>
             </div>
           </div>
 
           <div class="hero-panel">
             <div class="coverage-card">
-              <p class="card-label">Current coverage</p>
+              <p class="card-label">게시판 현황</p>
               <div class="coverage-grid">
                 <div>
                   <span class="coverage-value" id="coverage-gazette">315</span>
@@ -58,48 +57,21 @@
           </div>
         </section>
 
-        <section class="split-intro" id="about">
-          <article>
-            <p class="section-kicker">Two source layers</p>
-            <h2>보도자료는 설명이고,<br />관보는 공식 기록입니다.</h2>
+        <section class="board-strip" id="about">
+          <article class="board-panel">
+            <p class="section-kicker">탐색 방식</p>
+            <h3>날짜별</h3>
+            <p>문서가 많이 올라온 날짜부터 확인합니다.</p>
           </article>
-          <article class="support-copy">
-            <p>
-              이 사이트는 정부가 무엇을 설명했는지와 정부가 무엇을 공식적으로 기록했는지를
-              나란히 읽게 하는 인터페이스를 목표로 합니다.
-            </p>
+          <article class="board-panel">
+            <p class="section-kicker">탐색 방식</p>
+            <h3>기관별</h3>
+            <p>기관별 문서 흐름과 편중(press/gazette)을 봅니다.</p>
           </article>
-        </section>
-
-        <section class="surface-grid">
-          <article class="surface-block">
-            <div class="block-head">
-              <p class="section-kicker">Layer 01</p>
-              <h3>Press</h3>
-            </div>
-            <p>
-              정책브리핑 보도자료를 날짜별·부처별로 읽고, 설명성 높은 readable markdown 아카이브로 탐색합니다.
-            </p>
-            <ul class="feature-list">
-              <li>날짜별 아카이브</li>
-              <li>부처별 인덱스</li>
-              <li>원문 링크와 정책브리핑 source 연결</li>
-            </ul>
-          </article>
-
-          <article class="surface-block">
-            <div class="block-head">
-              <p class="section-kicker">Layer 02</p>
-              <h3>Gazette</h3>
-            </div>
-            <p>
-              관보 메타데이터, 원문 PDF, raw 추출, 후처리 readable-final까지 이어서 보는 공식 기록 레이어입니다.
-            </p>
-            <ul class="feature-list">
-              <li>관보 일반 API 기반 메타데이터</li>
-              <li>PDF 캐시 및 raw markdown/json</li>
-              <li>후처리된 readable-final</li>
-            </ul>
+          <article class="board-panel">
+            <p class="section-kicker">레이어</p>
+            <h3>Press / Gazette</h3>
+            <p>설명 레이어와 공식 기록 레이어를 나란히 읽습니다.</p>
           </article>
         </section>
 
@@ -117,7 +89,10 @@
           </div>
 
           <div class="reader-grid">
-            <aside class="archive-list" id="gazette-list"></aside>
+            <aside>
+              <div class="archive-list" id="gazette-list"></div>
+              <div class="pager" id="gazette-pager"></div>
+            </aside>
             <article class="document-pane">
               <div class="document-head">
                 <p class="doc-kicker">Gazette detail</p>
@@ -163,7 +138,10 @@
           </div>
 
           <div class="reader-grid">
-            <aside class="archive-list" id="press-list"></aside>
+            <aside>
+              <div class="archive-list" id="press-list"></div>
+              <div class="pager" id="press-pager"></div>
+            </aside>
             <article class="document-pane">
               <div class="document-head">
                 <p class="doc-kicker">Press detail</p>
@@ -290,79 +268,153 @@
 
     <script>
       const $ = (id) => document.getElementById(id);
+      const state = {
+        summariesById: new Map(),
+        detailsById: new Map(),
+        currentGazette: null,
+        currentPress: null,
+      };
 
       function renderBadgeRow(item, kind) {
         if (kind === 'gazette') {
-          return `${item.hasReadable ? '<span class="badge badge-final">Readable</span>' : ''}${item.hasRaw ? '<span class="badge badge-raw">Raw MD</span>' : ''}<span class="badge badge-source">Source PDF</span>`;
+          return '<span class="badge badge-source">Source PDF</span>';
         }
         return '<span class="badge badge-final">Readable</span><span class="badge badge-meta">Policy briefing</span>';
       }
 
-      function initReader({ listId, dataset, kind, onSelect }) {
+      async function fetchJson(path) {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error(`Failed to load ${path}`);
+        return res.json();
+      }
+
+      async function getDetail(item) {
+        if (state.detailsById.has(item.id)) return state.detailsById.get(item.id);
+        const detail = await fetchJson(item.detailPath.replace(/^docs\//, './docs/'));
+        state.detailsById.set(item.id, detail);
+        return detail;
+      }
+
+      function attachRowSelection(list, items, onSelect) {
+        list.addEventListener('click', async (event) => {
+          const row = event.target.closest('.archive-row');
+          if (!row) return;
+          const item = items[Number(row.dataset.index)];
+          list.querySelectorAll('.archive-row').forEach((el, i) => el.classList.toggle('active', i === Number(row.dataset.index)));
+          await onSelect(item);
+        });
+      }
+
+      function renderPager(pagerId, page, totalPages, onPage) {
+        const pager = $(pagerId);
+        if (!pager) return;
+        pager.innerHTML = `
+          <button class="pager-btn" ${page <= 1 ? 'disabled' : ''} data-dir="prev">이전</button>
+          <span class="pager-status">${page} / ${totalPages}</span>
+          <button class="pager-btn" ${page >= totalPages ? 'disabled' : ''} data-dir="next">다음</button>
+        `;
+        pager.onclick = (event) => {
+          const btn = event.target.closest('.pager-btn');
+          if (!btn) return;
+          onPage(btn.dataset.dir === 'prev' ? page - 1 : page + 1);
+        };
+      }
+
+      async function renderPagedList({ kind, listId, pagerId, pagePath, onSelect }) {
+        const payload = await fetchJson(pagePath);
+        const items = payload.items || [];
+        items.forEach((item) => state.summariesById.set(item.id, item));
         const list = $(listId);
-        list.innerHTML = dataset.map((item, idx) => `
+        list.innerHTML = items.map((item, idx) => `
           <button class="archive-row ${idx === 0 ? 'active' : ''}" data-index="${idx}">
             <p class="row-title">${item.title}</p>
             <div class="row-meta">
-              <span>${kind === 'gazette' ? item.publisher : item.ministry}</span>
-              <span>${kind === 'gazette' ? item.date : String(item.approveDate || '').split(' ')[0]}</span>
-              <span>${kind === 'gazette' ? item.formType : item.groupingCode}</span>
+              <span>${item.institution || ''}</span>
+              <span>${item.date || ''}</span>
+              <span>${item.docType || ''}</span>
             </div>
             <div class="row-badges">${renderBadgeRow(item, kind)}</div>
           </button>
         `).join('');
-
-        function activate(index) {
-          list.querySelectorAll('.archive-row').forEach((el, i) => el.classList.toggle('active', i === index));
-          onSelect(dataset[index]);
-        }
-
-        list.addEventListener('click', (event) => {
-          const row = event.target.closest('.archive-row');
-          if (!row) return;
-          activate(Number(row.dataset.index));
+        attachRowSelection(list, items, onSelect);
+        renderPager(pagerId, payload.page, payload.totalPages, async (nextPage) => {
+          if (nextPage < 1 || nextPage > payload.totalPages) return;
+          await renderPagedList({
+            kind,
+            listId,
+            pagerId,
+            pagePath: `./docs/pages/${kind}/page-${String(nextPage).padStart(3, '0')}.json`,
+            onSelect,
+          });
         });
-
-        if (dataset.length) activate(0);
+        if (items.length) await onSelect(items[0]);
       }
 
-      function populateGazette(items) {
-        initReader({
-          listId: 'gazette-list',
-          dataset: items,
+      function setGazetteMode(detail, mode) {
+        $('gazette-title').textContent = detail.title || '-';
+        $('gazette-publisher').textContent = detail.publisher || detail.institution || '-';
+        $('gazette-date').textContent = detail.date || '-';
+        $('gazette-type').textContent = detail.formType || detail.docType || '기타';
+        $('gazette-quality').textContent = detail.hasReadable ? 'Good' : 'Metadata only';
+        if (mode === 'raw') {
+          $('gazette-excerpt').textContent = detail.rawPath || 'Raw markdown unavailable.';
+        } else if (mode === 'pdf') {
+          $('gazette-excerpt').textContent = detail.pdfUrl || 'Source PDF unavailable.';
+        } else if (mode === 'meta') {
+          $('gazette-excerpt').textContent = `${detail.title || ''} / ${detail.institution || ''} / ${detail.date || ''}`;
+        } else {
+          $('gazette-excerpt').textContent = detail.excerpt || 'Excerpt unavailable.';
+        }
+        $('gazette-basis').textContent = detail.basisLaw || '-';
+        $('gazette-meta-path').textContent = detail.metaPath || '-';
+        $('gazette-raw-path').textContent = detail.rawPath || '-';
+        $('gazette-readable-path').textContent = detail.readablePath || '-';
+        $('gazette-source-link').href = detail.pdfUrl || '#';
+      }
+
+      function setPressMode(detail, mode) {
+        $('press-title').textContent = detail.title || '-';
+        $('press-ministry').textContent = detail.ministry || detail.institution || '-';
+        $('press-date').textContent = detail.approveDate || detail.date || '-';
+        $('press-group').textContent = detail.groupingCode || detail.docType || '-';
+        $('press-source').textContent = detail.source || '-';
+        if (mode === 'source') {
+          $('press-excerpt').textContent = detail.originalUrl || 'Original URL unavailable.';
+        } else if (mode === 'meta') {
+          $('press-excerpt').textContent = `${detail.title || ''} / ${detail.ministry || ''} / ${detail.approveDate || ''}`;
+        } else {
+          $('press-excerpt').textContent = detail.excerpt || 'Excerpt unavailable.';
+        }
+        $('press-news-id').textContent = detail.newsItemId || '-';
+        $('press-path').textContent = detail.path || '-';
+        $('press-original-host').textContent = 'korea.kr / policy briefing';
+        $('press-source-link').href = detail.originalUrl || '#';
+      }
+
+      async function populateGazette(meta) {
+        await renderPagedList({
           kind: 'gazette',
-          onSelect: (item) => {
-            $('gazette-title').textContent = item.title || '-';
-            $('gazette-publisher').textContent = item.publisher || '-';
-            $('gazette-date').textContent = item.date || '-';
-            $('gazette-type').textContent = item.formType || '기타';
-            $('gazette-quality').textContent = item.hasReadable ? 'Good' : 'Metadata only';
-            $('gazette-excerpt').textContent = item.excerpt || 'Excerpt unavailable.';
-            $('gazette-basis').textContent = item.basisLaw || '-';
-            $('gazette-meta-path').textContent = item.metaPath || '-';
-            $('gazette-raw-path').textContent = item.rawPath || '-';
-            $('gazette-readable-path').textContent = item.readablePath || '-';
-            $('gazette-source-link').href = item.pdfUrl || '#';
+          listId: 'gazette-list',
+          pagerId: 'gazette-pager',
+          pagePath: './' + meta.firstPage,
+          onSelect: async (item) => {
+            const detail = await getDetail(item);
+            state.currentGazette = detail;
+            setGazetteMode(detail, 'readable');
           }
         });
       }
 
-      function populatePress(items) {
-        initReader({
-          listId: 'press-list',
-          dataset: items,
+      async function populatePress(meta) {
+        await renderPagedList({
           kind: 'press',
-          onSelect: (item) => {
-            $('press-title').textContent = item.title || '-';
-            $('press-ministry').textContent = item.ministry || '-';
-            $('press-date').textContent = item.approveDate || '-';
-            $('press-group').textContent = item.groupingCode || '-';
-            $('press-source').textContent = item.source || '-';
-            $('press-excerpt').textContent = item.excerpt || 'Excerpt unavailable.';
-            $('press-news-id').textContent = item.newsItemId || '-';
-            $('press-path').textContent = item.path || '-';
-            $('press-original-host').textContent = 'korea.kr / policy briefing';
-            $('press-source-link').href = item.originalUrl || '#';
+          listId: 'press-list',
+          pagerId: 'press-pager',
+          pagePath: './' + meta.firstPage,
+          onSelect: async (item) => {
+            const detail = await getDetail(item);
+            state.currentPress = detail;
+            setPressMode(detail, 'readable');
           }
         });
       }
@@ -395,12 +447,12 @@
           $(totalId).textContent = group.total ?? '-';
           $(pressId).textContent = group.pressCount ?? '-';
           $(gazetteId).textContent = group.gazetteCount ?? '-';
-          $(summaryId).innerHTML = (group.items || []).slice(0, 8).map((item) => `
+          $(summaryId).innerHTML = (group.itemRefs || []).slice(0, 8).map((item) => `
             <div class="summary-row">
               <span class="summary-badge ${item.layer === 'press' ? 'summary-press' : 'summary-gazette'}">${item.layer}</span>
               <div>
-                <p class="summary-title">${item.title}</p>
-                <p class="summary-meta">${item.institution || ''} · ${item.date || ''} · ${item.docType || ''}</p>
+                <p class="summary-title">${item.institution || item.id}</p>
+                <p class="summary-meta">${item.date || ''} ${item.id ? '· ' + item.id : ''}</p>
               </div>
             </div>
           `).join('');
@@ -427,13 +479,32 @@
           $('press-day-chip').textContent = activeDay;
           $('coverage-gazette').textContent = (data.coverage && data.coverage.gazetteSampleCount) || (data.gazette || []).length || 0;
           $('coverage-press').textContent = (data.coverage && data.coverage.pressSampleCount) || (data.press || []).length || 0;
-          $('gazette-count-chip').textContent = `${(data.gazette || []).length} docs`;
-          $('press-count-chip').textContent = `${(data.press || []).length} docs`;
+          $('gazette-count-chip').textContent = `${(data.coverage && data.coverage.gazetteSampleCount) || 0} docs`;
+          $('press-count-chip').textContent = `${(data.coverage && data.coverage.pressSampleCount) || 0} docs`;
           $('by-date-count-chip').textContent = `${(data.byDate || []).length} groups`;
           $('by-institution-count-chip').textContent = `${(data.byInstitution || []).length} groups`;
 
-          populateGazette(data.gazette || []);
-          populatePress(data.press || []);
+          const lists = data.lists || {};
+          if (lists.gazette) await populateGazette(lists.gazette);
+          if (lists.press) await populatePress(lists.press);
+          document.querySelectorAll('#gazette-reader .mode').forEach((btn, idx) => {
+            btn.onclick = () => {
+              document.querySelectorAll('#gazette-reader .mode').forEach((x) => x.classList.remove('active'));
+              btn.classList.add('active');
+              const mode = ['readable', 'raw', 'pdf', 'meta'][idx];
+              if (state.currentGazette) setGazetteMode(state.currentGazette, mode);
+            };
+          });
+
+          document.querySelectorAll('#press-reader .mode').forEach((btn, idx) => {
+            btn.onclick = () => {
+              document.querySelectorAll('#press-reader .mode').forEach((x) => x.classList.remove('active'));
+              btn.classList.add('active');
+              const mode = ['readable', 'source', 'meta'][idx];
+              if (state.currentPress) setPressMode(state.currentPress, mode);
+            };
+          });
+
           initGroupBrowser({
             listId: 'date-group-list',
             dataset: data.byDate || [],
@@ -445,7 +516,7 @@
             labelKey: 'date',
             sortMode: 'total-desc',
             onActivate: (group) => {
-              const items = group.items || [];
+              const items = group.itemRefs || [];
               const counts = {};
               for (const item of items) {
                 const name = item.institution || 'Unknown';
@@ -470,7 +541,7 @@
             labelKey: 'institution',
             sortMode: 'total-desc',
             onActivate: (group) => {
-              const items = group.items || [];
+              const items = group.itemRefs || [];
               const latest = items.map((x) => x.date).filter(Boolean).sort().slice(-1)[0] || '-';
               const primaryLayer = (group.pressCount || 0) >= (group.gazetteCount || 0) ? 'Press-heavy' : 'Gazette-heavy';
               const mix = `${group.pressCount || 0} press / ${group.gazetteCount || 0} gazette`;

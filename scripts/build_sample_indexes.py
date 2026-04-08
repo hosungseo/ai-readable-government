@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import json
+import math
 import re
 from collections import defaultdict
 from datetime import date, timedelta
@@ -10,6 +11,7 @@ WORKSPACE = Path('/Users/seohoseong/.openclaw/workspace')
 APP_ROOT = WORKSPACE / 'ai-readable-government'
 PRESS_ROOT = WORKSPACE / 'gov-press-md'
 GAZETTE_ROOT = WORKSPACE / 'gov-gazette-md'
+PAGE_SIZE = 100
 
 
 def parse_front_matter(text: str) -> dict:
@@ -47,6 +49,29 @@ def iterate_days(start_day: str, end_day: str):
         current += timedelta(days=1)
 
 
+def safe_id(layer: str, day: str, filename: str) -> str:
+    stem = Path(filename).stem
+    stem = re.sub(r'[^0-9A-Za-z가-힣_-]+', '-', stem)
+    return f'{layer}-{day}-{stem}'
+
+
+def detail_rel_path(layer: str, doc_id: str) -> str:
+    return f'docs/details/{layer}/{doc_id}.json'
+
+
+def summary_fields(item: dict) -> dict:
+    return {
+        'id': item['id'],
+        'layer': item['layer'],
+        'title': item['title'],
+        'institution': item['institution'],
+        'date': item['date'],
+        'docType': item['docType'],
+        'excerpt': item.get('excerpt', ''),
+        'detailPath': item['detailPath'],
+    }
+
+
 def build_press_for_day(day: str, limit_per_day: int) -> list:
     day_dir = PRESS_ROOT / 'data' / day[:4] / day[:7] / day
     if not day_dir.exists():
@@ -62,8 +87,12 @@ def build_press_for_day(day: str, limit_per_day: int) -> list:
         if m:
             body = m.group(1)
             lines = [ln.strip() for ln in body.splitlines() if ln.strip() and not ln.startswith('<')]
-            excerpt = ' '.join(lines[:4])[:320]
+            excerpt = ' '.join(lines[:4])[:220]
+        doc_id = safe_id('press', day, md.name)
+        detail_path = detail_rel_path('press', doc_id)
         items.append({
+            'id': doc_id,
+            'detailPath': detail_path,
             'layer': 'press',
             'file': md.name,
             'title': meta.get('title', ''),
@@ -124,8 +153,12 @@ def build_gazette_for_day(day: str, limit_per_day: int) -> list:
                 and not ln.startswith('- 원문 PDF:')
                 and not ln.startswith('## ')
             ]
-            excerpt = ' '.join(lines[:3])[:320]
+            excerpt = ' '.join(lines[:3])[:220]
+        doc_id = safe_id('gazette', day, md.name)
+        detail_path = detail_rel_path('gazette', doc_id)
         items.append({
+            'id': doc_id,
+            'detailPath': detail_path,
             'layer': 'gazette',
             'file': md.name,
             'title': meta.get('title', ''),
@@ -152,13 +185,7 @@ def group_by_date(*datasets):
     bucket = defaultdict(list)
     for dataset in datasets:
         for item in dataset:
-            bucket[item.get('date', 'unknown')].append({
-                'layer': item.get('layer'),
-                'title': item.get('title'),
-                'institution': item.get('institution'),
-                'docType': item.get('docType'),
-                'path': item.get('path') or item.get('metaPath'),
-            })
+            bucket[item.get('date', 'unknown')].append({'id': item['id'], 'layer': item['layer'], 'institution': item['institution']})
     result = []
     for day in sorted(bucket.keys()):
         items = bucket[day]
@@ -167,7 +194,7 @@ def group_by_date(*datasets):
             'total': len(items),
             'pressCount': sum(1 for x in items if x['layer'] == 'press'),
             'gazetteCount': sum(1 for x in items if x['layer'] == 'gazette'),
-            'items': items,
+            'itemRefs': items,
         })
     return result
 
@@ -177,13 +204,7 @@ def group_by_institution(*datasets):
     for dataset in datasets:
         for item in dataset:
             name = item.get('institution') or 'Unknown'
-            bucket[name].append({
-                'layer': item.get('layer'),
-                'title': item.get('title'),
-                'date': item.get('date'),
-                'docType': item.get('docType'),
-                'path': item.get('path') or item.get('metaPath'),
-            })
+            bucket[name].append({'id': item['id'], 'layer': item['layer'], 'date': item['date']})
     result = []
     for name in sorted(bucket.keys()):
         items = bucket[name]
@@ -192,9 +213,36 @@ def group_by_institution(*datasets):
             'total': len(items),
             'pressCount': sum(1 for x in items if x['layer'] == 'press'),
             'gazetteCount': sum(1 for x in items if x['layer'] == 'gazette'),
-            'items': items,
+            'itemRefs': items,
         })
     return result
+
+
+def write_details(items: list, docs_dir: Path):
+    for item in items:
+        rel = Path(item['detailPath'].replace('docs/', '', 1))
+        path = docs_dir / rel
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(item, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
+def write_paged_list(layer: str, items: list, docs_dir: Path):
+    page_dir = docs_dir / 'pages' / layer
+    page_dir.mkdir(parents=True, exist_ok=True)
+    summaries = [summary_fields(x) for x in items]
+    total_pages = max(1, math.ceil(len(summaries) / PAGE_SIZE))
+    for i in range(total_pages):
+        chunk = summaries[i * PAGE_SIZE:(i + 1) * PAGE_SIZE]
+        payload = {
+            'layer': layer,
+            'page': i + 1,
+            'pageSize': PAGE_SIZE,
+            'totalItems': len(summaries),
+            'totalPages': total_pages,
+            'items': chunk,
+        }
+        (page_dir / f'page-{i + 1:03d}.json').write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
+    return total_pages
 
 
 def main():
@@ -202,8 +250,8 @@ def main():
     parser.add_argument('--day', default='2026-04-01')
     parser.add_argument('--start-day')
     parser.add_argument('--end-day')
-    parser.add_argument('--press-limit', type=int, default=8, help='legacy alias for --press-limit-per-day when using --day')
-    parser.add_argument('--gazette-limit', type=int, default=6, help='legacy alias for --gazette-limit-per-day when using --day')
+    parser.add_argument('--press-limit', type=int, default=8)
+    parser.add_argument('--gazette-limit', type=int, default=6)
     parser.add_argument('--press-limit-per-day', type=int)
     parser.add_argument('--gazette-limit-per-day', type=int)
     args = parser.parse_args()
@@ -222,6 +270,11 @@ def main():
         press.extend(build_press_for_day(day, press_limit))
         gazette.extend(build_gazette_for_day(day, gazette_limit))
 
+    write_details(press, docs_dir)
+    write_details(gazette, docs_dir)
+    press_pages = write_paged_list('press', press, docs_dir)
+    gazette_pages = write_paged_list('gazette', gazette, docs_dir)
+
     by_date = group_by_date(press, gazette)
     by_institution = group_by_institution(press, gazette)
 
@@ -234,21 +287,18 @@ def main():
             'dateGroupCount': len(by_date),
             'institutionGroupCount': len(by_institution),
         },
-        'press': press,
-        'gazette': gazette,
+        'lists': {
+            'press': {'pageSize': PAGE_SIZE, 'totalItems': len(press), 'totalPages': press_pages, 'firstPage': 'docs/pages/press/page-001.json'},
+            'gazette': {'pageSize': PAGE_SIZE, 'totalItems': len(gazette), 'totalPages': gazette_pages, 'firstPage': 'docs/pages/gazette/page-001.json'},
+        },
         'byDate': by_date,
         'byInstitution': by_institution,
     }
 
-    (docs_dir / 'press-sample.json').write_text(json.dumps(press, ensure_ascii=False, indent=2), encoding='utf-8')
-    (docs_dir / 'gazette-sample.json').write_text(json.dumps(gazette, ensure_ascii=False, indent=2), encoding='utf-8')
     (docs_dir / 'by-date.json').write_text(json.dumps(by_date, ensure_ascii=False, indent=2), encoding='utf-8')
     (docs_dir / 'by-institution.json').write_text(json.dumps(by_institution, ensure_ascii=False, indent=2), encoding='utf-8')
     (docs_dir / 'index-data.json').write_text(json.dumps(overview, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(
-        f'Wrote press={len(press)} gazette={len(gazette)} dates={len(by_date)} '
-        f'institutions={len(by_institution)} range={start_day}..{end_day}'
-    )
+    print(f'Wrote press={len(press)} gazette={len(gazette)} dates={len(by_date)} institutions={len(by_institution)} range={start_day}..{end_day}')
 
 
 if __name__ == '__main__':
