@@ -29,7 +29,12 @@
 
 ## 이 프로젝트가 하는 일
 이 프로젝트는 정부 문서를 단순히 링크하는 것이 아니라,
-**보도자료와 관보를 같은 탐색 인터페이스 안에서 읽게 하는 것**을 목표로 합니다.
+**git-backed public document DB를 읽는 리더**를 목표로 합니다.
+
+구조는 다음과 같습니다.
+- `gov-press-md` = 보도자료 DB
+- `gov-gazette-md` = 관보 DB
+- `ai-readable-government` = 그 DB를 읽는 public reader
 
 사용자는 한 화면 안에서:
 - press / gazette 두 레이어를 구분해 보고
