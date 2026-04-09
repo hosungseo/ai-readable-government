@@ -1,0 +1,1009 @@
+{
+  "layer": "gazette",
+  "page": 340,
+  "pageSize": 100,
+  "totalItems": 48614,
+  "totalPages": 487,
+  "items": [
+    {
+      "id": "gazette-2025-07-25-054_대검찰청_기타_압수물환부공고_김천지청-b2ee6414c1",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (김천지청))",
+      "institution": "대검찰청",
+      "date": "2025-07-25",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-054_대검찰청_기타_압수물환부공고_김천지청-b2ee6414c1.json"
+    },
+    {
+      "id": "gazette-2025-07-25-055_대법원_형사보상결정공시_제주지방법원-1427885cd1",
+      "layer": "gazette",
+      "title": "형사보상결정공시(제주지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-25",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-055_대법원_형사보상결정공시_제주지방법원-1427885cd1.json"
+    },
+    {
+      "id": "gazette-2025-07-25-056_대법원_법인해산명령신청공고_공주지원-506e86b7a7",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(공주지원)",
+      "institution": "대법원",
+      "date": "2025-07-25",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-056_대법원_법인해산명령신청공고_공주지원-506e86b7a7.json"
+    },
+    {
+      "id": "gazette-2025-07-25-057_대법원_형사보상결정공시_부천지원-47c46be5f2",
+      "layer": "gazette",
+      "title": "형사보상결정공시(부천지원)",
+      "institution": "대법원",
+      "date": "2025-07-25",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-057_대법원_형사보상결정공시_부천지원-47c46be5f2.json"
+    },
+    {
+      "id": "gazette-2025-07-25-058_대법원_법인해산명령신청공고_정읍지원-81c96f60d3",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(정읍지원)",
+      "institution": "대법원",
+      "date": "2025-07-25",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-058_대법원_법인해산명령신청공고_정읍지원-81c96f60d3.json"
+    },
+    {
+      "id": "gazette-2025-07-25-059_대법원_법인해산명령신청공고_서울중앙지방법원-50c59e0072",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(서울중앙지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-25",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-059_대법원_법인해산명령신청공고_서울중앙지방법원-50c59e0072.json"
+    },
+    {
+      "id": "gazette-2025-07-25-060_대학_진주교육대학교공고제2025_117호_관인_공인_등록-d9b2151021",
+      "layer": "gazette",
+      "title": "진주교육대학교공고제2025-117호(관인(공인)등록)",
+      "institution": "대학",
+      "date": "2025-07-25",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-060_대학_진주교육대학교공고제2025_117호_관인_공인_등록-d9b2151021.json"
+    },
+    {
+      "id": "gazette-2025-07-25-061_방송통신위원회_방송통신사무소공고제2025_60호_과태료_고지서_및_독촉장_반송에_따른_공시송달-13b8e3ef94",
+      "layer": "gazette",
+      "title": "방송통신사무소공고제2025-60호(과태료 고지서 및 독촉장 반송에 따른 공시송달)",
+      "institution": "방송통신위원회",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-061_방송통신위원회_방송통신사무소공고제2025_60호_과태료_고지서_및_독촉장_반송에_따른_공시송달-13b8e3ef94.json"
+    },
+    {
+      "id": "gazette-2025-07-25-062_법무부_양주출입국_외국인사무소고시제2025_19호_국적취득-26ea72e030",
+      "layer": "gazette",
+      "title": "양주출입국.외국인사무소고시제2025-19호(국적취득)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-062_법무부_양주출입국_외국인사무소고시제2025_19호_국적취득-26ea72e030.json"
+    },
+    {
+      "id": "gazette-2025-07-25-063_법무부_인천출입국_외국인청고시제2025_18호_국적상실-e746675b0b",
+      "layer": "gazette",
+      "title": "인천출입국.외국인청고시제2025-18호(국적상실)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-063_법무부_인천출입국_외국인청고시제2025_18호_국적상실-e746675b0b.json"
+    },
+    {
+      "id": "gazette-2025-07-25-064_법무부_안산출입국_외국인사무소고시제2025_45호_국적취득-67f980eb48",
+      "layer": "gazette",
+      "title": "안산출입국.외국인사무소고시제2025-45호(국적취득)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-064_법무부_안산출입국_외국인사무소고시제2025_45호_국적취득-67f980eb48.json"
+    },
+    {
+      "id": "gazette-2025-07-25-065_법무부_법무부고시제2025_259호_국적취득_귀화-8c35763f5c",
+      "layer": "gazette",
+      "title": "법무부고시제2025-259호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-065_법무부_법무부고시제2025_259호_국적취득_귀화-8c35763f5c.json"
+    },
+    {
+      "id": "gazette-2025-07-25-066_법무부_법무부고시제2025_208호_국적취득_귀화-0860103fc6",
+      "layer": "gazette",
+      "title": "법무부고시제2025-208호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-066_법무부_법무부고시제2025_208호_국적취득_귀화-0860103fc6.json"
+    },
+    {
+      "id": "gazette-2025-07-25-067_법무부_법무부고시제2025_222호_국적취득_귀화-0cdb9704db",
+      "layer": "gazette",
+      "title": "법무부고시제2025-222호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-067_법무부_법무부고시제2025_222호_국적취득_귀화-0cdb9704db.json"
+    },
+    {
+      "id": "gazette-2025-07-25-068_법무부_법무부고시제2025_227호_국적취득_귀화-aa305e9bd9",
+      "layer": "gazette",
+      "title": "법무부고시제2025-227호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-068_법무부_법무부고시제2025_227호_국적취득_귀화-aa305e9bd9.json"
+    },
+    {
+      "id": "gazette-2025-07-25-069_법무부_법무부고시제2025_228호_국적취득_귀화-8300af4d38",
+      "layer": "gazette",
+      "title": "법무부고시제2025-228호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-069_법무부_법무부고시제2025_228호_국적취득_귀화-8300af4d38.json"
+    },
+    {
+      "id": "gazette-2025-07-25-070_법무부_법무부고시제2025_229호_국적취득_귀화-07c5f73227",
+      "layer": "gazette",
+      "title": "법무부고시제2025-229호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-070_법무부_법무부고시제2025_229호_국적취득_귀화-07c5f73227.json"
+    },
+    {
+      "id": "gazette-2025-07-25-071_법무부_법무부고시제2025_230호_국적취득_귀화-a6b70ede2f",
+      "layer": "gazette",
+      "title": "법무부고시제2025-230호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-071_법무부_법무부고시제2025_230호_국적취득_귀화-a6b70ede2f.json"
+    },
+    {
+      "id": "gazette-2025-07-25-072_법무부_법무부고시제2025_249호_국적취득_귀화-0a74d1e7b9",
+      "layer": "gazette",
+      "title": "법무부고시제2025-249호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-072_법무부_법무부고시제2025_249호_국적취득_귀화-0a74d1e7b9.json"
+    },
+    {
+      "id": "gazette-2025-07-25-073_법무부_법무부고시제2025_252호_국적취득_귀화-3465cce773",
+      "layer": "gazette",
+      "title": "법무부고시제2025-252호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-073_법무부_법무부고시제2025_252호_국적취득_귀화-3465cce773.json"
+    },
+    {
+      "id": "gazette-2025-07-25-074_법무부_법무부고시제2025_254호_국적취득_귀화-ae585212ff",
+      "layer": "gazette",
+      "title": "법무부고시제2025-254호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-074_법무부_법무부고시제2025_254호_국적취득_귀화-ae585212ff.json"
+    },
+    {
+      "id": "gazette-2025-07-25-075_법무부_법무부고시제2025_256호_국적취득_귀화-012d8eac4c",
+      "layer": "gazette",
+      "title": "법무부고시제2025-256호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-075_법무부_법무부고시제2025_256호_국적취득_귀화-012d8eac4c.json"
+    },
+    {
+      "id": "gazette-2025-07-25-076_법무부_울산출입국_외국인사무소고시제2025_25호_인지에_의한_국적취득-75da9546e7",
+      "layer": "gazette",
+      "title": "울산출입국.외국인사무소고시제2025-25호(인지에 의한 국적취득)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-076_법무부_울산출입국_외국인사무소고시제2025_25호_인지에_의한_국적취득-75da9546e7.json"
+    },
+    {
+      "id": "gazette-2025-07-25-077_법무부_속초출장소고시제2025_20호_국적_재취득-5102042b7d",
+      "layer": "gazette",
+      "title": "속초출장소고시제2025-20호(국적 재취득)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-077_법무부_속초출장소고시제2025_20호_국적_재취득-5102042b7d.json"
+    },
+    {
+      "id": "gazette-2025-07-25-078_법무부_전주출입국_외국인사무소고시제2025_30호_국적상실-a335bddd2f",
+      "layer": "gazette",
+      "title": "전주출입국.외국인사무소고시제2025-30호(국적상실)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-078_법무부_전주출입국_외국인사무소고시제2025_30호_국적상실-a335bddd2f.json"
+    },
+    {
+      "id": "gazette-2025-07-25-079_법무부_전주출입국_외국인사무소고시제2025_29호_국적상실-987e826457",
+      "layer": "gazette",
+      "title": "전주출입국.외국인사무소고시제2025-29호(국적상실)",
+      "institution": "법무부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-079_법무부_전주출입국_외국인사무소고시제2025_29호_국적상실-987e826457.json"
+    },
+    {
+      "id": "gazette-2025-07-25-080_법제처_대통령령제35670호_국방부와_그_소속기관_직제_일부개정령-e77ed2d6a9",
+      "layer": "gazette",
+      "title": "대통령령제35670호(국방부와 그 소속기관 직제 일부개정령)",
+      "institution": "법제처",
+      "date": "2025-07-25",
+      "docType": "대통령령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-080_법제처_대통령령제35670호_국방부와_그_소속기관_직제_일부개정령-e77ed2d6a9.json"
+    },
+    {
+      "id": "gazette-2025-07-25-081_보건복지부_보건복지부고시제2025_125호_현장실습과목명에_관한_특례에_관한_고시-6e4543c2a3",
+      "layer": "gazette",
+      "title": "보건복지부고시제2025-125호(현장실습과목명에 관한 특례에 관한 고시)",
+      "institution": "보건복지부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-081_보건복지부_보건복지부고시제2025_125호_현장실습과목명에_관한_특례에_관한_고시-6e4543c2a3.json"
+    },
+    {
+      "id": "gazette-2025-07-25-082_보건복지부_상훈_39_2025년_상반기_퇴직공무원_일반_포상_39_정부포상_수여_보건복지부-4994bdce55",
+      "layer": "gazette",
+      "title": "상훈(& #39;2025년 상반기 퇴직공무원(일반) 포상& #39; 정부포상 수여 (보건복지부))",
+      "institution": "보건복지부",
+      "date": "2025-07-25",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-082_보건복지부_상훈_39_2025년_상반기_퇴직공무원_일반_포상_39_정부포상_수여_보건복지부-4994bdce55.json"
+    },
+    {
+      "id": "gazette-2025-07-25-083_보건복지부_상훈_39_2025년_상반기_모범공무원_일반_39_정부포상_수여_보건복지부-4ff6ea6a69",
+      "layer": "gazette",
+      "title": "상훈(& #39;2025년 상반기 모범공무원(일반)& #39; 정부포상 수여 (보건복지부))",
+      "institution": "보건복지부",
+      "date": "2025-07-25",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-083_보건복지부_상훈_39_2025년_상반기_모범공무원_일반_39_정부포상_수여_보건복지부-4ff6ea6a69.json"
+    },
+    {
+      "id": "gazette-2025-07-25-084_산업통상자원부_국가기술표준원고시제2025_0159호_한국산업표준_제정-4fd9555b2a",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0159호(한국산업표준 제정)",
+      "institution": "산업통상자원부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-084_산업통상자원부_국가기술표준원고시제2025_0159호_한국산업표준_제정-4fd9555b2a.json"
+    },
+    {
+      "id": "gazette-2025-07-25-085_산업통상자원부_국가기술표준원고시제2025_0157호_한국산업표준_폐지_고시_KSXISO2846_3_등_4종-e9b8e33088",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0157호(한국산업표준 폐지 고시(KSXISO2846-3 등 4종))",
+      "institution": "산업통상자원부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-085_산업통상자원부_국가기술표준원고시제2025_0157호_한국산업표준_폐지_고시_KSXISO2846_3_등_4종-e9b8e33088.json"
+    },
+    {
+      "id": "gazette-2025-07-25-086_산업통상자원부_국가기술표준원고시제2025_0155호_한국산업표준_제정_고시_KSXISO12640_3_등_6종-ffe52f3611",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0155호(한국산업표준 제정 고시(KSXISO12640-3 등 6종))",
+      "institution": "산업통상자원부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-086_산업통상자원부_국가기술표준원고시제2025_0155호_한국산업표준_제정_고시_KSXISO12640_3_등_6종-ffe52f3611.json"
+    },
+    {
+      "id": "gazette-2025-07-25-087_산업통상자원부_국가기술표준원고시제2025_0156호_한국산업표준_개정_고시_KSXISO12647_5-17650b2292",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0156호(한국산업표준 개정 고시(KSXISO12647-5))",
+      "institution": "산업통상자원부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-087_산업통상자원부_국가기술표준원고시제2025_0156호_한국산업표준_개정_고시_KSXISO12647_5-17650b2292.json"
+    },
+    {
+      "id": "gazette-2025-07-25-088_새만금개발청_새만금개발청고시제2025_24호_새만금_산업단지_임대용지_운영지침-534b6b07ed",
+      "layer": "gazette",
+      "title": "새만금개발청고시제2025-24호(새만금 산업단지 임대용지 운영지침)",
+      "institution": "새만금개발청",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-088_새만금개발청_새만금개발청고시제2025_24호_새만금_산업단지_임대용지_운영지침-534b6b07ed.json"
+    },
+    {
+      "id": "gazette-2025-07-25-089_인사혁신처_인사발령_인사혁신처-4079391be2",
+      "layer": "gazette",
+      "title": "인사발령(인사혁신처)",
+      "institution": "인사혁신처",
+      "date": "2025-07-25",
+      "docType": "인사",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-089_인사혁신처_인사발령_인사혁신처-4079391be2.json"
+    },
+    {
+      "id": "gazette-2025-07-25-090_인사혁신처_상훈_39_국가인사업무_발전_유공_인사교류_39_정부포상_수여_인사혁신처-2b87bd4564",
+      "layer": "gazette",
+      "title": "상훈(& #39;국가인사업무 발전 유공(인사교류)& #39; 정부포상 수여 (인사혁신처))",
+      "institution": "인사혁신처",
+      "date": "2025-07-25",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-090_인사혁신처_상훈_39_국가인사업무_발전_유공_인사교류_39_정부포상_수여_인사혁신처-2b87bd4564.json"
+    },
+    {
+      "id": "gazette-2025-07-25-091_정부산하기관및위원회_정부공직자윤리위원회공고제2025_9호_재산공개목록_수시-5ee5bad909",
+      "layer": "gazette",
+      "title": "정부공직자윤리위원회공고제2025-9호(재산공개목록(수시))",
+      "institution": "정부산하기관및위원회",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-091_정부산하기관및위원회_정부공직자윤리위원회공고제2025_9호_재산공개목록_수시-5ee5bad909.json"
+    },
+    {
+      "id": "gazette-2025-07-25-092_정부산하기관및위원회_수도권서부환경본부공고제2025_1호_재활용부과금_납부독촉_및_재산압류_예고_공시송달-7a86bf1410",
+      "layer": "gazette",
+      "title": "수도권서부환경본부공고제2025-1호(재활용부과금 납부독촉 및 재산압류 예고 공시송달)",
+      "institution": "정부산하기관및위원회",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-092_정부산하기관및위원회_수도권서부환경본부공고제2025_1호_재활용부과금_납부독촉_및_재산압류_예고_공시송달-7a86bf1410.json"
+    },
+    {
+      "id": "gazette-2025-07-25-093_정부산하기관및위원회_한국산업인력공단공고제2025_128호_2025년도_제36회_공인중개사_자격시험_시행계획_공고-ad65205d9a",
+      "layer": "gazette",
+      "title": "한국산업인력공단공고제2025-128호(2025년도 제36회 공인중개사 자격시험 시행계획 공고)",
+      "institution": "정부산하기관및위원회",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-093_정부산하기관및위원회_한국산업인력공단공고제2025_128호_2025년도_제36회_공인중개사_자격시험_시행계획_공고-ad65205d9a.json"
+    },
+    {
+      "id": "gazette-2025-07-25-094_중소벤처기업부_중소벤처기업부고시제2025_87호_규제자유특구_지정_변경-77a1a7a591",
+      "layer": "gazette",
+      "title": "중소벤처기업부고시제2025-87호(규제자유특구 지정 변경)",
+      "institution": "중소벤처기업부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-094_중소벤처기업부_중소벤처기업부고시제2025_87호_규제자유특구_지정_변경-77a1a7a591.json"
+    },
+    {
+      "id": "gazette-2025-07-25-095_해양경찰청_동해해양경찰서공고제2025_7호_임원항_동방파제_테트라포드_출입통제구역_지정_공고-535c50a78c",
+      "layer": "gazette",
+      "title": "동해해양경찰서공고제2025-7호(임원항 동방파제 테트라포드 출입통제구역 지정 공고)",
+      "institution": "해양경찰청",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-095_해양경찰청_동해해양경찰서공고제2025_7호_임원항_동방파제_테트라포드_출입통제구역_지정_공고-535c50a78c.json"
+    },
+    {
+      "id": "gazette-2025-07-25-096_해양경찰청_동해해양경찰서공고제2025_6호_천곡항_방파제_한섬방파제_테트라포드_출입통제구역_지정_공고-5bb6e20d46",
+      "layer": "gazette",
+      "title": "동해해양경찰서공고제2025-6호(천곡항 방파제(한섬방파제) 테트라포드 출입통제구역 지정 공고)",
+      "institution": "해양경찰청",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-096_해양경찰청_동해해양경찰서공고제2025_6호_천곡항_방파제_한섬방파제_테트라포드_출입통제구역_지정_공고-5bb6e20d46.json"
+    },
+    {
+      "id": "gazette-2025-07-25-097_해양수산부_해양수산부고시제2025_126호_제4차_항만배후단지개발_종합계획_및_부산항_신항_항만배후단지_개발계획_변경_고시-359fd9697d",
+      "layer": "gazette",
+      "title": "해양수산부고시제2025-126호(제4차 항만배후단지개발 종합계획 및 부산항 신항 항만배후단지 개발계획 변경 고시)",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-097_해양수산부_해양수산부고시제2025_126호_제4차_항만배후단지개발_종합계획_및_부산항_신항_항만배후단지_개발계획_변경_고시-359fd9697d.json"
+    },
+    {
+      "id": "gazette-2025-07-25-098_해양수산부_해양수산부령제749호_자유무역협정_체결에_따른_농어업인_등의_지원에_관한_특별법_시행규칙_일부개정령-59574eaeab",
+      "layer": "gazette",
+      "title": "해양수산부령제749호(자유무역협정 체결에 따른 농어업인 등의 지원에 관한 특별법 시행규칙 일부개정령)",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-098_해양수산부_해양수산부령제749호_자유무역협정_체결에_따른_농어업인_등의_지원에_관한_특별법_시행규칙_일부개정령-59574eaeab.json"
+    },
+    {
+      "id": "gazette-2025-07-25-099_해양수산부_해양수산부공고제2025_903호_국가연구개발사업_제재처분_사전통지서_공고_수상에스티_이성-bccff26ab5",
+      "layer": "gazette",
+      "title": "해양수산부공고제2025-903호(국가연구개발사업 제재처분 사전통지서 공고(수상에스티㈜, 이성○))",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-099_해양수산부_해양수산부공고제2025_903호_국가연구개발사업_제재처분_사전통지서_공고_수상에스티_이성-bccff26ab5.json"
+    },
+    {
+      "id": "gazette-2025-07-25-100_해양수산부_여수지방해양수산청고시제2025_77호_사설항로표지_폐지-b988f582e0",
+      "layer": "gazette",
+      "title": "여수지방해양수산청고시제2025-77호(사설항로표지 폐지)",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-100_해양수산부_여수지방해양수산청고시제2025_77호_사설항로표지_폐지-b988f582e0.json"
+    },
+    {
+      "id": "gazette-2025-07-25-101_해양수산부_목포지방해양수산청고시제2025_50호_항로표지_현황변경_북항서파제제등대-c48f2fc33b",
+      "layer": "gazette",
+      "title": "목포지방해양수산청고시제2025-50호(항로표지 현황변경(북항서파제제등대))",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-101_해양수산부_목포지방해양수산청고시제2025_50호_항로표지_현황변경_북항서파제제등대-c48f2fc33b.json"
+    },
+    {
+      "id": "gazette-2025-07-25-102_해양수산부_부산지방해양안전심판원공고제2025_03호_외국인승무자격증_제출_통지_공시송달_공고-a85ebb8d3b",
+      "layer": "gazette",
+      "title": "부산지방해양안전심판원공고제2025-03호(외국인승무자격증 제출 통지 공시송달 공고)",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-102_해양수산부_부산지방해양안전심판원공고제2025_03호_외국인승무자격증_제출_통지_공시송달_공고-a85ebb8d3b.json"
+    },
+    {
+      "id": "gazette-2025-07-25-103_해양수산부_해양수산부고시제2025_124호_제2차_마리나항만_기본계획_수정계획_2025_2029-1c9b1edaf4",
+      "layer": "gazette",
+      "title": "해양수산부고시제2025-124호(제2차 마리나항만 기본계획 수정계획(2025~2029))",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-103_해양수산부_해양수산부고시제2025_124호_제2차_마리나항만_기본계획_수정계획_2025_2029-1c9b1edaf4.json"
+    },
+    {
+      "id": "gazette-2025-07-25-104_해양수산부_목포지방해양수산청고시제2025_51호_사설항로표지_신설_송도항두산건설A호등부표_등_3기-1a6e4f1f1c",
+      "layer": "gazette",
+      "title": "목포지방해양수산청고시제2025-51호(사설항로표지 신설[송도항두산건설A호등부표 등 3기])",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-104_해양수산부_목포지방해양수산청고시제2025_51호_사설항로표지_신설_송도항두산건설A호등부표_등_3기-1a6e4f1f1c.json"
+    },
+    {
+      "id": "gazette-2025-07-25-105_해양수산부_부산지방해양수산청고시제2025_148호_항로표지_현황변경_부산항신항20호등부표-56e04ac5b2",
+      "layer": "gazette",
+      "title": "부산지방해양수산청고시제2025-148호(항로표지 현황변경(부산항신항20호등부표))",
+      "institution": "해양수산부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-105_해양수산부_부산지방해양수산청고시제2025_148호_항로표지_현황변경_부산항신항20호등부표-56e04ac5b2.json"
+    },
+    {
+      "id": "gazette-2025-07-25-106_환경부_영산강홍수통제소고시제2025_33호_하천수의_사용허가_신규-92999944e1",
+      "layer": "gazette",
+      "title": "영산강홍수통제소고시제2025-33호(하천수의 사용허가(신규))",
+      "institution": "환경부",
+      "date": "2025-07-25",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-25-106_환경부_영산강홍수통제소고시제2025_33호_하천수의_사용허가_신규-92999944e1.json"
+    },
+    {
+      "id": "gazette-2025-07-28-001_경기도교육청_경기도화성오산교육지원청고시제2025_343호_학교_가칭_봉담2_1초등학교_시설사업_시행계획_승인-9a140864fb",
+      "layer": "gazette",
+      "title": "경기도화성오산교육지원청고시제2025-343호(학교[(가칭)봉담2-1초등학교] 시설사업 시행계획 승인)",
+      "institution": "경기도교육청",
+      "date": "2025-07-28",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-001_경기도교육청_경기도화성오산교육지원청고시제2025_343호_학교_가칭_봉담2_1초등학교_시설사업_시행계획_승인-9a140864fb.json"
+    },
+    {
+      "id": "gazette-2025-07-28-002_경기도교육청_경기도화성오산교육지원청고시제2025_341호_학교_가칭_동탄11고등학교_시설사업_시행계획_승인-fff9e4f5bf",
+      "layer": "gazette",
+      "title": "경기도화성오산교육지원청고시제2025-341호(학교[(가칭)동탄11고등학교] 시설사업 시행계획 승인)",
+      "institution": "경기도교육청",
+      "date": "2025-07-28",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-002_경기도교육청_경기도화성오산교육지원청고시제2025_341호_학교_가칭_동탄11고등학교_시설사업_시행계획_승인-fff9e4f5bf.json"
+    },
+    {
+      "id": "gazette-2025-07-28-003_경기도교육청_경기도화성오산교육지원청고시제2025_342호_학교_가칭_동탄13중학교_시설사업_시행계획_승인-420811189a",
+      "layer": "gazette",
+      "title": "경기도화성오산교육지원청고시제2025-342호(학교[(가칭)동탄13중학교] 시설사업 시행계획 승인)",
+      "institution": "경기도교육청",
+      "date": "2025-07-28",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-003_경기도교육청_경기도화성오산교육지원청고시제2025_342호_학교_가칭_동탄13중학교_시설사업_시행계획_승인-420811189a.json"
+    },
+    {
+      "id": "gazette-2025-07-28-004_경찰청_경찰청공고제2025_19호_음주운전_방지장치_경찰청_규격_제정안_행정예고-b5e7275b07",
+      "layer": "gazette",
+      "title": "경찰청공고제2025-19호(음주운전 방지장치 경찰청 규격 제정안 행정예고)",
+      "institution": "경찰청",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-004_경찰청_경찰청공고제2025_19호_음주운전_방지장치_경찰청_규격_제정안_행정예고-b5e7275b07.json"
+    },
+    {
+      "id": "gazette-2025-07-28-005_고용노동부_광주지방고용노동청공고제2025_146호_일자리안정자금_환수금_납입고지서_독촉장_공시송달_공고-61d319d79f",
+      "layer": "gazette",
+      "title": "광주지방고용노동청공고제2025-146호(일자리안정자금 환수금 납입고지서(독촉장) 공시송달 공고)",
+      "institution": "고용노동부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-005_고용노동부_광주지방고용노동청공고제2025_146호_일자리안정자금_환수금_납입고지서_독촉장_공시송달_공고-61d319d79f.json"
+    },
+    {
+      "id": "gazette-2025-07-28-006_과학기술정보통신부_제주전파관리소고시제2025_5호_항공국_개설허가-2625cd6565",
+      "layer": "gazette",
+      "title": "제주전파관리소고시제2025-5호(항공국 개설허가)",
+      "institution": "과학기술정보통신부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-006_과학기술정보통신부_제주전파관리소고시제2025_5호_항공국_개설허가-2625cd6565.json"
+    },
+    {
+      "id": "gazette-2025-07-28-007_과학기술정보통신부_부산지방우정청공고제2025_112호_39_점심시간_휴무제_시범운영_기간_연장_39_에_따른_행정예고-3da0c0d459",
+      "layer": "gazette",
+      "title": "부산지방우정청공고제2025-112호(& #39;점심시간 휴무제 시범운영 기간 연장& #39;에 따른 행정예고)",
+      "institution": "과학기술정보통신부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-007_과학기술정보통신부_부산지방우정청공고제2025_112호_39_점심시간_휴무제_시범운영_기간_연장_39_에_따른_행정예고-3da0c0d459.json"
+    },
+    {
+      "id": "gazette-2025-07-28-008_과학기술정보통신부_대전전파관리소고시제2025_6호_무선국_해안국_변경_신고-e629e30fab",
+      "layer": "gazette",
+      "title": "대전전파관리소고시제2025-6호(무선국(해안국) 변경 신고)",
+      "institution": "과학기술정보통신부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-008_과학기술정보통신부_대전전파관리소고시제2025_6호_무선국_해안국_변경_신고-e629e30fab.json"
+    },
+    {
+      "id": "gazette-2025-07-28-009_과학기술정보통신부_경인지방우정청공고제2025_195호_관인_공인_등록-202bf36a0f",
+      "layer": "gazette",
+      "title": "경인지방우정청공고제2025-195호(관인(공인)등록)",
+      "institution": "과학기술정보통신부",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-009_과학기술정보통신부_경인지방우정청공고제2025_195호_관인_공인_등록-202bf36a0f.json"
+    },
+    {
+      "id": "gazette-2025-07-28-010_과학기술정보통신부_충청지방우정청공고제2025_146호_우체국창구업무_위탁계약_대상자_모집_공고_3차-2f9e5000df",
+      "layer": "gazette",
+      "title": "충청지방우정청공고제2025-146호(우체국창구업무 위탁계약 대상자 모집 공고(3차))",
+      "institution": "과학기술정보통신부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-010_과학기술정보통신부_충청지방우정청공고제2025_146호_우체국창구업무_위탁계약_대상자_모집_공고_3차-2f9e5000df.json"
+    },
+    {
+      "id": "gazette-2025-07-28-011_과학기술정보통신부_부산전파관리소공고제2025_45호_전파법_위반_검사불응_무선국_처분_사전통지_송달불능_내역-46780198fb",
+      "layer": "gazette",
+      "title": "부산전파관리소공고제2025-45호(전파법 위반(검사불응) 무선국 처분 사전통지 송달불능 내역)",
+      "institution": "과학기술정보통신부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-011_과학기술정보통신부_부산전파관리소공고제2025_45호_전파법_위반_검사불응_무선국_처분_사전통지_송달불능_내역-46780198fb.json"
+    },
+    {
+      "id": "gazette-2025-07-28-012_교육부_교육부공고제2025_256호_학교보건법_시행규칙_일부개정령안_입법예고-bea0bbf3a6",
+      "layer": "gazette",
+      "title": "교육부공고제2025-256호(학교보건법 시행규칙 일부개정령안 입법예고)",
+      "institution": "교육부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-012_교육부_교육부공고제2025_256호_학교보건법_시행규칙_일부개정령안_입법예고-bea0bbf3a6.json"
+    },
+    {
+      "id": "gazette-2025-07-28-013_교육부_교육부공고제2025_255호_학교보건법_시행령_일부개정령안_입법예고-0a61f2cd7b",
+      "layer": "gazette",
+      "title": "교육부공고제2025-255호(학교보건법 시행령 일부개정령안 입법예고)",
+      "institution": "교육부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-013_교육부_교육부공고제2025_255호_학교보건법_시행령_일부개정령안_입법예고-0a61f2cd7b.json"
+    },
+    {
+      "id": "gazette-2025-07-28-014_국토교통부_국토교통부령제1510호_항공안전법_시행규칙_일부개정령-2f33ff9dd0",
+      "layer": "gazette",
+      "title": "국토교통부령제1510호(항공안전법 시행규칙 일부개정령)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-014_국토교통부_국토교통부령제1510호_항공안전법_시행규칙_일부개정령-2f33ff9dd0.json"
+    },
+    {
+      "id": "gazette-2025-07-28-015_국토교통부_국토교통부령제1509호_여객자동차_운수사업법_시행규칙_일부개정령-dd720a1aec",
+      "layer": "gazette",
+      "title": "국토교통부령제1509호(여객자동차 운수사업법 시행규칙 일부개정령)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-015_국토교통부_국토교통부령제1509호_여객자동차_운수사업법_시행규칙_일부개정령-dd720a1aec.json"
+    },
+    {
+      "id": "gazette-2025-07-28-016_국토교통부_원주지방국토관리청고시제2025_23호_도로구역_결정_접도구역지정_및_지형도면_고시_제2경춘국도_제3_4_5공구-0d7c73bb1e",
+      "layer": "gazette",
+      "title": "원주지방국토관리청고시제2025-23호(도로구역 결정, 접도구역지정 및 지형도면 고시(제2경춘국도 제3, 4, 5공구))",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-016_국토교통부_원주지방국토관리청고시제2025_23호_도로구역_결정_접도구역지정_및_지형도면_고시_제2경춘국도_제3_4_5공구-0d7c73bb1e.json"
+    },
+    {
+      "id": "gazette-2025-07-28-017_국토교통부_부산지방국토관리청고시제2025_81호_도로구역_결정_변경_고시-2bcf5f8dc2",
+      "layer": "gazette",
+      "title": "부산지방국토관리청고시제2025-81호(도로구역 결정(변경) 고시)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-017_국토교통부_부산지방국토관리청고시제2025_81호_도로구역_결정_변경_고시-2bcf5f8dc2.json"
+    },
+    {
+      "id": "gazette-2025-07-28-018_국토교통부_부산지방국토관리청고시제2025_79호_도로구역_결정_폐지_고시-f92cba9487",
+      "layer": "gazette",
+      "title": "부산지방국토관리청고시제2025-79호(도로구역 결정(폐지) 고시)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-018_국토교통부_부산지방국토관리청고시제2025_79호_도로구역_결정_폐지_고시-f92cba9487.json"
+    },
+    {
+      "id": "gazette-2025-07-28-019_국토교통부_부산지방국토관리청고시제2025_80호_지형도면_고시-cc9d302c78",
+      "layer": "gazette",
+      "title": "부산지방국토관리청고시제2025-80호(지형도면 고시)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-019_국토교통부_부산지방국토관리청고시제2025_80호_지형도면_고시-cc9d302c78.json"
+    },
+    {
+      "id": "gazette-2025-07-28-020_국토교통부_국토교통부공고제2025_954호_감정평가사_징계사실_공고-ba12739327",
+      "layer": "gazette",
+      "title": "국토교통부공고제2025-954호(감정평가사 징계사실 공고)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-020_국토교통부_국토교통부공고제2025_954호_감정평가사_징계사실_공고-ba12739327.json"
+    },
+    {
+      "id": "gazette-2025-07-28-021_국토교통부_국토교통부공고제2025_953호_감정평가사_징계사실_공고-cc707c0f1b",
+      "layer": "gazette",
+      "title": "국토교통부공고제2025-953호(감정평가사 징계사실 공고)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-021_국토교통부_국토교통부공고제2025_953호_감정평가사_징계사실_공고-cc707c0f1b.json"
+    },
+    {
+      "id": "gazette-2025-07-28-022_국토교통부_국토교통부공고제2025_959호_스마트도시_특화단지_지정_및_관리지침안_제정안_행정예고-e19c8528e5",
+      "layer": "gazette",
+      "title": "국토교통부공고제2025-959호(스마트도시 특화단지 지정 및 관리지침안 제정안 행정예고)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-022_국토교통부_국토교통부공고제2025_959호_스마트도시_특화단지_지정_및_관리지침안_제정안_행정예고-e19c8528e5.json"
+    },
+    {
+      "id": "gazette-2025-07-28-023_국토교통부_국토교통부공고제2025_958호_스마트도시_조성_및_산업진흥_등에_관한_법률_시행령_일부개정령안_입법예고-f891fd13a8",
+      "layer": "gazette",
+      "title": "국토교통부공고제2025-958호(스마트도시 조성 및 산업진흥 등에 관한 법률 시행령 일부개정령안 입법예고)",
+      "institution": "국토교통부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-023_국토교통부_국토교통부공고제2025_958호_스마트도시_조성_및_산업진흥_등에_관한_법률_시행령_일부개정령안_입법예고-f891fd13a8.json"
+    },
+    {
+      "id": "gazette-2025-07-28-024_기상청_기상청고시제2025_13호_항공기상_관측망의_구축_및_운영_장소에_관한_고시_일부개정고시-80e822bd13",
+      "layer": "gazette",
+      "title": "기상청고시제2025-13호(「항공기상 관측망의 구축 및 운영 장소에 관한 고시」일부개정고시)",
+      "institution": "기상청",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-024_기상청_기상청고시제2025_13호_항공기상_관측망의_구축_및_운영_장소에_관한_고시_일부개정고시-80e822bd13.json"
+    },
+    {
+      "id": "gazette-2025-07-28-025_기획재정부_기획재정부공고제2025_148호_외국환거래법_시행령_일부개정령안_입법예고-e0ade8883e",
+      "layer": "gazette",
+      "title": "기획재정부공고제2025-148호(외국환거래법 시행령 일부개정령안 입법예고)",
+      "institution": "기획재정부",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-025_기획재정부_기획재정부공고제2025_148호_외국환거래법_시행령_일부개정령안_입법예고-e0ade8883e.json"
+    },
+    {
+      "id": "gazette-2025-07-28-026_대검찰청_기타_압수물환부공고_대전지방검찰청-a467c0bdb5",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (대전지방검찰청))",
+      "institution": "대검찰청",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-026_대검찰청_기타_압수물환부공고_대전지방검찰청-a467c0bdb5.json"
+    },
+    {
+      "id": "gazette-2025-07-28-027_대검찰청_기타_압수물환부공고_울산지방검찰청-529bc63ae6",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (울산지방검찰청))",
+      "institution": "대검찰청",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-027_대검찰청_기타_압수물환부공고_울산지방검찰청-529bc63ae6.json"
+    },
+    {
+      "id": "gazette-2025-07-28-028_대검찰청_기타_압수물환부공고_청주지방경찰청_충주지청-a087885c0f",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (청주지방경찰청 충주지청))",
+      "institution": "대검찰청",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-028_대검찰청_기타_압수물환부공고_청주지방경찰청_충주지청-a087885c0f.json"
+    },
+    {
+      "id": "gazette-2025-07-28-029_대검찰청_기타_압수물환부공고_청주지방경찰청_충주지청-fd59c4aadb",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (청주지방경찰청 충주지청))",
+      "institution": "대검찰청",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-029_대검찰청_기타_압수물환부공고_청주지방경찰청_충주지청-fd59c4aadb.json"
+    },
+    {
+      "id": "gazette-2025-07-28-030_대검찰청_기타_압수물환부공고_진주지청-75c86e19e1",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (진주지청))",
+      "institution": "대검찰청",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-030_대검찰청_기타_압수물환부공고_진주지청-75c86e19e1.json"
+    },
+    {
+      "id": "gazette-2025-07-28-031_대검찰청_기타_압수물환부공고_창원지방검찰청-46c6161125",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (창원지방검찰청))",
+      "institution": "대검찰청",
+      "date": "2025-07-28",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-031_대검찰청_기타_압수물환부공고_창원지방검찰청-46c6161125.json"
+    },
+    {
+      "id": "gazette-2025-07-28-032_대법원_대법원규칙제3221호_법원공무원규칙_일부개정규칙-920abba527",
+      "layer": "gazette",
+      "title": "대법원규칙제3221호(법원공무원규칙 일부개정규칙)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-032_대법원_대법원규칙제3221호_법원공무원규칙_일부개정규칙-920abba527.json"
+    },
+    {
+      "id": "gazette-2025-07-28-033_대법원_법인해산명령신청공고_대전지방법원-d1abeefcc6",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-033_대법원_법인해산명령신청공고_대전지방법원-d1abeefcc6.json"
+    },
+    {
+      "id": "gazette-2025-07-28-034_대법원_법인해산명령신청공고_대전지방법원-c196271543",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-034_대법원_법인해산명령신청공고_대전지방법원-c196271543.json"
+    },
+    {
+      "id": "gazette-2025-07-28-035_대법원_법인해산명령신청공고_대전지방법원-564c76fd68",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-035_대법원_법인해산명령신청공고_대전지방법원-564c76fd68.json"
+    },
+    {
+      "id": "gazette-2025-07-28-036_대법원_법인해산명령신청공고_대전지방법원-7fcee16b1c",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-036_대법원_법인해산명령신청공고_대전지방법원-7fcee16b1c.json"
+    },
+    {
+      "id": "gazette-2025-07-28-037_대법원_법인해산명령신청공고_대전지방법원-6ed451c4f9",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-037_대법원_법인해산명령신청공고_대전지방법원-6ed451c4f9.json"
+    },
+    {
+      "id": "gazette-2025-07-28-038_대법원_법인해산명령신청공고_대전지방법원-9c14a0c616",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-038_대법원_법인해산명령신청공고_대전지방법원-9c14a0c616.json"
+    },
+    {
+      "id": "gazette-2025-07-28-039_대법원_법인해산명령신청공고_대전지방법원-12f0b64f12",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-039_대법원_법인해산명령신청공고_대전지방법원-12f0b64f12.json"
+    },
+    {
+      "id": "gazette-2025-07-28-040_대법원_법인해산명령신청공고_대전지방법원-ce139c78dc",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-040_대법원_법인해산명령신청공고_대전지방법원-ce139c78dc.json"
+    },
+    {
+      "id": "gazette-2025-07-28-041_대법원_법인해산명령신청공고_대전지방법원-e867fd845f",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(대전지방법원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-041_대법원_법인해산명령신청공고_대전지방법원-e867fd845f.json"
+    },
+    {
+      "id": "gazette-2025-07-28-042_대법원_법인해산명령신청공고_천안지원-f6b2b69a86",
+      "layer": "gazette",
+      "title": "법인해산명령신청공고(천안지원)",
+      "institution": "대법원",
+      "date": "2025-07-28",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-042_대법원_법인해산명령신청공고_천안지원-f6b2b69a86.json"
+    },
+    {
+      "id": "gazette-2025-07-28-043_대전광역시교육청_대전광역시교육청고시제2025_10호_학교시설사업준공_대전탄방초등학교_용문분교장-6b8e8cc154",
+      "layer": "gazette",
+      "title": "대전광역시교육청고시제2025-10호(학교시설사업준공(대전탄방초등학교 용문분교장))",
+      "institution": "대전광역시교육청",
+      "date": "2025-07-28",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-043_대전광역시교육청_대전광역시교육청고시제2025_10호_학교시설사업준공_대전탄방초등학교_용문분교장-6b8e8cc154.json"
+    },
+    {
+      "id": "gazette-2025-07-28-044_방송통신위원회_방송통신사무소공고제2025_61호_정보통신망법_위반에_따른_과태료_사전통지_및_의견제출_공시송달-28b19abed8",
+      "layer": "gazette",
+      "title": "방송통신사무소공고제2025-61호(정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 공시송달)",
+      "institution": "방송통신위원회",
+      "date": "2025-07-28",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-044_방송통신위원회_방송통신사무소공고제2025_61호_정보통신망법_위반에_따른_과태료_사전통지_및_의견제출_공시송달-28b19abed8.json"
+    },
+    {
+      "id": "gazette-2025-07-28-045_법무부_수원출입국_외국인청고시제2025_35호_국적취득_중_정정-9f09bc6285",
+      "layer": "gazette",
+      "title": "수원출입국.외국인청고시제2025-35호(국적취득 중 정정)",
+      "institution": "법무부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-045_법무부_수원출입국_외국인청고시제2025_35호_국적취득_중_정정-9f09bc6285.json"
+    },
+    {
+      "id": "gazette-2025-07-28-046_법무부_수원출입국_외국인청고시제2025_34호_국적취득-2dfb30a592",
+      "layer": "gazette",
+      "title": "수원출입국.외국인청고시제2025-34호(국적취득)",
+      "institution": "법무부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-046_법무부_수원출입국_외국인청고시제2025_34호_국적취득-2dfb30a592.json"
+    },
+    {
+      "id": "gazette-2025-07-28-047_법무부_부산출입국_외국인청고시제2025_00107호_국적취득-82ded4ccb8",
+      "layer": "gazette",
+      "title": "부산출입국.외국인청고시제2025-00107호(국적취득)",
+      "institution": "법무부",
+      "date": "2025-07-28",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-07-28-047_법무부_부산출입국_외국인청고시제2025_00107호_국적취득-82ded4ccb8.json"
+    }
+  ]
+}

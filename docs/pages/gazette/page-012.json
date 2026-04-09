@@ -2,1008 +2,1008 @@
   "layer": "gazette",
   "page": 12,
   "pageSize": 100,
-  "totalItems": 26139,
-  "totalPages": 262,
+  "totalItems": 48614,
+  "totalPages": 487,
   "items": [
     {
-      "id": "gazette-2025-01-21-041_문화체육관광부_문화체육관광부고시제2025_6호_영암_해남_관광레저형_기업도시_삼포지구_개발구역_지정_변경_1차_개발계획_변-4f78480c5a",
+      "id": "gazette-2024-01-12-098_식품의약품안전처_총리령제1935호_식품_등의_표시_광고에_관한_법률_시행규칙_일부개정령-d42caf8f05",
       "layer": "gazette",
-      "title": "문화체육관광부고시제2025-6호(영암·해남 관광레저형 기업도시(삼포지구) 개발구역 지정 변경(1차)·개발계획 변경(2차) 및 실시계획 승인 고시)",
-      "institution": "문화체육관광부",
-      "date": "2025-01-21",
+      "title": "총리령제1935호(식품 등의 표시·광고에 관한 법률 시행규칙 일부개정령 )",
+      "institution": "식품의약품안전처",
+      "date": "2024-01-12",
+      "docType": "총리령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-098_식품의약품안전처_총리령제1935호_식품_등의_표시_광고에_관한_법률_시행규칙_일부개정령-d42caf8f05.json"
+    },
+    {
+      "id": "gazette-2024-01-12-099_여성가족부_여성가족부고시제2024_1호_청소년유해매체물_간행물_고시_제2024_1호-5fe0b5ddfd",
+      "layer": "gazette",
+      "title": "여성가족부고시제2024-1호(청소년유해매체물(간행물)고시(제2024-1호))",
+      "institution": "여성가족부",
+      "date": "2024-01-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-041_문화체육관광부_문화체육관광부고시제2025_6호_영암_해남_관광레저형_기업도시_삼포지구_개발구역_지정_변경_1차_개발계획_변-4f78480c5a.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-099_여성가족부_여성가족부고시제2024_1호_청소년유해매체물_간행물_고시_제2024_1호-5fe0b5ddfd.json"
     },
     {
-      "id": "gazette-2025-01-21-042_방송통신위원회_방송통신사무소공고제2025_5호_과태료_고지서_및_독촉장_반송에_따른_공시송달-457f66589e",
+      "id": "gazette-2024-01-12-100_인사혁신처_인사발령_인사혁신처-b3a4aaa577",
       "layer": "gazette",
-      "title": "방송통신사무소공고제2025-5호(과태료 고지서 및 독촉장 반송에 따른 공시송달)",
-      "institution": "방송통신위원회",
-      "date": "2025-01-21",
-      "docType": "공고",
+      "title": "인사발령(인사혁신처)",
+      "institution": "인사혁신처",
+      "date": "2024-01-12",
+      "docType": "인사",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-042_방송통신위원회_방송통신사무소공고제2025_5호_과태료_고지서_및_독촉장_반송에_따른_공시송달-457f66589e.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-100_인사혁신처_인사발령_인사혁신처-b3a4aaa577.json"
     },
     {
-      "id": "gazette-2025-01-21-043_방위사업청_방위사업청공고제2025_3호_국방벤처_지원사업_연구개발과제_제재처분_사전통지_및_의견제출_요구에_대한_공시송달-3b9223efa3",
+      "id": "gazette-2024-01-12-101_질병관리청_상훈_39_2023년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_질병관리청-32f0ce64d8",
       "layer": "gazette",
-      "title": "방위사업청공고제2025-3호(국방벤처 지원사업 연구개발과제 제재처분 사전통지 및 의견제출 요구에 대한 공시송달)",
-      "institution": "방위사업청",
-      "date": "2025-01-21",
-      "docType": "공고",
+      "title": "상훈(& #39;2023년 하반기 퇴직공무원(일반) 포상& #39; 정부포상 수여 (질병관리청))",
+      "institution": "질병관리청",
+      "date": "2024-01-12",
+      "docType": "상훈",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-043_방위사업청_방위사업청공고제2025_3호_국방벤처_지원사업_연구개발과제_제재처분_사전통지_및_의견제출_요구에_대한_공시송달-3b9223efa3.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-101_질병관리청_상훈_39_2023년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_질병관리청-32f0ce64d8.json"
     },
     {
-      "id": "gazette-2025-01-21-044_법무부_수원출입국_외국인청고시제2025_04호_국적취득-a9232b5aeb",
+      "id": "gazette-2024-01-12-102_질병관리청_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_질병관리청-ce1c2db4c9",
       "layer": "gazette",
-      "title": "수원출입국.외국인청고시제2025-04호(국적취득)",
-      "institution": "법무부",
-      "date": "2025-01-21",
-      "docType": "고시",
+      "title": "상훈(& #39;2023년 하반기 모범공무원(일반)& #39; 정부포상 수여 (질병관리청))",
+      "institution": "질병관리청",
+      "date": "2024-01-12",
+      "docType": "상훈",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-044_법무부_수원출입국_외국인청고시제2025_04호_국적취득-a9232b5aeb.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-102_질병관리청_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_질병관리청-ce1c2db4c9.json"
     },
     {
-      "id": "gazette-2025-01-21-045_법무부_서울출입국_외국인청고시제2025_6호_국적상실_신고-caf2e2edf4",
+      "id": "gazette-2024-01-12-103_질병관리청_상훈_39_우수공무원_39_정부포상_수여_질병관리청-695081f962",
       "layer": "gazette",
-      "title": "서울출입국.외국인청고시제2025-6호(국적상실 신고)",
-      "institution": "법무부",
-      "date": "2025-01-21",
-      "docType": "고시",
+      "title": "상훈(& #39;우수공무원& #39; 정부포상 수여 (질병관리청))",
+      "institution": "질병관리청",
+      "date": "2024-01-12",
+      "docType": "상훈",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-045_법무부_서울출입국_외국인청고시제2025_6호_국적상실_신고-caf2e2edf4.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-103_질병관리청_상훈_39_우수공무원_39_정부포상_수여_질병관리청-695081f962.json"
     },
     {
-      "id": "gazette-2025-01-21-046_법무부_제주출입국_외국인청고시제2025_2호_인지에_의한_국적취득-c5ce758d2e",
+      "id": "gazette-2024-01-12-104_해양경찰청_인천해양경찰서공고제2024_3호_연안사고_예방에_관한_법률_위반자_박O숙_에_대한_과태료_부과_처분_공시송달_공-7adbeff59f",
       "layer": "gazette",
-      "title": "제주출입국.외국인청고시제2025-2호(인지에 의한 국적취득)",
-      "institution": "법무부",
-      "date": "2025-01-21",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-046_법무부_제주출입국_외국인청고시제2025_2호_인지에_의한_국적취득-c5ce758d2e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-047_법제처_대통령령제35217호_수도법_시행령_일부개정령-258e756ade",
-      "layer": "gazette",
-      "title": "대통령령제35217호(수도법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-047_법제처_대통령령제35217호_수도법_시행령_일부개정령-258e756ade.json"
-    },
-    {
-      "id": "gazette-2025-01-21-048_법제처_대통령령제35211호_초_중등교육법_시행령_일부개정령-850cbead70",
-      "layer": "gazette",
-      "title": "대통령령제35211호(초ㆍ중등교육법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-048_법제처_대통령령제35211호_초_중등교육법_시행령_일부개정령-850cbead70.json"
-    },
-    {
-      "id": "gazette-2025-01-21-049_법제처_대통령령제35212호_승강기_안전관리법_시행령_일부개정령-b9a59ff0c9",
-      "layer": "gazette",
-      "title": "대통령령제35212호(승강기 안전관리법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-049_법제처_대통령령제35212호_승강기_안전관리법_시행령_일부개정령-b9a59ff0c9.json"
-    },
-    {
-      "id": "gazette-2025-01-21-050_법제처_대통령령제35213호_소방시설공사업법_시행령_일부개정령-4b1ca2712f",
-      "layer": "gazette",
-      "title": "대통령령제35213호(소방시설공사업법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-050_법제처_대통령령제35213호_소방시설공사업법_시행령_일부개정령-4b1ca2712f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-051_법제처_대통령령제35214호_국가자원안보_특별법_시행령-b314f7ddda",
-      "layer": "gazette",
-      "title": "대통령령제35214호(국가자원안보 특별법 시행령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-051_법제처_대통령령제35214호_국가자원안보_특별법_시행령-b314f7ddda.json"
-    },
-    {
-      "id": "gazette-2025-01-21-052_법제처_대통령령제35215호_장사_등에_관한_법률_시행령_일부개정령-ebaae9d0f2",
-      "layer": "gazette",
-      "title": "대통령령제35215호(장사 등에 관한 법률 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-052_법제처_대통령령제35215호_장사_등에_관한_법률_시행령_일부개정령-ebaae9d0f2.json"
-    },
-    {
-      "id": "gazette-2025-01-21-053_법제처_대통령령제35216호_손상_예방_및_관리에_관한_법률_시행령-1dcecff832",
-      "layer": "gazette",
-      "title": "대통령령제35216호(손상 예방 및 관리에 관한 법률 시행령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-053_법제처_대통령령제35216호_손상_예방_및_관리에_관한_법률_시행령-1dcecff832.json"
-    },
-    {
-      "id": "gazette-2025-01-21-054_법제처_대통령령제35218호_지하수법_시행령_일부개정령-58afe28371",
-      "layer": "gazette",
-      "title": "대통령령제35218호(지하수법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-054_법제처_대통령령제35218호_지하수법_시행령_일부개정령-58afe28371.json"
-    },
-    {
-      "id": "gazette-2025-01-21-055_법제처_대통령령제35219호_물환경보전법_시행령_일부개정령-aea035cd94",
-      "layer": "gazette",
-      "title": "대통령령제35219호(물환경보전법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-055_법제처_대통령령제35219호_물환경보전법_시행령_일부개정령-aea035cd94.json"
-    },
-    {
-      "id": "gazette-2025-01-21-056_법제처_대통령령제35220호_야생생물_보호_및_관리에_관한_법률_시행령_일부개정령-f10e40e6ef",
-      "layer": "gazette",
-      "title": "대통령령제35220호(야생생물 보호 및 관리에 관한 법률 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-056_법제처_대통령령제35220호_야생생물_보호_및_관리에_관한_법률_시행령_일부개정령-f10e40e6ef.json"
-    },
-    {
-      "id": "gazette-2025-01-21-057_법제처_대통령령제35221호_주택법_시행령_일부개정령-1e035a9df8",
-      "layer": "gazette",
-      "title": "대통령령제35221호(주택법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-057_법제처_대통령령제35221호_주택법_시행령_일부개정령-1e035a9df8.json"
-    },
-    {
-      "id": "gazette-2025-01-21-058_법제처_대통령령제35222호_주택건설기준_등에_관한_규정_일부개정령-ca88e9b335",
-      "layer": "gazette",
-      "title": "대통령령제35222호(주택건설기준 등에 관한 규정 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-058_법제처_대통령령제35222호_주택건설기준_등에_관한_규정_일부개정령-ca88e9b335.json"
-    },
-    {
-      "id": "gazette-2025-01-21-059_법제처_대통령령제35223호_민간임대주택에_관한_특별법_시행령_일부개정령-a3d13dc062",
-      "layer": "gazette",
-      "title": "대통령령제35223호(민간임대주택에 관한 특별법 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-059_법제처_대통령령제35223호_민간임대주택에_관한_특별법_시행령_일부개정령-a3d13dc062.json"
-    },
-    {
-      "id": "gazette-2025-01-21-060_법제처_대통령령제35224호_해양레저관광진흥법_시행령-9bf142d3c6",
-      "layer": "gazette",
-      "title": "대통령령제35224호(해양레저관광진흥법 시행령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-060_법제처_대통령령제35224호_해양레저관광진흥법_시행령-9bf142d3c6.json"
-    },
-    {
-      "id": "gazette-2025-01-21-061_법제처_대통령령제35225호_등대유산_보존_및_활용에_관한_법률_시행령-bb39338725",
-      "layer": "gazette",
-      "title": "대통령령제35225호(등대유산 보존 및 활용에 관한 법률 시행령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-061_법제처_대통령령제35225호_등대유산_보존_및_활용에_관한_법률_시행령-bb39338725.json"
-    },
-    {
-      "id": "gazette-2025-01-21-062_법제처_대통령령제35226호_항만기술산업의_육성_및_지원에_관한_법률_시행령-f7b73e1478",
-      "layer": "gazette",
-      "title": "대통령령제35226호(항만기술산업의 육성 및 지원에 관한 법률 시행령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-062_법제처_대통령령제35226호_항만기술산업의_육성_및_지원에_관한_법률_시행령-f7b73e1478.json"
-    },
-    {
-      "id": "gazette-2025-01-21-063_법제처_대통령령제35227호_신용정보의_이용_및_보호에_관한_법률_시행령_일부개정령-a024f2d99e",
-      "layer": "gazette",
-      "title": "대통령령제35227호(신용정보의 이용 및 보호에 관한 법률 시행령 일부개정령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-063_법제처_대통령령제35227호_신용정보의_이용_및_보호에_관한_법률_시행령_일부개정령-a024f2d99e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-064_법제처_대통령령제35228호_법인_등기규정_정비를_위한_78개_법령의_일부개정에_관한_대통령령-569606ec5a",
-      "layer": "gazette",
-      "title": "대통령령제35228호(법인 등기규정 정비를 위한 78개 법령의 일부개정에 관한 대통령령)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "대통령령",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-064_법제처_대통령령제35228호_법인_등기규정_정비를_위한_78개_법령의_일부개정에_관한_대통령령-569606ec5a.json"
-    },
-    {
-      "id": "gazette-2025-01-21-065_법제처_법률제20662호_고등교육법_일부개정법률-a481536ab3",
-      "layer": "gazette",
-      "title": "법률제20662호(고등교육법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-065_법제처_법률제20662호_고등교육법_일부개정법률-a481536ab3.json"
-    },
-    {
-      "id": "gazette-2025-01-21-066_법제처_법률제20663호_교육기본법_일부개정법률-864aebed81",
-      "layer": "gazette",
-      "title": "법률제20663호(교육기본법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-066_법제처_법률제20663호_교육기본법_일부개정법률-864aebed81.json"
-    },
-    {
-      "id": "gazette-2025-01-21-067_법제처_법률제20664호_대안교육기관에_관한_법률_일부개정법률-c5bcc34c9f",
-      "layer": "gazette",
-      "title": "법률제20664호(대안교육기관에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-067_법제처_법률제20664호_대안교육기관에_관한_법률_일부개정법률-c5bcc34c9f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-068_법제처_법률제20665호_도시형캠퍼스_설립_운영에_관한_특별법-1dc8fdf3ab",
-      "layer": "gazette",
-      "title": "법률제20665호(도시형캠퍼스 설립·운영에 관한 특별법)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-068_법제처_법률제20665호_도시형캠퍼스_설립_운영에_관한_특별법-1dc8fdf3ab.json"
-    },
-    {
-      "id": "gazette-2025-01-21-069_법제처_법률제20666호_사립학교법_일부개정법률-d850fc6071",
-      "layer": "gazette",
-      "title": "법률제20666호(사립학교법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-069_법제처_법률제20666호_사립학교법_일부개정법률-d850fc6071.json"
-    },
-    {
-      "id": "gazette-2025-01-21-070_법제처_법률제20667호_폐교재산의_활용촉진을_위한_특별법_일부개정법률-0d9abf61d8",
-      "layer": "gazette",
-      "title": "법률제20667호(폐교재산의 활용촉진을 위한 특별법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-070_법제처_법률제20667호_폐교재산의_활용촉진을_위한_특별법_일부개정법률-0d9abf61d8.json"
-    },
-    {
-      "id": "gazette-2025-01-21-071_법제처_법률제20668호_학교복합시설_설치_및_운영_관리에_관한_법률_일부개정법률-0bde7db3f1",
-      "layer": "gazette",
-      "title": "법률제20668호(학교복합시설 설치 및 운영·관리에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-071_법제처_법률제20668호_학교복합시설_설치_및_운영_관리에_관한_법률_일부개정법률-0bde7db3f1.json"
-    },
-    {
-      "id": "gazette-2025-01-21-072_법제처_법률제20669호_학교안전사고_예방_및_보상에_관한_법률_일부개정법률-8c45100a9d",
-      "layer": "gazette",
-      "title": "법률제20669호(학교안전사고 예방 및 보상에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-072_법제처_법률제20669호_학교안전사고_예방_및_보상에_관한_법률_일부개정법률-8c45100a9d.json"
-    },
-    {
-      "id": "gazette-2025-01-21-073_법제처_법률제20670호_학교폭력예방_및_대책에_관한_법률_일부개정법률-1b3ef73bd5",
-      "layer": "gazette",
-      "title": "법률제20670호(학교폭력예방 및 대책에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-073_법제처_법률제20670호_학교폭력예방_및_대책에_관한_법률_일부개정법률-1b3ef73bd5.json"
-    },
-    {
-      "id": "gazette-2025-01-21-074_법제처_법률제20671호_학생맞춤통합지원법-fbb9aca5a0",
-      "layer": "gazette",
-      "title": "법률제20671호(학생맞춤통합지원법)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-074_법제처_법률제20671호_학생맞춤통합지원법-fbb9aca5a0.json"
-    },
-    {
-      "id": "gazette-2025-01-21-075_법제처_법률제20672호_디지털포용법-752ce95c08",
-      "layer": "gazette",
-      "title": "법률제20672호(디지털포용법)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-075_법제처_법률제20672호_디지털포용법-752ce95c08.json"
-    },
-    {
-      "id": "gazette-2025-01-21-076_법제처_법률제20673호_연구개발특구의_육성에_관한_특별법_일부개정법률-d728ab134a",
-      "layer": "gazette",
-      "title": "법률제20673호(연구개발특구의 육성에 관한 특별법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-076_법제처_법률제20673호_연구개발특구의_육성에_관한_특별법_일부개정법률-d728ab134a.json"
-    },
-    {
-      "id": "gazette-2025-01-21-077_법제처_법률제20674호_우주개발_진흥법_일부개정법률-c5239147ed",
-      "layer": "gazette",
-      "title": "법률제20674호(우주개발 진흥법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-077_법제처_법률제20674호_우주개발_진흥법_일부개정법률-c5239147ed.json"
-    },
-    {
-      "id": "gazette-2025-01-21-078_법제처_법률제20675호_이동통신단말장치_유통구조_개선에_관한_법률_폐지법률-36aa926a8e",
-      "layer": "gazette",
-      "title": "법률제20675호(이동통신단말장치 유통구조 개선에 관한 법률 폐지법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-078_법제처_법률제20675호_이동통신단말장치_유통구조_개선에_관한_법률_폐지법률-36aa926a8e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-079_법제처_법률제20676호_인공지능_발전과_신뢰_기반_조성_등에_관한_기본법-03fa3c8eb6",
-      "layer": "gazette",
-      "title": "법률제20676호(인공지능 발전과 신뢰 기반 조성 등에 관한 기본법)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-079_법제처_법률제20676호_인공지능_발전과_신뢰_기반_조성_등에_관한_기본법-03fa3c8eb6.json"
-    },
-    {
-      "id": "gazette-2025-01-21-080_법제처_법률제20677호_전기통신사업법_일부개정법률-2f4c3dd8d4",
-      "layer": "gazette",
-      "title": "법률제20677호(전기통신사업법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-080_법제처_법률제20677호_전기통신사업법_일부개정법률-2f4c3dd8d4.json"
-    },
-    {
-      "id": "gazette-2025-01-21-081_법제처_법률제20678호_정보통신망_이용촉진_및_정보보호_등에_관한_법률_일부개정법률-625731d392",
-      "layer": "gazette",
-      "title": "법률제20678호(정보통신망 이용촉진 및 정보보호 등에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-081_법제처_법률제20678호_정보통신망_이용촉진_및_정보보호_등에_관한_법률_일부개정법률-625731d392.json"
-    },
-    {
-      "id": "gazette-2025-01-21-082_법제처_법률제20679호_피한정후견인_결격조항_정비를_위한_과학기술정보방송통신위원회_소관_법률_일부개정을_위한_법률-151d2ed87b",
-      "layer": "gazette",
-      "title": "법률제20679호(피한정후견인 결격조항 정비를 위한 과학기술정보방송통신위원회 소관 법률 일부개정을 위한 법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-082_법제처_법률제20679호_피한정후견인_결격조항_정비를_위한_과학기술정보방송통신위원회_소관_법률_일부개정을_위한_법률-151d2ed87b.json"
-    },
-    {
-      "id": "gazette-2025-01-21-083_법제처_법률제20681호_한_아프리카재단법_일부개정법률-7e551873b2",
-      "layer": "gazette",
-      "title": "법률제20681호(한ㆍ아프리카재단법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-083_법제처_법률제20681호_한_아프리카재단법_일부개정법률-7e551873b2.json"
-    },
-    {
-      "id": "gazette-2025-01-21-084_법제처_법률제20682호_5_18민주유공자예우_및_단체설립에_관한_법률_일부개정법률-a67fed258c",
-      "layer": "gazette",
-      "title": "법률제20682호(5·18민주유공자예우 및 단체설립에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-084_법제처_법률제20682호_5_18민주유공자예우_및_단체설립에_관한_법률_일부개정법률-a67fed258c.json"
-    },
-    {
-      "id": "gazette-2025-01-21-085_법제처_법률제20683호_고엽제후유의증_등_환자지원_및_단체설립에_관한_법률_일부개정법률-83e74b984e",
-      "layer": "gazette",
-      "title": "법률제20683호(고엽제후유의증 등 환자지원 및 단체설립에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-085_법제처_법률제20683호_고엽제후유의증_등_환자지원_및_단체설립에_관한_법률_일부개정법률-83e74b984e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-086_법제처_법률제20684호_국가유공자_등_예우_및_지원에_관한_법률_일부개정법률-7db9f5d6f3",
-      "layer": "gazette",
-      "title": "법률제20684호(국가유공자 등 예우 및 지원에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-086_법제처_법률제20684호_국가유공자_등_예우_및_지원에_관한_법률_일부개정법률-7db9f5d6f3.json"
-    },
-    {
-      "id": "gazette-2025-01-21-087_법제처_법률제20685호_독립유공자예우에_관한_법률_일부개정법률-1253349655",
-      "layer": "gazette",
-      "title": "법률제20685호(독립유공자예우에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-087_법제처_법률제20685호_독립유공자예우에_관한_법률_일부개정법률-1253349655.json"
-    },
-    {
-      "id": "gazette-2025-01-21-088_법제처_법률제20686호_보훈보상대상자_지원에_관한_법률_일부개정법률-da59b48960",
-      "layer": "gazette",
-      "title": "법률제20686호(보훈보상대상자 지원에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-088_법제처_법률제20686호_보훈보상대상자_지원에_관한_법률_일부개정법률-da59b48960.json"
-    },
-    {
-      "id": "gazette-2025-01-21-089_법제처_법률제20687호_참전유공자_예우_및_단체설립에_관한_법률_일부개정법률-c46c9c61d1",
-      "layer": "gazette",
-      "title": "법률제20687호(참전유공자 예우 및 단체설립에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-089_법제처_법률제20687호_참전유공자_예우_및_단체설립에_관한_법률_일부개정법률-c46c9c61d1.json"
-    },
-    {
-      "id": "gazette-2025-01-21-090_법제처_법률제20688호_특수임무유공자_예우_및_단체설립에_관한_법률_일부개정법률-4613a3fdb1",
-      "layer": "gazette",
-      "title": "법률제20688호(특수임무유공자 예우 및 단체설립에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-090_법제처_법률제20688호_특수임무유공자_예우_및_단체설립에_관한_법률_일부개정법률-4613a3fdb1.json"
-    },
-    {
-      "id": "gazette-2025-01-21-091_법제처_법률제20689호_경제자유구역의_지정_및_운영에_관한_특별법_일부개정법률-537ab0573d",
-      "layer": "gazette",
-      "title": "법률제20689호(경제자유구역의 지정 및 운영에 관한 특별법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-091_법제처_법률제20689호_경제자유구역의_지정_및_운영에_관한_특별법_일부개정법률-537ab0573d.json"
-    },
-    {
-      "id": "gazette-2025-01-21-092_법제처_법률제20690호_국가첨단전략산업_경쟁력_강화_및_보호에_관한_특별조치법_일부개정법률-2c6f6200c8",
-      "layer": "gazette",
-      "title": "법률제20690호(국가첨단전략산업 경쟁력 강화 및 보호에 관한 특별조치법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-092_법제처_법률제20690호_국가첨단전략산업_경쟁력_강화_및_보호에_관한_특별조치법_일부개정법률-2c6f6200c8.json"
-    },
-    {
-      "id": "gazette-2025-01-21-093_법제처_법률제20691호_기술의_이전_및_사업화_촉진에_관한_법률_일부개정법률-2eddbfd7d7",
-      "layer": "gazette",
-      "title": "법률제20691호(기술의 이전 및 사업화 촉진에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-093_법제처_법률제20691호_기술의_이전_및_사업화_촉진에_관한_법률_일부개정법률-2eddbfd7d7.json"
-    },
-    {
-      "id": "gazette-2025-01-21-094_법제처_법률제20692호_디자인보호법_일부개정법률-f8587326d3",
-      "layer": "gazette",
-      "title": "법률제20692호(디자인보호법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-094_법제처_법률제20692호_디자인보호법_일부개정법률-f8587326d3.json"
-    },
-    {
-      "id": "gazette-2025-01-21-095_법제처_법률제20693호_불공정무역행위_조사_및_산업피해구제에_관한_법률_일부개정법률-e9c4ce6b57",
-      "layer": "gazette",
-      "title": "법률제20693호(불공정무역행위 조사 및 산업피해구제에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-095_법제처_법률제20693호_불공정무역행위_조사_및_산업피해구제에_관한_법률_일부개정법률-e9c4ce6b57.json"
-    },
-    {
-      "id": "gazette-2025-01-21-096_법제처_법률제20694호_산업기술의_유출방지_및_보호에_관한_법률_일부개정법률-4080803e1a",
-      "layer": "gazette",
-      "title": "법률제20694호(산업기술의 유출방지 및 보호에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-096_법제처_법률제20694호_산업기술의_유출방지_및_보호에_관한_법률_일부개정법률-4080803e1a.json"
-    },
-    {
-      "id": "gazette-2025-01-21-097_법제처_법률제20695호_산업기술혁신_촉진법_일부개정법률-1cad80a318",
-      "layer": "gazette",
-      "title": "법률제20695호(산업기술혁신 촉진법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-097_법제처_법률제20695호_산업기술혁신_촉진법_일부개정법률-1cad80a318.json"
-    },
-    {
-      "id": "gazette-2025-01-21-098_법제처_법률제20696호_산업집적활성화_및_공장설립에_관한_법률_일부개정법률-5f3da8d3f0",
-      "layer": "gazette",
-      "title": "법률제20696호(산업집적활성화 및 공장설립에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-098_법제처_법률제20696호_산업집적활성화_및_공장설립에_관한_법률_일부개정법률-5f3da8d3f0.json"
-    },
-    {
-      "id": "gazette-2025-01-21-099_법제처_법률제20697호_상표법_일부개정법률-11cf257cd8",
-      "layer": "gazette",
-      "title": "법률제20697호(상표법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-099_법제처_법률제20697호_상표법_일부개정법률-11cf257cd8.json"
-    },
-    {
-      "id": "gazette-2025-01-21-100_법제처_법률제20698호_실용신안법_일부개정법률-4c8433a590",
-      "layer": "gazette",
-      "title": "법률제20698호(실용신안법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-100_법제처_법률제20698호_실용신안법_일부개정법률-4c8433a590.json"
-    },
-    {
-      "id": "gazette-2025-01-21-101_법제처_법률제20699호_자유무역지역의_지정_및_운영에_관한_법률_일부개정법률-d06ed3ecb3",
-      "layer": "gazette",
-      "title": "법률제20699호(자유무역지역의 지정 및 운영에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-101_법제처_법률제20699호_자유무역지역의_지정_및_운영에_관한_법률_일부개정법률-d06ed3ecb3.json"
-    },
-    {
-      "id": "gazette-2025-01-21-102_법제처_법률제20700호_특허법_일부개정법률-921ce691fb",
-      "layer": "gazette",
-      "title": "법률제20700호(특허법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-102_법제처_법률제20700호_특허법_일부개정법률-921ce691fb.json"
-    },
-    {
-      "id": "gazette-2025-01-21-103_법제처_법률제20701호_환경친화적_자동차의_개발_및_보급_촉진에_관한_법률_일부개정법률-cfaa2aa324",
-      "layer": "gazette",
-      "title": "법률제20701호(환경친화적 자동차의 개발 및 보급 촉진에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-103_법제처_법률제20701호_환경친화적_자동차의_개발_및_보급_촉진에_관한_법률_일부개정법률-cfaa2aa324.json"
-    },
-    {
-      "id": "gazette-2025-01-21-104_법제처_법률제20702호_철도사업법_일부개정법률-0af39aa4c2",
-      "layer": "gazette",
-      "title": "법률제20702호(철도사업법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-104_법제처_법률제20702호_철도사업법_일부개정법률-0af39aa4c2.json"
-    },
-    {
-      "id": "gazette-2025-01-21-105_법제처_법률제20703호_대_중소기업_상생협력_촉진에_관한_법률_일부개정법률-e87509dc0f",
-      "layer": "gazette",
-      "title": "법률제20703호(대·중소기업 상생협력 촉진에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-105_법제처_법률제20703호_대_중소기업_상생협력_촉진에_관한_법률_일부개정법률-e87509dc0f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-106_법제처_법률제20704호_소상공인_보호_및_지원에_관한_법률_일부개정법률-1a35e6dc81",
-      "layer": "gazette",
-      "title": "법률제20704호(소상공인 보호 및 지원에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-106_법제처_법률제20704호_소상공인_보호_및_지원에_관한_법률_일부개정법률-1a35e6dc81.json"
-    },
-    {
-      "id": "gazette-2025-01-21-107_법제처_법률제20705호_소상공인_생계형_적합업종_지정에_관한_특별법_일부개정법률-90b7e2653e",
-      "layer": "gazette",
-      "title": "법률제20705호(소상공인 생계형 적합업종 지정에 관한 특별법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-107_법제처_법률제20705호_소상공인_생계형_적합업종_지정에_관한_특별법_일부개정법률-90b7e2653e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-108_법제처_법률제20706호_전통시장_및_상점가_육성을_위한_특별법_일부개정법률-8aedb632b3",
-      "layer": "gazette",
-      "title": "법률제20706호(전통시장 및 상점가 육성을 위한 특별법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-108_법제처_법률제20706호_전통시장_및_상점가_육성을_위한_특별법_일부개정법률-8aedb632b3.json"
-    },
-    {
-      "id": "gazette-2025-01-21-109_법제처_법률제20707호_중소기업_인력지원_특별법_일부개정법률-54fc438e09",
-      "layer": "gazette",
-      "title": "법률제20707호(중소기업 인력지원 특별법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-109_법제처_법률제20707호_중소기업_인력지원_특별법_일부개정법률-54fc438e09.json"
-    },
-    {
-      "id": "gazette-2025-01-21-110_법제처_법률제20708호_중소기업창업_지원법_일부개정법률-70dc154773",
-      "layer": "gazette",
-      "title": "법률제20708호(중소기업창업 지원법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-110_법제처_법률제20708호_중소기업창업_지원법_일부개정법률-70dc154773.json"
-    },
-    {
-      "id": "gazette-2025-01-21-111_법제처_법률제20709호_중소기업협동조합법_일부개정법률-f11ad1a628",
-      "layer": "gazette",
-      "title": "법률제20709호(중소기업협동조합법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-111_법제처_법률제20709호_중소기업협동조합법_일부개정법률-f11ad1a628.json"
-    },
-    {
-      "id": "gazette-2025-01-21-112_법제처_법률제20710호_지역신용보증재단법_일부개정법률-0796dab78f",
-      "layer": "gazette",
-      "title": "법률제20710호(지역신용보증재단법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-112_법제처_법률제20710호_지역신용보증재단법_일부개정법률-0796dab78f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-113_법제처_법률제20711호_독점규제_및_공정거래에_관한_법률_일부개정법률-d70b5e5c3e",
-      "layer": "gazette",
-      "title": "법률제20711호(독점규제 및 공정거래에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-113_법제처_법률제20711호_독점규제_및_공정거래에_관한_법률_일부개정법률-d70b5e5c3e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-114_법제처_법률제20712호_이행강제금_규정_정비를_위한_가맹사업거래의_공정화에_관한_법률_등_10개_법률의_일부개정에_관한_-4b1f52f763",
-      "layer": "gazette",
-      "title": "법률제20712호(이행강제금 규정 정비를 위한 가맹사업거래의 공정화에 관한 법률 등 10개 법률의 일부개정에 관한 법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-114_법제처_법률제20712호_이행강제금_규정_정비를_위한_가맹사업거래의_공정화에_관한_법률_등_10개_법률의_일부개정에_관한_-4b1f52f763.json"
-    },
-    {
-      "id": "gazette-2025-01-21-115_법제처_법률제20713호_공중_등_협박목적_및_대량살상무기확산을_위한_자금조달행위의_금지에_관한_법률_일부개정법률-d8ff2c490e",
-      "layer": "gazette",
-      "title": "법률제20713호(공중 등 협박목적 및 대량살상무기확산을 위한 자금조달행위의 금지에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-115_법제처_법률제20713호_공중_등_협박목적_및_대량살상무기확산을_위한_자금조달행위의_금지에_관한_법률_일부개정법률-d8ff2c490e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-116_법제처_법률제20714호_대부업_등의_등록_및_금융이용자_보호에_관한_법률_일부개정법률-cc271a2733",
-      "layer": "gazette",
-      "title": "법률제20714호(대부업 등의 등록 및 금융이용자 보호에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-116_법제처_법률제20714호_대부업_등의_등록_및_금융이용자_보호에_관한_법률_일부개정법률-cc271a2733.json"
-    },
-    {
-      "id": "gazette-2025-01-21-117_법제처_법률제20715호_신용협동조합법_일부개정법률-d29f39543f",
-      "layer": "gazette",
-      "title": "법률제20715호(신용협동조합법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-117_법제처_법률제20715호_신용협동조합법_일부개정법률-d29f39543f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-118_법제처_법률제20716호_여신전문금융업법_일부개정법률-1a32ac35f9",
-      "layer": "gazette",
-      "title": "법률제20716호(여신전문금융업법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-118_법제처_법률제20716호_여신전문금융업법_일부개정법률-1a32ac35f9.json"
-    },
-    {
-      "id": "gazette-2025-01-21-119_법제처_법률제20717호_예금자보호법_일부개정법률-75ece8bede",
-      "layer": "gazette",
-      "title": "법률제20717호(예금자보호법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-119_법제처_법률제20717호_예금자보호법_일부개정법률-75ece8bede.json"
-    },
-    {
-      "id": "gazette-2025-01-21-120_법제처_법률제20718호_자본시장과_금융투자업에_관한_법률_일부개정법률-45fbe8bc03",
-      "layer": "gazette",
-      "title": "법률제20718호(자본시장과 금융투자업에 관한 법률 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-120_법제처_법률제20718호_자본시장과_금융투자업에_관한_법률_일부개정법률-45fbe8bc03.json"
-    },
-    {
-      "id": "gazette-2025-01-21-121_법제처_법률제20719호_한국산업은행법_일부개정법률-826990845f",
-      "layer": "gazette",
-      "title": "법률제20719호(한국산업은행법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-121_법제처_법률제20719호_한국산업은행법_일부개정법률-826990845f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-122_법제처_법률제20720호_원자력시설_등의_방호_및_방사능_방재_대책법_일부개정법률-0eced0f060",
-      "layer": "gazette",
-      "title": "법률제20720호(원자력시설 등의 방호 및 방사능 방재 대책법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-122_법제처_법률제20720호_원자력시설_등의_방호_및_방사능_방재_대책법_일부개정법률-0eced0f060.json"
-    },
-    {
-      "id": "gazette-2025-01-21-123_법제처_법률제20721호_원자력안전법_일부개정법률-4a4d577d6c",
-      "layer": "gazette",
-      "title": "법률제20721호(원자력안전법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-123_법제처_법률제20721호_원자력안전법_일부개정법률-4a4d577d6c.json"
-    },
-    {
-      "id": "gazette-2025-01-21-124_법제처_법률제20680호_한국국제교류재단법_일부개정법률-17c9acbc18",
-      "layer": "gazette",
-      "title": "법률제20680호(한국국제교류재단법 일부개정법률)",
-      "institution": "법제처",
-      "date": "2025-01-21",
-      "docType": "법률",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-124_법제처_법률제20680호_한국국제교류재단법_일부개정법률-17c9acbc18.json"
-    },
-    {
-      "id": "gazette-2025-01-21-125_보건복지부_보건복지부공고제2025_53호_장애인복지법_시행령_일부개정령안_입법예고-66ede36aec",
-      "layer": "gazette",
-      "title": "보건복지부공고제2025-53호(장애인복지법 시행령 일부개정령안 입법예고)",
-      "institution": "보건복지부",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-125_보건복지부_보건복지부공고제2025_53호_장애인복지법_시행령_일부개정령안_입법예고-66ede36aec.json"
-    },
-    {
-      "id": "gazette-2025-01-21-126_보건복지부_보건복지부공고제2025_57호_약사법_시행규칙_일부개정령안_입법예고-a3f0ff710e",
-      "layer": "gazette",
-      "title": "보건복지부공고제2025-57호(약사법 시행규칙 일부개정령안 입법예고)",
-      "institution": "보건복지부",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-126_보건복지부_보건복지부공고제2025_57호_약사법_시행규칙_일부개정령안_입법예고-a3f0ff710e.json"
-    },
-    {
-      "id": "gazette-2025-01-21-127_산림청_남부지방산림청고시제2025_7호_채종림_재지정_고시-b717160a73",
-      "layer": "gazette",
-      "title": "남부지방산림청고시제2025-7호(채종림 재지정 고시)",
-      "institution": "산림청",
-      "date": "2025-01-21",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-127_산림청_남부지방산림청고시제2025_7호_채종림_재지정_고시-b717160a73.json"
-    },
-    {
-      "id": "gazette-2025-01-21-128_산업통상자원부_국가기술표준원공고제2025_17호_한국산업표준_KS_인증대상_품목지정-e3056debc6",
-      "layer": "gazette",
-      "title": "국가기술표준원공고제2025-17호(한국산업표준(KS) 인증대상 품목지정)",
-      "institution": "산업통상자원부",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-128_산업통상자원부_국가기술표준원공고제2025_17호_한국산업표준_KS_인증대상_품목지정-e3056debc6.json"
-    },
-    {
-      "id": "gazette-2025-01-21-129_소방청_소방청공고제2025_5호_위험물안전관리대행기관_신규지정-7be97e9a45",
-      "layer": "gazette",
-      "title": "소방청공고제2025-5호(위험물안전관리대행기관 신규지정)",
-      "institution": "소방청",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-129_소방청_소방청공고제2025_5호_위험물안전관리대행기관_신규지정-7be97e9a45.json"
-    },
-    {
-      "id": "gazette-2025-01-21-130_정부산하기관및위원회_게임물관리위원회공고제2025_7호_민간등급분류기관_등급분류_결정_게임물_목록_24년_12월-79b53b8faa",
-      "layer": "gazette",
-      "title": "게임물관리위원회공고제2025-7호(민간등급분류기관 등급분류 결정 게임물 목록(24년 12월))",
-      "institution": "정부산하기관및위원회",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-130_정부산하기관및위원회_게임물관리위원회공고제2025_7호_민간등급분류기관_등급분류_결정_게임물_목록_24년_12월-79b53b8faa.json"
-    },
-    {
-      "id": "gazette-2025-01-21-131_정부산하기관및위원회_게임물관리위원회공고제2025_3호_게임물관리위원회_등급분류_결정_게임물_목록_24년_12월-3ba63e515a",
-      "layer": "gazette",
-      "title": "게임물관리위원회공고제2025-3호(게임물관리위원회 등급분류 결정 게임물 목록(24년 12월))",
-      "institution": "정부산하기관및위원회",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-131_정부산하기관및위원회_게임물관리위원회공고제2025_3호_게임물관리위원회_등급분류_결정_게임물_목록_24년_12월-3ba63e515a.json"
-    },
-    {
-      "id": "gazette-2025-01-21-132_정부산하기관및위원회_게임물관리위원회공고제2025_4호_게임물관리위원회_등급분류_거부_결정_게임물_목록_24년_12월-dedb9b1162",
-      "layer": "gazette",
-      "title": "게임물관리위원회공고제2025-4호(게임물관리위원회 등급분류 거부 결정 게임물 목록(24년 12월))",
-      "institution": "정부산하기관및위원회",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-132_정부산하기관및위원회_게임물관리위원회공고제2025_4호_게임물관리위원회_등급분류_거부_결정_게임물_목록_24년_12월-dedb9b1162.json"
-    },
-    {
-      "id": "gazette-2025-01-21-133_정부산하기관및위원회_게임물관리위원회공고제2025_5호_게임물관리위원회_등급분류_결정_취소_게임물_목록_24년_12월-14fd591c8f",
-      "layer": "gazette",
-      "title": "게임물관리위원회공고제2025-5호(게임물관리위원회 등급분류 결정 취소 게임물 목록(24년 12월))",
-      "institution": "정부산하기관및위원회",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-133_정부산하기관및위원회_게임물관리위원회공고제2025_5호_게임물관리위원회_등급분류_결정_취소_게임물_목록_24년_12월-14fd591c8f.json"
-    },
-    {
-      "id": "gazette-2025-01-21-134_정부산하기관및위원회_게임물관리위원회공고제2025_6호_게임물관리위원회_등급분류_결정_취소_예정_게임물_목록_24년_12월-1ac33910e1",
-      "layer": "gazette",
-      "title": "게임물관리위원회공고제2025-6호(게임물관리위원회 등급분류 결정 취소 예정 게임물 목록(24년 12월))",
-      "institution": "정부산하기관및위원회",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-134_정부산하기관및위원회_게임물관리위원회공고제2025_6호_게임물관리위원회_등급분류_결정_취소_예정_게임물_목록_24년_12월-1ac33910e1.json"
-    },
-    {
-      "id": "gazette-2025-01-21-135_조달청_조달청공고제2025_28호_부정당업자_입찰참가자격_제한_처분을_위한_공시송달-b6366663be",
-      "layer": "gazette",
-      "title": "조달청공고제2025-28호(부정당업자 입찰참가자격 제한 처분을 위한 공시송달)",
-      "institution": "조달청",
-      "date": "2025-01-21",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-135_조달청_조달청공고제2025_28호_부정당업자_입찰참가자격_제한_처분을_위한_공시송달-b6366663be.json"
-    },
-    {
-      "id": "gazette-2025-01-21-136_해양경찰청_평택해양경찰서공고제2025_1호_과태료_납부_독촉_및_압류_예고_통지_공시송달-e8c398da25",
-      "layer": "gazette",
-      "title": "평택해양경찰서공고제2025-1호(과태료 납부 독촉 및 압류 예고 통지 공시송달)",
+      "title": "인천해양경찰서공고제2024-3호(「연안사고 예방에 관한 법률」위반자(박O숙)에 대한 과태료 부과 처분 공시송달 공고문)",
       "institution": "해양경찰청",
-      "date": "2025-01-21",
+      "date": "2024-01-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-136_해양경찰청_평택해양경찰서공고제2025_1호_과태료_납부_독촉_및_압류_예고_통지_공시송달-e8c398da25.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-104_해양경찰청_인천해양경찰서공고제2024_3호_연안사고_예방에_관한_법률_위반자_박O숙_에_대한_과태료_부과_처분_공시송달_공-7adbeff59f.json"
     },
     {
-      "id": "gazette-2025-01-21-137_해양수산부_해양수산부고시제2025_10호_인천항_육상항만구역_및_지형도면_변경_고시-01c95871d7",
+      "id": "gazette-2024-01-12-105_해양수산부_해양수산부공고제2024_30호_2024년도_연안선박_현대화_이차보전사업_대상자_공모-14d1069cef",
       "layer": "gazette",
-      "title": "해양수산부고시제2025-10호(인천항 육상항만구역 및 지형도면 변경 고시)",
+      "title": "해양수산부공고제2024-30호(2024년도 연안선박 현대화 이차보전사업 대상자 공모)",
       "institution": "해양수산부",
-      "date": "2025-01-21",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-137_해양수산부_해양수산부고시제2025_10호_인천항_육상항만구역_및_지형도면_변경_고시-01c95871d7.json"
-    },
-    {
-      "id": "gazette-2025-01-21-138_해양수산부_울산지방해양수산청고시제2025_4호_항만시설공사_준공_고시-1b656f91d7",
-      "layer": "gazette",
-      "title": "울산지방해양수산청고시제2025-4호(항만시설공사 준공 고시)",
-      "institution": "해양수산부",
-      "date": "2025-01-21",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-138_해양수산부_울산지방해양수산청고시제2025_4호_항만시설공사_준공_고시-1b656f91d7.json"
-    },
-    {
-      "id": "gazette-2025-01-21-139_해양수산부_해양수산부고시제2025_12호_항만기본계획_변경_고시_울산항_등_3개항-87919bda04",
-      "layer": "gazette",
-      "title": "해양수산부고시제2025-12호(항만기본계획 변경 고시(울산항 등 3개항))",
-      "institution": "해양수산부",
-      "date": "2025-01-21",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-139_해양수산부_해양수산부고시제2025_12호_항만기본계획_변경_고시_울산항_등_3개항-87919bda04.json"
-    },
-    {
-      "id": "gazette-2025-01-21-140_해양수산부_부산지방해양수산청공고제2025_10호_비관리청_항만개발사업_실시계획_변경승인_공고_경상남도_활수산물_수출물류_거-c4d9f134b8",
-      "layer": "gazette",
-      "title": "부산지방해양수산청공고제2025-10호(비관리청 항만개발사업 실시계획 변경승인 공고(경상남도 활수산물 수출물류 거점센터 연안해수 취수관 매설공사))",
-      "institution": "해양수산부",
-      "date": "2025-01-21",
+      "date": "2024-01-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2025-01-21-140_해양수산부_부산지방해양수산청공고제2025_10호_비관리청_항만개발사업_실시계획_변경승인_공고_경상남도_활수산물_수출물류_거-c4d9f134b8.json"
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-105_해양수산부_해양수산부공고제2024_30호_2024년도_연안선박_현대화_이차보전사업_대상자_공모-14d1069cef.json"
+    },
+    {
+      "id": "gazette-2024-01-12-106_해양수산부_부산지방해양수산청고시제2024_3호_사설항로표지_신설_한림현대해상풍력2호등_외_9기-65bf98cb9c",
+      "layer": "gazette",
+      "title": "부산지방해양수산청고시제2024-3호(사설항로표지 신설(한림현대해상풍력2호등 외 9기))",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-106_해양수산부_부산지방해양수산청고시제2024_3호_사설항로표지_신설_한림현대해상풍력2호등_외_9기-65bf98cb9c.json"
+    },
+    {
+      "id": "gazette-2024-01-12-107_해양수산부_여수지방해양수산청공고제2024_4호_안전점검_수행기관_지정_공고-16c841a301",
+      "layer": "gazette",
+      "title": "여수지방해양수산청공고제2024-4호(안전점검 수행기관 지정 공고)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-107_해양수산부_여수지방해양수산청공고제2024_4호_안전점검_수행기관_지정_공고-16c841a301.json"
+    },
+    {
+      "id": "gazette-2024-01-12-108_해양수산부_부산항건설사무소공고제2024_2호_비관리청_항만개발사업_준공확인증명서_발급_공고-c5376cbb7a",
+      "layer": "gazette",
+      "title": "부산항건설사무소공고제2024-2호(비관리청 항만개발사업 준공확인증명서 발급 공고)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-108_해양수산부_부산항건설사무소공고제2024_2호_비관리청_항만개발사업_준공확인증명서_발급_공고-c5376cbb7a.json"
+    },
+    {
+      "id": "gazette-2024-01-12-109_해양수산부_인천지방해양수산청고시제2024_2호_사설항로표지_현황변경-2f824fac3e",
+      "layer": "gazette",
+      "title": "인천지방해양수산청고시제2024-2호(사설항로표지 현황변경)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-109_해양수산부_인천지방해양수산청고시제2024_2호_사설항로표지_현황변경-2f824fac3e.json"
+    },
+    {
+      "id": "gazette-2024-01-12-110_해양수산부_군산지방해양수산청공고제2024_4호_비관리청_항만개발사업_실시계획_승인_공고_군산저유소부두_보수공사-05d4ea9905",
+      "layer": "gazette",
+      "title": "군산지방해양수산청공고제2024-4호(비관리청 항만개발사업 실시계획 승인 공고(군산저유소부두 보수공사))",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-110_해양수산부_군산지방해양수산청공고제2024_4호_비관리청_항만개발사업_실시계획_승인_공고_군산저유소부두_보수공사-05d4ea9905.json"
+    },
+    {
+      "id": "gazette-2024-01-12-111_해양수산부_해양수산부공고제2024_22호_수산물_유통의_관리_및_지원에_관한_법률_시행규칙_일부개정령안_입법예고-ced3fff3ad",
+      "layer": "gazette",
+      "title": "해양수산부공고제2024-22호(수산물 유통의 관리 및 지원에 관한 법률 시행규칙 일부개정령안 입법예고)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-111_해양수산부_해양수산부공고제2024_22호_수산물_유통의_관리_및_지원에_관한_법률_시행규칙_일부개정령안_입법예고-ced3fff3ad.json"
+    },
+    {
+      "id": "gazette-2024-01-12-112_해양수산부_해양수산부공고제2024_23호_수산물_유통의_관리_및_지원에_관한_법률_시행령_일부개정령안_입법예고-1d0538883e",
+      "layer": "gazette",
+      "title": "해양수산부공고제2024-23호(수산물 유통의 관리 및 지원에 관한 법률 시행령 일부개정령안 입법예고)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-112_해양수산부_해양수산부공고제2024_23호_수산물_유통의_관리_및_지원에_관한_법률_시행령_일부개정령안_입법예고-1d0538883e.json"
+    },
+    {
+      "id": "gazette-2024-01-12-113_해양수산부_해양수산부공고제2024_38호_어선안전조업법_시행령_일부개정령안_입법예고-9580dd1e95",
+      "layer": "gazette",
+      "title": "해양수산부공고제2024-38호(어선안전조업법 시행령 일부개정령안 입법예고)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-113_해양수산부_해양수산부공고제2024_38호_어선안전조업법_시행령_일부개정령안_입법예고-9580dd1e95.json"
+    },
+    {
+      "id": "gazette-2024-01-12-114_해양수산부_국립수산과학원고시제2024_1호_한국산업표준_제정_중_정정-6e6388fc0f",
+      "layer": "gazette",
+      "title": "국립수산과학원고시제2024-1호(한국산업표준 제정 중 정정)",
+      "institution": "해양수산부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-114_해양수산부_국립수산과학원고시제2024_1호_한국산업표준_제정_중_정정-6e6388fc0f.json"
+    },
+    {
+      "id": "gazette-2024-01-12-115_행정중심복합도시건설청_행정중심복합도시건설청공고제2024_3호_도시계획시설사업_사회복지시설_공사완료_공고_4생활권_광역복지지-d1f794fd90",
+      "layer": "gazette",
+      "title": "행정중심복합도시건설청공고제2024-3호(도시계획시설사업(사회복지시설) 공사완료 공고(4생활권 광역복지지원센터))",
+      "institution": "행정중심복합도시건설청",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-115_행정중심복합도시건설청_행정중심복합도시건설청공고제2024_3호_도시계획시설사업_사회복지시설_공사완료_공고_4생활권_광역복지지-d1f794fd90.json"
+    },
+    {
+      "id": "gazette-2024-01-12-116_행정중심복합도시건설청_행정중심복합도시건설청공고제2024_4호_도시계획시설사업_하천_실시계획_변경_열람_공고_제천-0f46257b63",
+      "layer": "gazette",
+      "title": "행정중심복합도시건설청공고제2024-4호(도시계획시설사업(하천) 실시계획(변경)열람 공고 - (제천))",
+      "institution": "행정중심복합도시건설청",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-116_행정중심복합도시건설청_행정중심복합도시건설청공고제2024_4호_도시계획시설사업_하천_실시계획_변경_열람_공고_제천-0f46257b63.json"
+    },
+    {
+      "id": "gazette-2024-01-12-117_행정중심복합도시건설청_행정중심복합도시건설청공고제2024_5호_도시계획시설사업_수도공급시설_실시계획_변경_열람_공고_6_3생-9ae67d2cd8",
+      "layer": "gazette",
+      "title": "행정중심복합도시건설청공고제2024-5호(도시계획시설사업(수도공급시설) 실시계획(변경)열람 공고 - (6-3생 상수가압장))",
+      "institution": "행정중심복합도시건설청",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-117_행정중심복합도시건설청_행정중심복합도시건설청공고제2024_5호_도시계획시설사업_수도공급시설_실시계획_변경_열람_공고_6_3생-9ae67d2cd8.json"
+    },
+    {
+      "id": "gazette-2024-01-12-118_환경부_환경부고시제2024_14호_2024년_특정관리제품_재활용의무량-08608f2fea",
+      "layer": "gazette",
+      "title": "환경부고시제2024-14호(2024년 특정관리제품 재활용의무량)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-118_환경부_환경부고시제2024_14호_2024년_특정관리제품_재활용의무량-08608f2fea.json"
+    },
+    {
+      "id": "gazette-2024-01-12-119_환경부_영산강유역환경청공고제2024_1호_야생생물법_위반자에_대한_과태료_납부_독촉_공시송달_공고-bbd3a18cc4",
+      "layer": "gazette",
+      "title": "영산강유역환경청공고제2024-1호(「야생생물법」 위반자에 대한 과태료 납부 독촉 공시송달 공고)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-119_환경부_영산강유역환경청공고제2024_1호_야생생물법_위반자에_대한_과태료_납부_독촉_공시송달_공고-bbd3a18cc4.json"
+    },
+    {
+      "id": "gazette-2024-01-12-120_환경부_국립환경과학원고시제2024_2호_화학물질의_유해성심사결과_일부개정_중_정정-48a192c399",
+      "layer": "gazette",
+      "title": "국립환경과학원고시제2024-2호(화학물질의 유해성심사결과 일부개정 중 정정)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-120_환경부_국립환경과학원고시제2024_2호_화학물질의_유해성심사결과_일부개정_중_정정-48a192c399.json"
+    },
+    {
+      "id": "gazette-2024-01-12-121_환경부_국립환경과학원고시제2024_6호_화학물질의_분류_및_표시_등에_관한_규정_일부개정_중_정정-b5d885e2e4",
+      "layer": "gazette",
+      "title": "국립환경과학원고시제2024-6호(「화학물질의 분류 및 표시 등에 관한 규정」일부개정  중 정정)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-121_환경부_국립환경과학원고시제2024_6호_화학물질의_분류_및_표시_등에_관한_규정_일부개정_중_정정-b5d885e2e4.json"
+    },
+    {
+      "id": "gazette-2024-01-12-122_환경부_영산강유역환경청고시제2024_04호_대기환경측정망_설치계획_고시-6f49b043b5",
+      "layer": "gazette",
+      "title": "영산강유역환경청고시제2024-04호(대기환경측정망 설치계획 고시)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-122_환경부_영산강유역환경청고시제2024_04호_대기환경측정망_설치계획_고시-6f49b043b5.json"
+    },
+    {
+      "id": "gazette-2024-01-12-123_환경부_낙동강유역환경청고시제2024_02호_하천공사시행계획_취소_고시_수영강_회동지구-871eaf16ed",
+      "layer": "gazette",
+      "title": "낙동강유역환경청고시제2024-02호(하천공사시행계획(취소) 고시(수영강 회동지구))",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-123_환경부_낙동강유역환경청고시제2024_02호_하천공사시행계획_취소_고시_수영강_회동지구-871eaf16ed.json"
+    },
+    {
+      "id": "gazette-2024-01-12-124_환경부_한강홍수통제소고시제2024_04호_수문조사시설_유량관측소_준공_고시-9a52c77707",
+      "layer": "gazette",
+      "title": "한강홍수통제소고시제2024-04호(수문조사시설(유량관측소) 준공 고시)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-124_환경부_한강홍수통제소고시제2024_04호_수문조사시설_유량관측소_준공_고시-9a52c77707.json"
+    },
+    {
+      "id": "gazette-2024-01-12-125_환경부_환경부공고제2024_28호_순환경제사회_전환_촉진법_시행령_일부개정령안_입법예고-45de8b7fe5",
+      "layer": "gazette",
+      "title": "환경부공고제2024-28호(순환경제사회 전환 촉진법 시행령 일부개정령안 입법예고)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-125_환경부_환경부공고제2024_28호_순환경제사회_전환_촉진법_시행령_일부개정령안_입법예고-45de8b7fe5.json"
+    },
+    {
+      "id": "gazette-2024-01-12-126_환경부_환경부공고제2024_27호_순환경제사회_전환_촉진법_시행규칙_일부개정령안_입법예고-277d7643c3",
+      "layer": "gazette",
+      "title": "환경부공고제2024-27호(순환경제사회 전환 촉진법 시행규칙 일부개정령안 입법예고)",
+      "institution": "환경부",
+      "date": "2024-01-12",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-12-126_환경부_환경부공고제2024_27호_순환경제사회_전환_촉진법_시행규칙_일부개정령안_입법예고-277d7643c3.json"
+    },
+    {
+      "id": "gazette-2024-01-15-001_개인정보보호위원회_상훈_39_우수공무원_39_정부포상_수여_개인정보보호위원회-9993cfa23c",
+      "layer": "gazette",
+      "title": "상훈(& #39;우수공무원& #39; 정부포상 수여 (개인정보보호위원회))",
+      "institution": "개인정보보호위원회",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-001_개인정보보호위원회_상훈_39_우수공무원_39_정부포상_수여_개인정보보호위원회-9993cfa23c.json"
+    },
+    {
+      "id": "gazette-2024-01-15-002_개인정보보호위원회_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_개인정보보호위원회-e3d81595b5",
+      "layer": "gazette",
+      "title": "상훈(& #39;2023년 하반기 모범공무원(일반)& #39; 정부포상 수여 (개인정보보호위원회))",
+      "institution": "개인정보보호위원회",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-002_개인정보보호위원회_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_개인정보보호위원회-e3d81595b5.json"
+    },
+    {
+      "id": "gazette-2024-01-15-003_경기도교육청_세담초등학교공고제2024_1호_관인_공인_등록-6c40847888",
+      "layer": "gazette",
+      "title": "세담초등학교공고제2024-1호(관인(공인)등록)",
+      "institution": "경기도교육청",
+      "date": "2024-01-15",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-003_경기도교육청_세담초등학교공고제2024_1호_관인_공인_등록-6c40847888.json"
+    },
+    {
+      "id": "gazette-2024-01-15-004_경기도교육청_율정중학교공고제2024_1호_율정중학교_관인_공인_등록-4e172fe917",
+      "layer": "gazette",
+      "title": "율정중학교공고제2024-1호(율정중학교 관인(공인)등록)",
+      "institution": "경기도교육청",
+      "date": "2024-01-15",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-004_경기도교육청_율정중학교공고제2024_1호_율정중학교_관인_공인_등록-4e172fe917.json"
+    },
+    {
+      "id": "gazette-2024-01-15-005_공정거래위원회_공정거래위원회고시제2024_2호_경제분석_의견서_등의_제출에_관한_규정-7d5cc9b3cd",
+      "layer": "gazette",
+      "title": "공정거래위원회고시제2024-2호(경제분석 의견서 등의 제출에 관한 규정)",
+      "institution": "공정거래위원회",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-005_공정거래위원회_공정거래위원회고시제2024_2호_경제분석_의견서_등의_제출에_관한_규정-7d5cc9b3cd.json"
+    },
+    {
+      "id": "gazette-2024-01-15-006_과학기술정보통신부_서울전파관리소공고제2024_4호_연락_두절_및_활동_중단_비영리법인-eba71e5b7d",
+      "layer": "gazette",
+      "title": "서울전파관리소공고제2024-4호(연락 두절 및 활동 중단 비영리법인)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-006_과학기술정보통신부_서울전파관리소공고제2024_4호_연락_두절_및_활동_중단_비영리법인-eba71e5b7d.json"
+    },
+    {
+      "id": "gazette-2024-01-15-007_과학기술정보통신부_부산지방우정청고시제2024_2호_시간제_우편취급국_실시_고시-d7bec45ed8",
+      "layer": "gazette",
+      "title": "부산지방우정청고시제2024-2호(시간제 우편취급국 실시 고시)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-007_과학기술정보통신부_부산지방우정청고시제2024_2호_시간제_우편취급국_실시_고시-d7bec45ed8.json"
+    },
+    {
+      "id": "gazette-2024-01-15-008_과학기술정보통신부_전파시험인증센터공고제2024_1호_방송통신기자재등의_적합인증_적합등록_해지-672363dc04",
+      "layer": "gazette",
+      "title": "전파시험인증센터공고제2024-1호(방송통신기자재등의 적합인증, 적합등록, 해지 )",
+      "institution": "과학기술정보통신부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-008_과학기술정보통신부_전파시험인증센터공고제2024_1호_방송통신기자재등의_적합인증_적합등록_해지-672363dc04.json"
+    },
+    {
+      "id": "gazette-2024-01-15-009_과학기술정보통신부_광주전파관리소공고제2024_2호_2023년_4분기_전파사용료_독촉정기고지_반송내역_게시-42cb966b4e",
+      "layer": "gazette",
+      "title": "광주전파관리소공고제2024-2호(2023년 4분기 전파사용료(독촉정기고지) 반송내역 게시)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-009_과학기술정보통신부_광주전파관리소공고제2024_2호_2023년_4분기_전파사용료_독촉정기고지_반송내역_게시-42cb966b4e.json"
+    },
+    {
+      "id": "gazette-2024-01-15-010_과학기술정보통신부_광주전파관리소공고제2024_5호_행정처분_청문통지_불능_무선국_공시송달-dba1df8ced",
+      "layer": "gazette",
+      "title": "광주전파관리소공고제2024-5호(행정처분 청문통지 불능 무선국 공시송달)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-010_과학기술정보통신부_광주전파관리소공고제2024_5호_행정처분_청문통지_불능_무선국_공시송달-dba1df8ced.json"
+    },
+    {
+      "id": "gazette-2024-01-15-011_과학기술정보통신부_과학기술정보통신부공고제2024_0013호_전파법_시행령_일부개정령안_입법예고-855975327b",
+      "layer": "gazette",
+      "title": "과학기술정보통신부공고제2024-0013호(전파법 시행령 일부개정령안 입법예고)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-011_과학기술정보통신부_과학기술정보통신부공고제2024_0013호_전파법_시행령_일부개정령안_입법예고-855975327b.json"
+    },
+    {
+      "id": "gazette-2024-01-15-012_관세청_관세청고시제2024_4호_수출입물품_등에_대한_품목분류_변경고시_일부_개정-468162762d",
+      "layer": "gazette",
+      "title": "관세청고시제2024-4호(수출입물품 등에 대한 품목분류 변경고시 일부 개정)",
+      "institution": "관세청",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-012_관세청_관세청고시제2024_4호_수출입물품_등에_대한_품목분류_변경고시_일부_개정-468162762d.json"
+    },
+    {
+      "id": "gazette-2024-01-15-013_관세청_상훈_39_우수공무원_39_정부포상_수여_관세청-e5a759cb49",
+      "layer": "gazette",
+      "title": "상훈(& #39;우수공무원& #39; 정부포상 수여 (관세청))",
+      "institution": "관세청",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-013_관세청_상훈_39_우수공무원_39_정부포상_수여_관세청-e5a759cb49.json"
+    },
+    {
+      "id": "gazette-2024-01-15-014_관세청_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_관세청-288788f47b",
+      "layer": "gazette",
+      "title": "상훈(& #39;2023년 하반기 모범공무원(일반)& #39; 정부포상 수여 (관세청))",
+      "institution": "관세청",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-014_관세청_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_관세청-288788f47b.json"
+    },
+    {
+      "id": "gazette-2024-01-15-015_관세청_상훈_39_2023년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_관세청-ee755377b7",
+      "layer": "gazette",
+      "title": "상훈(& #39;2023년 하반기 퇴직공무원(일반) 포상& #39; 정부포상 수여 (관세청))",
+      "institution": "관세청",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-015_관세청_상훈_39_2023년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_관세청-ee755377b7.json"
+    },
+    {
+      "id": "gazette-2024-01-15-016_국방부_보상결정의_공시_군사법원-11a8bedbdb",
+      "layer": "gazette",
+      "title": "보상결정의 공시(군사법원)",
+      "institution": "국방부",
+      "date": "2024-01-15",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-016_국방부_보상결정의_공시_군사법원-11a8bedbdb.json"
+    },
+    {
+      "id": "gazette-2024-01-15-017_국토교통부_국토교통부공고제2024_27호_부동산투자회사_변경인가_공고-4cf305d84d",
+      "layer": "gazette",
+      "title": "국토교통부공고제2024-27호(부동산투자회사 변경인가 공고)",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-017_국토교통부_국토교통부공고제2024_27호_부동산투자회사_변경인가_공고-4cf305d84d.json"
+    },
+    {
+      "id": "gazette-2024-01-15-018_국토교통부_국토교통부공고제2024_26호_부동산투자회사_변경인가_공고-3c9e164d38",
+      "layer": "gazette",
+      "title": "국토교통부공고제2024-26호(부동산투자회사 변경인가 공고)",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-018_국토교통부_국토교통부공고제2024_26호_부동산투자회사_변경인가_공고-3c9e164d38.json"
+    },
+    {
+      "id": "gazette-2024-01-15-019_국토교통부_국토교통부고시제2024_34호_공공주택건설_사업계획_변경승인_이천장호원지구_B2BL-08af929cf6",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-34호(공공주택건설 사업계획 변경승인 (이천장호원지구 B2BL))",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-019_국토교통부_국토교통부고시제2024_34호_공공주택건설_사업계획_변경승인_이천장호원지구_B2BL-08af929cf6.json"
+    },
+    {
+      "id": "gazette-2024-01-15-020_국토교통부_서울지방항공청고시제2024_6호_공항개발사업_실시계획_변경승인_양양국제공항_이동지역_포장보수공사-da1f40d2be",
+      "layer": "gazette",
+      "title": "서울지방항공청고시제2024-6호(공항개발사업 실시계획 변경승인(양양국제공항 이동지역 포장보수공사))",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-020_국토교통부_서울지방항공청고시제2024_6호_공항개발사업_실시계획_변경승인_양양국제공항_이동지역_포장보수공사-da1f40d2be.json"
+    },
+    {
+      "id": "gazette-2024-01-15-021_국토교통부_서울지방항공청고시제2024_5호_공항개발사업_실시계획_승인_인천국제공항_스마트레이싱파크_공용도로_조성공사-8b6a4677c1",
+      "layer": "gazette",
+      "title": "서울지방항공청고시제2024-5호(공항개발사업 실시계획 승인(인천국제공항 스마트레이싱파크 공용도로 조성공사))",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-021_국토교통부_서울지방항공청고시제2024_5호_공항개발사업_실시계획_승인_인천국제공항_스마트레이싱파크_공용도로_조성공사-8b6a4677c1.json"
+    },
+    {
+      "id": "gazette-2024-01-15-022_국토교통부_국토교통부고시제2024_35호_국토모니터링_위탁기관_지정-c275fa871c",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-35호(국토모니터링 위탁기관 지정)",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-022_국토교통부_국토교통부고시제2024_35호_국토모니터링_위탁기관_지정-c275fa871c.json"
+    },
+    {
+      "id": "gazette-2024-01-15-023_국토교통부_부산지방항공청고시제2024_2호_공항개발사업_준공확인_부산항공대_격납고_전면_콘크리트_재포장_공사-4f4388b525",
+      "layer": "gazette",
+      "title": "부산지방항공청고시제2024-2호(공항개발사업 준공확인(부산항공대 격납고 전면 콘크리트 재포장 공사))",
+      "institution": "국토교통부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-023_국토교통부_부산지방항공청고시제2024_2호_공항개발사업_준공확인_부산항공대_격납고_전면_콘크리트_재포장_공사-4f4388b525.json"
+    },
+    {
+      "id": "gazette-2024-01-15-024_금융위원회_금융위원회공고제2024_13호_금융투자업_폐지_승인-178bc4015d",
+      "layer": "gazette",
+      "title": "금융위원회공고제2024-13호(금융투자업 폐지 승인)",
+      "institution": "금융위원회",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-024_금융위원회_금융위원회공고제2024_13호_금융투자업_폐지_승인-178bc4015d.json"
+    },
+    {
+      "id": "gazette-2024-01-15-025_금융위원회_금융위원회공고제2024_12호_금융투자업자_분할승인-46a9d14923",
+      "layer": "gazette",
+      "title": "금융위원회공고제2024-12호(금융투자업자 분할승인)",
+      "institution": "금융위원회",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-025_금융위원회_금융위원회공고제2024_12호_금융투자업자_분할승인-46a9d14923.json"
+    },
+    {
+      "id": "gazette-2024-01-15-026_기획재정부_기획재정부공고제2024_4호_미국_정부_지정_금융제재대상자와의_거래_주의_요청-9018b463a2",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-4호(미국 정부 지정 금융제재대상자와의 거래 주의 요청)",
+      "institution": "기획재정부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-026_기획재정부_기획재정부공고제2024_4호_미국_정부_지정_금융제재대상자와의_거래_주의_요청-9018b463a2.json"
+    },
+    {
+      "id": "gazette-2024-01-15-027_기획재정부_기획재정부공고제2024_5호_국고금_관리법_시행령_일부개정령안_입법예고-1eba29735d",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-5호(국고금 관리법 시행령 일부개정령안 입법예고)",
+      "institution": "기획재정부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-027_기획재정부_기획재정부공고제2024_5호_국고금_관리법_시행령_일부개정령안_입법예고-1eba29735d.json"
+    },
+    {
+      "id": "gazette-2024-01-15-028_농림축산식품부_농림축산식품부고시제2024_4호_공유수면_점용사용_변경_승인-01f6da9679",
+      "layer": "gazette",
+      "title": "농림축산식품부고시제2024-4호(공유수면 점용사용 변경 승인)",
+      "institution": "농림축산식품부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-028_농림축산식품부_농림축산식품부고시제2024_4호_공유수면_점용사용_변경_승인-01f6da9679.json"
+    },
+    {
+      "id": "gazette-2024-01-15-029_농촌진흥청_농촌진흥청공고제2024_4호_과태료_독촉장_반송에_따른_공시송달-ca0e16238b",
+      "layer": "gazette",
+      "title": "농촌진흥청공고제2024-4호(과태료 독촉장 반송에 따른 공시송달)",
+      "institution": "농촌진흥청",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-029_농촌진흥청_농촌진흥청공고제2024_4호_과태료_독촉장_반송에_따른_공시송달-ca0e16238b.json"
+    },
+    {
+      "id": "gazette-2024-01-15-030_대학_목포대학교공고제2024_01호_관인_공인_등록_폐기-e2ecdf61a4",
+      "layer": "gazette",
+      "title": "목포대학교공고제2024-01호(관인(공인)등록/폐기)",
+      "institution": "대학",
+      "date": "2024-01-15",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-030_대학_목포대학교공고제2024_01호_관인_공인_등록_폐기-e2ecdf61a4.json"
+    },
+    {
+      "id": "gazette-2024-01-15-031_대학_부경대학교공고제2024_2호_관인_공인_등록_폐기-546c4c320a",
+      "layer": "gazette",
+      "title": "부경대학교공고제2024-2호(관인(공인)등록/폐기)",
+      "institution": "대학",
+      "date": "2024-01-15",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-031_대학_부경대학교공고제2024_2호_관인_공인_등록_폐기-546c4c320a.json"
+    },
+    {
+      "id": "gazette-2024-01-15-032_문화재청_문화재청고시제2024_29호_매장문화재_보존조치유적_지정_고시_제2024_29호-b864e04539",
+      "layer": "gazette",
+      "title": "문화재청고시제2024-29호(매장문화재 보존조치유적 지정 고시(제2024-29호))",
+      "institution": "문화재청",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-032_문화재청_문화재청고시제2024_29호_매장문화재_보존조치유적_지정_고시_제2024_29호-b864e04539.json"
+    },
+    {
+      "id": "gazette-2024-01-15-033_방송통신위원회_방송통신사무소공고제2024_6호_과태료_고지서_및_독촉장_반송에_따른_공시송달-4f9f8a1894",
+      "layer": "gazette",
+      "title": "방송통신사무소공고제2024-6호(과태료 고지서 및 독촉장 반송에 따른 공시송달)",
+      "institution": "방송통신위원회",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-033_방송통신위원회_방송통신사무소공고제2024_6호_과태료_고지서_및_독촉장_반송에_따른_공시송달-4f9f8a1894.json"
+    },
+    {
+      "id": "gazette-2024-01-15-034_방송통신위원회_방송통신사무소공고제2024_7호_정보통신망법_위반에_따른_과태료_사전통지_및_의견제출_알림_공시송달-c32071209e",
+      "layer": "gazette",
+      "title": "방송통신사무소공고제2024-7호(정보통신망법 위반에 따른 과태료 사전통지 및 의견제출 알림 공시송달)",
+      "institution": "방송통신위원회",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-034_방송통신위원회_방송통신사무소공고제2024_7호_정보통신망법_위반에_따른_과태료_사전통지_및_의견제출_알림_공시송달-c32071209e.json"
+    },
+    {
+      "id": "gazette-2024-01-15-035_방송통신위원회_방송통신위원회공고제2024_003호_행정지도_서면교부_공시송달-54b9fa787a",
+      "layer": "gazette",
+      "title": "방송통신위원회공고제2024-003호(행정지도 서면교부(공시송달))",
+      "institution": "방송통신위원회",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-035_방송통신위원회_방송통신위원회공고제2024_003호_행정지도_서면교부_공시송달-54b9fa787a.json"
+    },
+    {
+      "id": "gazette-2024-01-15-036_법무부_서울출입국_외국인청고시제2024_1호_국적취득-5e764b84b2",
+      "layer": "gazette",
+      "title": "서울출입국.외국인청고시제2024-1호(국적취득)",
+      "institution": "법무부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-036_법무부_서울출입국_외국인청고시제2024_1호_국적취득-5e764b84b2.json"
+    },
+    {
+      "id": "gazette-2024-01-15-037_법무부_인천출입국_외국인청고시제2024_4호_국적취득-e5a4fb7b42",
+      "layer": "gazette",
+      "title": "인천출입국.외국인청고시제2024-4호(국적취득)",
+      "institution": "법무부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-037_법무부_인천출입국_외국인청고시제2024_4호_국적취득-e5a4fb7b42.json"
+    },
+    {
+      "id": "gazette-2024-01-15-038_법제처_대통령령제34110호_지방재정법_시행령_일부개정령_중_정정-82cef8e37c",
+      "layer": "gazette",
+      "title": "대통령령제34110호(지방재정법 시행령 일부개정령 중 정정)",
+      "institution": "법제처",
+      "date": "2024-01-15",
+      "docType": "대통령령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-038_법제처_대통령령제34110호_지방재정법_시행령_일부개정령_중_정정-82cef8e37c.json"
+    },
+    {
+      "id": "gazette-2024-01-15-039_보건복지부_보건복지부공고제2024_23호_국민건강보험법_시행령_일부개정령안_입법예고-13b0c33a86",
+      "layer": "gazette",
+      "title": "보건복지부공고제2024-23호(국민건강보험법 시행령 일부개정령안 입법예고)",
+      "institution": "보건복지부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-039_보건복지부_보건복지부공고제2024_23호_국민건강보험법_시행령_일부개정령안_입법예고-13b0c33a86.json"
+    },
+    {
+      "id": "gazette-2024-01-15-040_산업통상자원부_산업통상자원부고시제2024_007호_경제자유구역_내_외국교육_연구기관_유치지원_국고보조사업_운영요령_일부개정-e7e265248b",
+      "layer": "gazette",
+      "title": "산업통상자원부고시제2024-007호(경제자유구역 내 외국교육·연구기관 유치지원 국고보조사업 운영요령 일부개정)",
+      "institution": "산업통상자원부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-040_산업통상자원부_산업통상자원부고시제2024_007호_경제자유구역_내_외국교육_연구기관_유치지원_국고보조사업_운영요령_일부개정-e7e265248b.json"
+    },
+    {
+      "id": "gazette-2024-01-15-041_산업통상자원부_산업통상자원부공고제2024_020호_전기용품_및_생활용품_안전관리법_시행령_일부개정령안_재입법예고-87f4265f31",
+      "layer": "gazette",
+      "title": "산업통상자원부공고제2024-020호(전기용품 및 생활용품 안전관리법 시행령 일부개정령안 재입법예고)",
+      "institution": "산업통상자원부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-041_산업통상자원부_산업통상자원부공고제2024_020호_전기용품_및_생활용품_안전관리법_시행령_일부개정령안_재입법예고-87f4265f31.json"
+    },
+    {
+      "id": "gazette-2024-01-15-042_산업통상자원부_산업통상자원부공고제2024_017호_에너지_및_자원사업_특별회계법_시행령_일부개정령안_입법예고-6a6fe8a785",
+      "layer": "gazette",
+      "title": "산업통상자원부공고제2024-017호(에너지 및 자원사업 특별회계법 시행령 일부개정령안 입법예고)",
+      "institution": "산업통상자원부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-042_산업통상자원부_산업통상자원부공고제2024_017호_에너지_및_자원사업_특별회계법_시행령_일부개정령안_입법예고-6a6fe8a785.json"
+    },
+    {
+      "id": "gazette-2024-01-15-043_산업통상자원부_국가기술표준원고시제2024_0008호_한국산업표준_제정-f5eb8d34ec",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0008호(한국산업표준 제정)",
+      "institution": "산업통상자원부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-043_산업통상자원부_국가기술표준원고시제2024_0008호_한국산업표준_제정-f5eb8d34ec.json"
+    },
+    {
+      "id": "gazette-2024-01-15-044_산업통상자원부_국가기술표준원고시제2024_0009호_한국산업표준_개정_예고-a9a0c88748",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0009호(한국산업표준 개정 예고)",
+      "institution": "산업통상자원부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-044_산업통상자원부_국가기술표준원고시제2024_0009호_한국산업표준_개정_예고-a9a0c88748.json"
+    },
+    {
+      "id": "gazette-2024-01-15-045_서울특별시교육청_서울개현초등학교공고제2024_1호_관인_공인_등록_폐기-b80a3f3a45",
+      "layer": "gazette",
+      "title": "서울개현초등학교공고제2024-1호(관인(공인)등록/폐기)",
+      "institution": "서울특별시교육청",
+      "date": "2024-01-15",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-045_서울특별시교육청_서울개현초등학교공고제2024_1호_관인_공인_등록_폐기-b80a3f3a45.json"
+    },
+    {
+      "id": "gazette-2024-01-15-046_소방청_소방청공고제2024_7호_간이스프링클러설비의_화재안전성능기준_NFPC_103A_일부개정_안_행정예고-baab22d78a",
+      "layer": "gazette",
+      "title": "소방청공고제2024-7호(간이스프링클러설비의 화재안전성능기준(NFPC 103A) 일부개정(안) 행정예고)",
+      "institution": "소방청",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-046_소방청_소방청공고제2024_7호_간이스프링클러설비의_화재안전성능기준_NFPC_103A_일부개정_안_행정예고-baab22d78a.json"
+    },
+    {
+      "id": "gazette-2024-01-15-047_식품의약품안전처_식품의약품안전처공고제2024_018호_유전자변형식품_승인_공고-8d749431f1",
+      "layer": "gazette",
+      "title": "식품의약품안전처공고제2024-018호(유전자변형식품 승인 공고)",
+      "institution": "식품의약품안전처",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-047_식품의약품안전처_식품의약품안전처공고제2024_018호_유전자변형식품_승인_공고-8d749431f1.json"
+    },
+    {
+      "id": "gazette-2024-01-15-048_정부산하기관및위원회_게임물관리위원회공고제2024_03호_게임물관리위원회_등급분류_규정_일부개정안_입안_예고-77c085539e",
+      "layer": "gazette",
+      "title": "게임물관리위원회공고제2024-03호(게임물관리위원회 등급분류 규정 일부개정안 입안 예고)",
+      "institution": "정부산하기관및위원회",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-048_정부산하기관및위원회_게임물관리위원회공고제2024_03호_게임물관리위원회_등급분류_규정_일부개정안_입안_예고-77c085539e.json"
+    },
+    {
+      "id": "gazette-2024-01-15-049_해양경찰청_평택해양경찰서공고제2024_1호_과태료_납부_독촉_및_압류_예고_통지_공시송달-c4458ec481",
+      "layer": "gazette",
+      "title": "평택해양경찰서공고제2024-1호(과태료 납부 독촉 및 압류 예고 통지 공시송달)",
+      "institution": "해양경찰청",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-049_해양경찰청_평택해양경찰서공고제2024_1호_과태료_납부_독촉_및_압류_예고_통지_공시송달-c4458ec481.json"
+    },
+    {
+      "id": "gazette-2024-01-15-050_해양경찰청_해양경찰청공고제2024_2호_2024년_선박교통관제_시행계획-a35d91e4db",
+      "layer": "gazette",
+      "title": "해양경찰청공고제2024-2호(2024년 선박교통관제 시행계획)",
+      "institution": "해양경찰청",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-050_해양경찰청_해양경찰청공고제2024_2호_2024년_선박교통관제_시행계획-a35d91e4db.json"
+    },
+    {
+      "id": "gazette-2024-01-15-051_해양수산부_포항지방해양수산청고시제2024_4호_사설항로표지_기능정지_현황변경_나아B호등부표_외_2기-aba4cf7a51",
+      "layer": "gazette",
+      "title": "포항지방해양수산청고시제2024-4호(사설항로표지 기능정지, 현황변경(나아B호등부표 외 2기))",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-051_해양수산부_포항지방해양수산청고시제2024_4호_사설항로표지_기능정지_현황변경_나아B호등부표_외_2기-aba4cf7a51.json"
+    },
+    {
+      "id": "gazette-2024-01-15-052_해양수산부_해양수산부공고제2024_45호_2024년도_어촌신활력증진_사업_유형1_재공모_공고-d87f99c8f1",
+      "layer": "gazette",
+      "title": "해양수산부공고제2024-45호(2024년도 어촌신활력증진 사업(유형1) 재공모 공고)",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-052_해양수산부_해양수산부공고제2024_45호_2024년도_어촌신활력증진_사업_유형1_재공모_공고-d87f99c8f1.json"
+    },
+    {
+      "id": "gazette-2024-01-15-053_해양수산부_군산지방해양수산청고시제2024_3호_국유표지_현황변경_개야도북서방등표_알림-935db53410",
+      "layer": "gazette",
+      "title": "군산지방해양수산청고시제2024-3호(국유표지 현황변경(개야도북서방등표) 알림)",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-053_해양수산부_군산지방해양수산청고시제2024_3호_국유표지_현황변경_개야도북서방등표_알림-935db53410.json"
+    },
+    {
+      "id": "gazette-2024-01-15-054_해양수산부_부산항건설사무소공고제2024_3호_비관리청_항만개발사업_준공확인증명서_발급_공고-ffe7c7f700",
+      "layer": "gazette",
+      "title": "부산항건설사무소공고제2024-3호(비관리청 항만개발사업 준공확인증명서 발급 공고)",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-054_해양수산부_부산항건설사무소공고제2024_3호_비관리청_항만개발사업_준공확인증명서_발급_공고-ffe7c7f700.json"
+    },
+    {
+      "id": "gazette-2024-01-15-055_해양수산부_국립수산과학원공고제2024_1호_한국산업표준_KS_인증대상_품목_지정-cfacd17dc7",
+      "layer": "gazette",
+      "title": "국립수산과학원공고제2024-1호(한국산업표준(KS) 인증대상 품목 지정)",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-055_해양수산부_국립수산과학원공고제2024_1호_한국산업표준_KS_인증대상_품목_지정-cfacd17dc7.json"
+    },
+    {
+      "id": "gazette-2024-01-15-056_해양수산부_부산지방해양수산청고시제2024_5호_사설항로표지_신설_부산항풍산등부표-4d7f0b3771",
+      "layer": "gazette",
+      "title": "부산지방해양수산청고시제2024-5호(사설항로표지 신설(부산항풍산등부표))",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-056_해양수산부_부산지방해양수산청고시제2024_5호_사설항로표지_신설_부산항풍산등부표-4d7f0b3771.json"
+    },
+    {
+      "id": "gazette-2024-01-15-057_해양수산부_동해지방해양수산청고시제2024_5호_사설항로표지_폐지_고시-056354f501",
+      "layer": "gazette",
+      "title": "동해지방해양수산청고시제2024-5호(사설항로표지 폐지 고시)",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-057_해양수산부_동해지방해양수산청고시제2024_5호_사설항로표지_폐지_고시-056354f501.json"
+    },
+    {
+      "id": "gazette-2024-01-15-058_해양수산부_부산지방해양수산청고시제2024_4호_항로표지_현황변경_부산항신항3호등부표-0c360f980f",
+      "layer": "gazette",
+      "title": "부산지방해양수산청고시제2024-4호(항로표지 현황변경(부산항신항3호등부표))",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-058_해양수산부_부산지방해양수산청고시제2024_4호_항로표지_현황변경_부산항신항3호등부표-0c360f980f.json"
+    },
+    {
+      "id": "gazette-2024-01-15-059_해양수산부_군산지방해양수산청고시제2024_5호_사설항로표지_신설_두리도항방파제등대-f40b0278b6",
+      "layer": "gazette",
+      "title": "군산지방해양수산청고시제2024-5호(사설항로표지 신설(두리도항방파제등대))",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-059_해양수산부_군산지방해양수산청고시제2024_5호_사설항로표지_신설_두리도항방파제등대-f40b0278b6.json"
+    },
+    {
+      "id": "gazette-2024-01-15-060_해양수산부_마산지방해양수산청고시제2024_2호_사설항로표지_고시_갯섬항우성등부표_외_5기-b8d4c949c4",
+      "layer": "gazette",
+      "title": "마산지방해양수산청고시제2024-2호(사설항로표지 고시(갯섬항우성등부표 외 5기))",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-060_해양수산부_마산지방해양수산청고시제2024_2호_사설항로표지_고시_갯섬항우성등부표_외_5기-b8d4c949c4.json"
+    },
+    {
+      "id": "gazette-2024-01-15-061_해양수산부_대산지방해양수산청공고제2024_2호_선박안전법_위반에_따른_과태료_납부독촉_공시송달-0fec491ff8",
+      "layer": "gazette",
+      "title": "대산지방해양수산청공고제2024-2호(선박안전법 위반에 따른 과태료 납부독촉(공시송달))",
+      "institution": "해양수산부",
+      "date": "2024-01-15",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-061_해양수산부_대산지방해양수산청공고제2024_2호_선박안전법_위반에_따른_과태료_납부독촉_공시송달-0fec491ff8.json"
+    },
+    {
+      "id": "gazette-2024-01-15-062_행정안전부_상훈_39_우수공무원_39_정부포상_수여_행정안전부-ca6df0dd79",
+      "layer": "gazette",
+      "title": "상훈(& #39;우수공무원& #39; 정부포상 수여 (행정안전부))",
+      "institution": "행정안전부",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-062_행정안전부_상훈_39_우수공무원_39_정부포상_수여_행정안전부-ca6df0dd79.json"
+    },
+    {
+      "id": "gazette-2024-01-15-063_행정안전부_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_행정안전부-e04cbed150",
+      "layer": "gazette",
+      "title": "상훈(& #39;2023년 하반기 모범공무원(일반)& #39; 정부포상 수여 (행정안전부))",
+      "institution": "행정안전부",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-063_행정안전부_상훈_39_2023년_하반기_모범공무원_일반_39_정부포상_수여_행정안전부-e04cbed150.json"
+    },
+    {
+      "id": "gazette-2024-01-15-064_행정안전부_상훈_39_2023년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_행정안전부-a0405a0856",
+      "layer": "gazette",
+      "title": "상훈(& #39;2023년 하반기 퇴직공무원(일반) 포상& #39; 정부포상 수여 (행정안전부))",
+      "institution": "행정안전부",
+      "date": "2024-01-15",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-064_행정안전부_상훈_39_2023년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_행정안전부-a0405a0856.json"
+    },
+    {
+      "id": "gazette-2024-01-15-065_환경부_낙동강홍수통제소고시제2024_005호_하천수_사용허가-f9359ab9e7",
+      "layer": "gazette",
+      "title": "낙동강홍수통제소고시제2024-005호(하천수 사용허가)",
+      "institution": "환경부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-065_환경부_낙동강홍수통제소고시제2024_005호_하천수_사용허가-f9359ab9e7.json"
+    },
+    {
+      "id": "gazette-2024-01-15-066_환경부_낙동강홍수통제소고시제2024_002호_하천수_사용허가-08bb49cbe4",
+      "layer": "gazette",
+      "title": "낙동강홍수통제소고시제2024-002호(하천수 사용허가)",
+      "institution": "환경부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-066_환경부_낙동강홍수통제소고시제2024_002호_하천수_사용허가-08bb49cbe4.json"
+    },
+    {
+      "id": "gazette-2024-01-15-067_환경부_낙동강홍수통제소고시제2024_003호_하천수_사용허가-8f9c186853",
+      "layer": "gazette",
+      "title": "낙동강홍수통제소고시제2024-003호(하천수 사용허가)",
+      "institution": "환경부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-067_환경부_낙동강홍수통제소고시제2024_003호_하천수_사용허가-8f9c186853.json"
+    },
+    {
+      "id": "gazette-2024-01-15-068_환경부_낙동강홍수통제소고시제2024_004호_하천수_사용허가-d388172eb2",
+      "layer": "gazette",
+      "title": "낙동강홍수통제소고시제2024-004호(하천수 사용허가)",
+      "institution": "환경부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-068_환경부_낙동강홍수통제소고시제2024_004호_하천수_사용허가-d388172eb2.json"
+    },
+    {
+      "id": "gazette-2024-01-15-069_환경부_한강유역환경청고시제2024_18호_공공폐수처리시설_기본계획_통합_고시_일부개정-09c47d8cb4",
+      "layer": "gazette",
+      "title": "한강유역환경청고시제2024-18호(공공폐수처리시설 기본계획 통합 고시 일부개정)",
+      "institution": "환경부",
+      "date": "2024-01-15",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-15-069_환경부_한강유역환경청고시제2024_18호_공공폐수처리시설_기본계획_통합_고시_일부개정-09c47d8cb4.json"
+    },
+    {
+      "id": "gazette-2024-01-16-001_경기도_남양주시공고제2024_80호_남양주시_자원순환시설_민간투자사업_BTO_a_민간투자대상사업_지정_및_제3자_제안공고_-0bd0120e7d",
+      "layer": "gazette",
+      "title": "남양주시공고제2024-80호(남양주시 자원순환시설 민간투자사업(BTO-a) 민간투자대상사업 지정 및 제3자 제안공고 중 정정)",
+      "institution": "경기도",
+      "date": "2024-01-16",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-16-001_경기도_남양주시공고제2024_80호_남양주시_자원순환시설_민간투자사업_BTO_a_민간투자대상사업_지정_및_제3자_제안공고_-0bd0120e7d.json"
+    },
+    {
+      "id": "gazette-2024-01-16-002_경기도교육청_경기도교육청고시제2024_540호_그린스마트스쿨_수성고_임대형_민자사업_BTL_민간투자대상사업_지정_및_시설사-8260259f4e",
+      "layer": "gazette",
+      "title": "경기도교육청고시제2024-540호(『그린스마트스쿨 수성고 임대형 민자사업(BTL)』 민간투자대상사업 지정 및 시설사업기본계획 재고시)",
+      "institution": "경기도교육청",
+      "date": "2024-01-16",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-01-16-002_경기도교육청_경기도교육청고시제2024_540호_그린스마트스쿨_수성고_임대형_민자사업_BTL_민간투자대상사업_지정_및_시설사-8260259f4e.json"
     }
   ]
 }

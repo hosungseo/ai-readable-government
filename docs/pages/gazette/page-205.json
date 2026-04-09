@@ -2,1008 +2,1008 @@
   "layer": "gazette",
   "page": 205,
   "pageSize": 100,
-  "totalItems": 26139,
-  "totalPages": 262,
+  "totalItems": 48614,
+  "totalPages": 487,
   "items": [
     {
-      "id": "gazette-2026-01-05-055_기후에너지환경부_기후에너지환경부고시제2026_2호_설악산국립공원계획_변경-567c3f720d",
+      "id": "gazette-2024-12-12-075_해양수산부_포항지방해양수산청공고제2024_167호_비관리청_항만개발사업_실시계획_공고-483f5c1b11",
       "layer": "gazette",
-      "title": "기후에너지환경부고시제2026-2호(설악산국립공원계획 변경)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-055_기후에너지환경부_기후에너지환경부고시제2026_2호_설악산국립공원계획_변경-567c3f720d.json"
-    },
-    {
-      "id": "gazette-2026-01-05-056_기후에너지환경부_금강유역환경청고시제2025_505호_수질오염물질_배출허용기준_중_별도배출허용기준_통합고시_개정_고시-ebe7994f86",
-      "layer": "gazette",
-      "title": "금강유역환경청고시제2025-505호(수질오염물질 배출허용기준 중 별도배출허용기준 통합고시 개정 고시)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-056_기후에너지환경부_금강유역환경청고시제2025_505호_수질오염물질_배출허용기준_중_별도배출허용기준_통합고시_개정_고시-ebe7994f86.json"
-    },
-    {
-      "id": "gazette-2026-01-05-057_기후에너지환경부_금강유역환경청고시제2025_506호_아산_염치일반산업단지_공공폐수처리시설_기본계획_변경_승인-313c0b609a",
-      "layer": "gazette",
-      "title": "금강유역환경청고시제2025-506호(아산 염치일반산업단지 공공폐수처리시설 기본계획 변경 승인)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-057_기후에너지환경부_금강유역환경청고시제2025_506호_아산_염치일반산업단지_공공폐수처리시설_기본계획_변경_승인-313c0b609a.json"
-    },
-    {
-      "id": "gazette-2026-01-05-058_기후에너지환경부_금강유역환경청고시제2025_507호_아산_스마트밸리일반산업단지_공공폐수처리시설_기본계획_변경_승인-edc17aed84",
-      "layer": "gazette",
-      "title": "금강유역환경청고시제2025-507호(아산 스마트밸리일반산업단지 공공폐수처리시설 기본계획 변경 승인)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-058_기후에너지환경부_금강유역환경청고시제2025_507호_아산_스마트밸리일반산업단지_공공폐수처리시설_기본계획_변경_승인-edc17aed84.json"
-    },
-    {
-      "id": "gazette-2026-01-05-059_기후에너지환경부_금강유역환경청고시제2025_508호_세종특별자치시_스마트국가산업단지_공공폐수처리시설_기본계획_승인-7d1d5fe8b1",
-      "layer": "gazette",
-      "title": "금강유역환경청고시제2025-508호(세종특별자치시 스마트국가산업단지 공공폐수처리시설 기본계획 승인)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-059_기후에너지환경부_금강유역환경청고시제2025_508호_세종특별자치시_스마트국가산업단지_공공폐수처리시설_기본계획_승인-7d1d5fe8b1.json"
-    },
-    {
-      "id": "gazette-2026-01-05-060_기후에너지환경부_기후에너지환경부고시제2025_96호_옹진군_덕적도_지하수저류댐_설치사업_실시계획_변경_승인-53c7a84c9e",
-      "layer": "gazette",
-      "title": "기후에너지환경부고시제2025-96호(옹진군 덕적도 지하수저류댐 설치사업 실시계획 변경 승인)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-060_기후에너지환경부_기후에너지환경부고시제2025_96호_옹진군_덕적도_지하수저류댐_설치사업_실시계획_변경_승인-53c7a84c9e.json"
-    },
-    {
-      "id": "gazette-2026-01-05-061_기후에너지환경부_기후에너지환경부공고제2026_2호_폐기물관리법_시행령_일부개정령안_입법예고-1d103fc913",
-      "layer": "gazette",
-      "title": "기후에너지환경부공고제2026-2호(폐기물관리법 시행령 일부개정령안 입법예고)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
+      "title": "포항지방해양수산청공고제2024-167호(비관리청 항만개발사업 실시계획 공고)",
+      "institution": "해양수산부",
+      "date": "2024-12-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-061_기후에너지환경부_기후에너지환경부공고제2026_2호_폐기물관리법_시행령_일부개정령안_입법예고-1d103fc913.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-075_해양수산부_포항지방해양수산청공고제2024_167호_비관리청_항만개발사업_실시계획_공고-483f5c1b11.json"
     },
     {
-      "id": "gazette-2026-01-05-062_기후에너지환경부_기후에너지환경부공고제2026_3호_폐기물관리법_시행규칙_일부개정령안_입법예고-1e587c97c3",
+      "id": "gazette-2024-12-12-076_해양수산부_여수지방해양수산청고시제2024_129호_사설항로표지_신설_소뎅이항동부A_B호등부표-388af5a5fc",
       "layer": "gazette",
-      "title": "기후에너지환경부공고제2026-3호(폐기물관리법 시행규칙 일부개정령안 입법예고)",
-      "institution": "기후에너지환경부",
-      "date": "2026-01-05",
+      "title": "여수지방해양수산청고시제2024-129호(사설항로표지 신설(소뎅이항동부A·B호등부표))",
+      "institution": "해양수산부",
+      "date": "2024-12-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-076_해양수산부_여수지방해양수산청고시제2024_129호_사설항로표지_신설_소뎅이항동부A_B호등부표-388af5a5fc.json"
+    },
+    {
+      "id": "gazette-2024-12-12-077_행정안전부_행정안전부공고제2024_1798호_디지털인증서비스_인증정보-214c2b04e5",
+      "layer": "gazette",
+      "title": "행정안전부공고제2024-1798호(디지털인증서비스 인증정보)",
+      "institution": "행정안전부",
+      "date": "2024-12-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-062_기후에너지환경부_기후에너지환경부공고제2026_3호_폐기물관리법_시행규칙_일부개정령안_입법예고-1e587c97c3.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-077_행정안전부_행정안전부공고제2024_1798호_디지털인증서비스_인증정보-214c2b04e5.json"
     },
     {
-      "id": "gazette-2026-01-05-063_농림축산식품부_농림축산식품부훈령제559호_Love_업무표장_관리지침_훈령_일부개정-55e54618af",
+      "id": "gazette-2024-12-12-078_행정안전부_행정안전부공고제2024_1803호_재난문자방송_기준_및_운영규정_일부개정_안_행정예고-7abfe5f588",
       "layer": "gazette",
-      "title": "농림축산식품부훈령제559호(｢Love米 업무표장 관리지침｣ 훈령 일부개정)",
-      "institution": "농림축산식품부",
-      "date": "2026-01-05",
-      "docType": "기타",
+      "title": "행정안전부공고제2024-1803호(「재난문자방송 기준 및 운영규정」일부개정(안) 행정예고)",
+      "institution": "행정안전부",
+      "date": "2024-12-12",
+      "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-063_농림축산식품부_농림축산식품부훈령제559호_Love_업무표장_관리지침_훈령_일부개정-55e54618af.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-078_행정안전부_행정안전부공고제2024_1803호_재난문자방송_기준_및_운영규정_일부개정_안_행정예고-7abfe5f588.json"
     },
     {
-      "id": "gazette-2026-01-05-064_대검찰청_기타_압수물환부공고_대전지방검찰청-359fe8cf7b",
+      "id": "gazette-2024-12-12-079_행정안전부_행정안전부공고제2024_1795호_행정안전부와_그_소속기관_직제_시행규칙_일부개정령안_입법예고-9d099e3087",
       "layer": "gazette",
-      "title": "기타(압수물환부공고 (대전지방검찰청))",
-      "institution": "대검찰청",
-      "date": "2026-01-05",
-      "docType": "기타",
+      "title": "행정안전부공고제2024-1795호(행정안전부와 그 소속기관 직제 시행규칙 일부개정령안 입법예고)",
+      "institution": "행정안전부",
+      "date": "2024-12-12",
+      "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-064_대검찰청_기타_압수물환부공고_대전지방검찰청-359fe8cf7b.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-079_행정안전부_행정안전부공고제2024_1795호_행정안전부와_그_소속기관_직제_시행규칙_일부개정령안_입법예고-9d099e3087.json"
     },
     {
-      "id": "gazette-2026-01-05-065_대법원_기타_압수물환부공고_창원지방법원-10472f407c",
+      "id": "gazette-2024-12-12-080_환경부_환경부공고제2024_766호_포장재_재활용_용이성_등급평가_기준_일부_개정안_행정예고-a884e8a15e",
       "layer": "gazette",
-      "title": "기타(압수물환부공고 (창원지방법원))",
-      "institution": "대법원",
-      "date": "2026-01-05",
-      "docType": "기타",
+      "title": "환경부공고제2024-766호(포장재 재활용 용이성 등급평가 기준 일부 개정안 행정예고)",
+      "institution": "환경부",
+      "date": "2024-12-12",
+      "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-065_대법원_기타_압수물환부공고_창원지방법원-10472f407c.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-080_환경부_환경부공고제2024_766호_포장재_재활용_용이성_등급평가_기준_일부_개정안_행정예고-a884e8a15e.json"
     },
     {
-      "id": "gazette-2026-01-05-066_대법원_형사보상결정공시_안산지원-a342f8a1d5",
+      "id": "gazette-2024-12-12-081_환경부_한강홍수통제소고시제2024_128호_하천수_사용허가_고시-d290703063",
       "layer": "gazette",
-      "title": "형사보상결정공시(안산지원)",
-      "institution": "대법원",
-      "date": "2026-01-05",
-      "docType": "법원",
+      "title": "한강홍수통제소고시제2024-128호(하천수 사용허가 고시)",
+      "institution": "환경부",
+      "date": "2024-12-12",
+      "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-066_대법원_형사보상결정공시_안산지원-a342f8a1d5.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-081_환경부_한강홍수통제소고시제2024_128호_하천수_사용허가_고시-d290703063.json"
     },
     {
-      "id": "gazette-2026-01-05-067_대법원_형사보상결정공시_부산서부지원-2a7336e5c7",
+      "id": "gazette-2024-12-12-082_환경부_한강홍수통제소고시제2024_127호_하천수_사용허가_기간연장_고시-3776c90acc",
       "layer": "gazette",
-      "title": "형사보상결정공시(부산서부지원)",
-      "institution": "대법원",
-      "date": "2026-01-05",
-      "docType": "법원",
+      "title": "한강홍수통제소고시제2024-127호(하천수 사용허가 기간연장 고시)",
+      "institution": "환경부",
+      "date": "2024-12-12",
+      "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-067_대법원_형사보상결정공시_부산서부지원-2a7336e5c7.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-082_환경부_한강홍수통제소고시제2024_127호_하천수_사용허가_기간연장_고시-3776c90acc.json"
     },
     {
-      "id": "gazette-2026-01-05-068_대법원_형사보상결정공시_포항지원-1ded71b080",
+      "id": "gazette-2024-12-12-083_환경부_금강유역환경청공고제2024_148호_소황사구_생태_경관보전지역_관리기본계획_2025_2029_전략환경영향평가서_행정-747ba3ac92",
       "layer": "gazette",
-      "title": "형사보상결정공시(포항지원)",
-      "institution": "대법원",
-      "date": "2026-01-05",
-      "docType": "법원",
+      "title": "금강유역환경청공고제2024-148호(소황사구 생태·경관보전지역 관리기본계획(2025~2029) 전략환경영향평가서 행정예고)",
+      "institution": "환경부",
+      "date": "2024-12-12",
+      "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-068_대법원_형사보상결정공시_포항지원-1ded71b080.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-083_환경부_금강유역환경청공고제2024_148호_소황사구_생태_경관보전지역_관리기본계획_2025_2029_전략환경영향평가서_행정-747ba3ac92.json"
     },
     {
-      "id": "gazette-2026-01-05-069_대전광역시_대전광역시고시제2025_344호_신일동_산10번지_일원_일반물류터미널_공사시행_변경_인가_및_지형도면_고시-e0e18e0ed0",
+      "id": "gazette-2024-12-12-084_환경부_환경부령제1134호_토양환경보전법_시행규칙_일부개정령-91071d534d",
       "layer": "gazette",
-      "title": "대전광역시고시제2025-344호(신일동 산10번지 일원 일반물류터미널 공사시행(변경)인가 및 지형도면 고시)",
-      "institution": "대전광역시",
-      "date": "2026-01-05",
-      "docType": "지방자치단체",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-069_대전광역시_대전광역시고시제2025_344호_신일동_산10번지_일원_일반물류터미널_공사시행_변경_인가_및_지형도면_고시-e0e18e0ed0.json"
-    },
-    {
-      "id": "gazette-2026-01-05-070_대전광역시_대전광역시고시제2025_341호_일반물류터미널_공사시행_변경_인가_및_지형도면_고시-13f746f2ef",
-      "layer": "gazette",
-      "title": "대전광역시고시제2025-341호(일반물류터미널 공사시행(변경)인가 및 지형도면 고시)",
-      "institution": "대전광역시",
-      "date": "2026-01-05",
-      "docType": "지방자치단체",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-070_대전광역시_대전광역시고시제2025_341호_일반물류터미널_공사시행_변경_인가_및_지형도면_고시-13f746f2ef.json"
-    },
-    {
-      "id": "gazette-2026-01-05-071_문화체육관광부_문화체육관광부령제623호_국제회의산업_육성에_관한_법률_시행규칙_일부개정령-0fe67a1eba",
-      "layer": "gazette",
-      "title": "문화체육관광부령제623호(국제회의산업 육성에 관한 법률 시행규칙 일부개정령)",
-      "institution": "문화체육관광부",
-      "date": "2026-01-05",
+      "title": "환경부령제1134호(토양환경보전법 시행규칙 일부개정령)",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "부령",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-071_문화체육관광부_문화체육관광부령제623호_국제회의산업_육성에_관한_법률_시행규칙_일부개정령-0fe67a1eba.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-084_환경부_환경부령제1134호_토양환경보전법_시행규칙_일부개정령-91071d534d.json"
     },
     {
-      "id": "gazette-2026-01-05-072_문화체육관광부_문화체육관광부고시제2025_71호_2018_평창_동계올림픽_특별구역_변경_지정_중_정정-62c4892543",
+      "id": "gazette-2024-12-12-085_환경부_낙동강홍수통제소고시제2024_107호_수문조사시설_준공_고시-27cf9547c1",
       "layer": "gazette",
-      "title": "문화체육관광부고시제2025-71호(2018 평창 동계올림픽 특별구역 변경 지정 중 정정)",
-      "institution": "문화체육관광부",
-      "date": "2026-01-05",
+      "title": "낙동강홍수통제소고시제2024-107호(수문조사시설 준공 고시)",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-072_문화체육관광부_문화체육관광부고시제2025_71호_2018_평창_동계올림픽_특별구역_변경_지정_중_정정-62c4892543.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-085_환경부_낙동강홍수통제소고시제2024_107호_수문조사시설_준공_고시-27cf9547c1.json"
     },
     {
-      "id": "gazette-2026-01-05-073_법무부_안산출입국_외국인사무소고시제2026_1호_국적취득-e5c2719e5a",
+      "id": "gazette-2024-12-12-086_환경부_환경부령제1135호_녹색제품_구매촉진에_관한_법률_시행규칙_일부개정령-fc443116d4",
       "layer": "gazette",
-      "title": "안산출입국.외국인사무소고시제2026-1호(국적취득)",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "환경부령제1135호(녹색제품 구매촉진에 관한 법률 시행규칙 일부개정령)",
+      "institution": "환경부",
+      "date": "2024-12-12",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-086_환경부_환경부령제1135호_녹색제품_구매촉진에_관한_법률_시행규칙_일부개정령-fc443116d4.json"
+    },
+    {
+      "id": "gazette-2024-12-12-087_환경부_금강유역환경청고시제2024_585호_하천점용허가_기간연장-30551b5060",
+      "layer": "gazette",
+      "title": "금강유역환경청고시제2024-585호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-073_법무부_안산출입국_외국인사무소고시제2026_1호_국적취득-e5c2719e5a.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-087_환경부_금강유역환경청고시제2024_585호_하천점용허가_기간연장-30551b5060.json"
     },
     {
-      "id": "gazette-2026-01-05-074_법무부_법무부고시제2025_72호_국적취득_회복-18d91eabda",
+      "id": "gazette-2024-12-12-088_환경부_금강유역환경청고시제2024_614호_하천점용허가_기간연장-882db47996",
       "layer": "gazette",
-      "title": "법무부고시제2025-72호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-614호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-074_법무부_법무부고시제2025_72호_국적취득_회복-18d91eabda.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-088_환경부_금강유역환경청고시제2024_614호_하천점용허가_기간연장-882db47996.json"
     },
     {
-      "id": "gazette-2026-01-05-075_법무부_법무부고시제2025_73호_국적취득_회복-89c1a55aa0",
+      "id": "gazette-2024-12-12-089_환경부_금강유역환경청고시제2024_607호_하천점용허가_기간연장-120b52bde9",
       "layer": "gazette",
-      "title": "법무부고시제2025-73호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-607호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-075_법무부_법무부고시제2025_73호_국적취득_회복-89c1a55aa0.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-089_환경부_금강유역환경청고시제2024_607호_하천점용허가_기간연장-120b52bde9.json"
     },
     {
-      "id": "gazette-2026-01-05-076_법무부_법무부고시제2025_74호_국적취득_회복-a16e14fe14",
+      "id": "gazette-2024-12-12-090_환경부_금강유역환경청고시제2024_583호_하천점용허가_기간연장-08f9fe7b5b",
       "layer": "gazette",
-      "title": "법무부고시제2025-74호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-583호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-076_법무부_법무부고시제2025_74호_국적취득_회복-a16e14fe14.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-090_환경부_금강유역환경청고시제2024_583호_하천점용허가_기간연장-08f9fe7b5b.json"
     },
     {
-      "id": "gazette-2026-01-05-077_법무부_법무부고시제2025_75호_국적취득_회복-f5c0d4a0da",
+      "id": "gazette-2024-12-12-091_환경부_금강유역환경청고시제2024_572호_하천점용허가_기간연장-665ec51eb5",
       "layer": "gazette",
-      "title": "법무부고시제2025-75호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-572호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-077_법무부_법무부고시제2025_75호_국적취득_회복-f5c0d4a0da.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-091_환경부_금강유역환경청고시제2024_572호_하천점용허가_기간연장-665ec51eb5.json"
     },
     {
-      "id": "gazette-2026-01-05-078_법무부_법무부고시제2025_76호_국적취득_회복-131495ff67",
+      "id": "gazette-2024-12-12-092_환경부_금강유역환경청고시제2024_584호_하천점용허가_기간연장-30077ec84b",
       "layer": "gazette",
-      "title": "법무부고시제2025-76호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-584호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-078_법무부_법무부고시제2025_76호_국적취득_회복-131495ff67.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-092_환경부_금강유역환경청고시제2024_584호_하천점용허가_기간연장-30077ec84b.json"
     },
     {
-      "id": "gazette-2026-01-05-079_법무부_법무부고시제2025_77호_국적취득_회복-19195ced67",
+      "id": "gazette-2024-12-12-093_환경부_금강유역환경청고시제2024_596호_하천점용허가_기간연장-3aed61a6ea",
       "layer": "gazette",
-      "title": "법무부고시제2025-77호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-596호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-079_법무부_법무부고시제2025_77호_국적취득_회복-19195ced67.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-093_환경부_금강유역환경청고시제2024_596호_하천점용허가_기간연장-3aed61a6ea.json"
     },
     {
-      "id": "gazette-2026-01-05-080_법무부_법무부고시제2025_79호_국적취득_회복-7f5664e012",
+      "id": "gazette-2024-12-12-094_환경부_금강유역환경청고시제2024_587호_하천점용허가_기간연장-5504c95637",
       "layer": "gazette",
-      "title": "법무부고시제2025-79호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-587호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-080_법무부_법무부고시제2025_79호_국적취득_회복-7f5664e012.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-094_환경부_금강유역환경청고시제2024_587호_하천점용허가_기간연장-5504c95637.json"
     },
     {
-      "id": "gazette-2026-01-05-081_법무부_법무부고시제2025_81호_국적취득_회복-013fb60603",
+      "id": "gazette-2024-12-12-095_환경부_금강유역환경청고시제2024_586호_하천점용허가_기간연장-cb07bdd12f",
       "layer": "gazette",
-      "title": "법무부고시제2025-81호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-586호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-081_법무부_법무부고시제2025_81호_국적취득_회복-013fb60603.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-095_환경부_금강유역환경청고시제2024_586호_하천점용허가_기간연장-cb07bdd12f.json"
     },
     {
-      "id": "gazette-2026-01-05-082_법무부_법무부고시제2025_82호_국적취득_회복-082470b65e",
+      "id": "gazette-2024-12-12-096_환경부_금강유역환경청고시제2024_611호_하천점용허가_기간연장-1b0166b65d",
       "layer": "gazette",
-      "title": "법무부고시제2025-82호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-611호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-082_법무부_법무부고시제2025_82호_국적취득_회복-082470b65e.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-096_환경부_금강유역환경청고시제2024_611호_하천점용허가_기간연장-1b0166b65d.json"
     },
     {
-      "id": "gazette-2026-01-05-083_법무부_법무부고시제2025_83호_국적취득_회복-0f16bbfd39",
+      "id": "gazette-2024-12-12-097_환경부_금강유역환경청고시제2024_616호_하천점용허가_기간연장-befa74adc4",
       "layer": "gazette",
-      "title": "법무부고시제2025-83호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "금강유역환경청고시제2024-616호(하천점용허가(기간연장))",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-083_법무부_법무부고시제2025_83호_국적취득_회복-0f16bbfd39.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-097_환경부_금강유역환경청고시제2024_616호_하천점용허가_기간연장-befa74adc4.json"
     },
     {
-      "id": "gazette-2026-01-05-084_법무부_법무부고시제2025_96호_국적취득_회복-b515d6891d",
+      "id": "gazette-2024-12-12-098_환경부_환경부공고제2024_767호_건설폐기물법_위반사실_공표의_절차_및_방법_등에_관한_고시_제정안_행정예고-c4f85b1a2f",
       "layer": "gazette",
-      "title": "법무부고시제2025-96호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-084_법무부_법무부고시제2025_96호_국적취득_회복-b515d6891d.json"
-    },
-    {
-      "id": "gazette-2026-01-05-085_법무부_법무부고시제2025_97호_국적취득_회복-9ce652895d",
-      "layer": "gazette",
-      "title": "법무부고시제2025-97호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-085_법무부_법무부고시제2025_97호_국적취득_회복-9ce652895d.json"
-    },
-    {
-      "id": "gazette-2026-01-05-086_법무부_법무부고시제2025_78호_국적취득_회복-ede2e1498a",
-      "layer": "gazette",
-      "title": "법무부고시제2025-78호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-086_법무부_법무부고시제2025_78호_국적취득_회복-ede2e1498a.json"
-    },
-    {
-      "id": "gazette-2026-01-05-087_법무부_법무부고시제2025_98호_국적취득_회복-d8c6ee3dbd",
-      "layer": "gazette",
-      "title": "법무부고시제2025-98호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-087_법무부_법무부고시제2025_98호_국적취득_회복-d8c6ee3dbd.json"
-    },
-    {
-      "id": "gazette-2026-01-05-088_법무부_법무부고시제2025_231호_국적취득_회복-ad220089cc",
-      "layer": "gazette",
-      "title": "법무부고시제2025-231호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-088_법무부_법무부고시제2025_231호_국적취득_회복-ad220089cc.json"
-    },
-    {
-      "id": "gazette-2026-01-05-089_법무부_법무부고시제2025_232호_국적취득_회복-665dc4c7f7",
-      "layer": "gazette",
-      "title": "법무부고시제2025-232호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-089_법무부_법무부고시제2025_232호_국적취득_회복-665dc4c7f7.json"
-    },
-    {
-      "id": "gazette-2026-01-05-090_법무부_법무부고시제2025_233호_국적취득_회복-0c490cfbc7",
-      "layer": "gazette",
-      "title": "법무부고시제2025-233호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-090_법무부_법무부고시제2025_233호_국적취득_회복-0c490cfbc7.json"
-    },
-    {
-      "id": "gazette-2026-01-05-091_법무부_법무부고시제2025_234호_국적취득_회복-f366533776",
-      "layer": "gazette",
-      "title": "법무부고시제2025-234호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-091_법무부_법무부고시제2025_234호_국적취득_회복-f366533776.json"
-    },
-    {
-      "id": "gazette-2026-01-05-092_법무부_법무부고시제2025_250호_국적취득_회복-f33ee9e1ba",
-      "layer": "gazette",
-      "title": "법무부고시제2025-250호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-092_법무부_법무부고시제2025_250호_국적취득_회복-f33ee9e1ba.json"
-    },
-    {
-      "id": "gazette-2026-01-05-093_법무부_법무부고시제2025_253호_국적취득_회복-78384d6ebc",
-      "layer": "gazette",
-      "title": "법무부고시제2025-253호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-093_법무부_법무부고시제2025_253호_국적취득_회복-78384d6ebc.json"
-    },
-    {
-      "id": "gazette-2026-01-05-094_법무부_법무부고시제2025_255호_국적취득_회복-e97b6db8da",
-      "layer": "gazette",
-      "title": "법무부고시제2025-255호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-094_법무부_법무부고시제2025_255호_국적취득_회복-e97b6db8da.json"
-    },
-    {
-      "id": "gazette-2026-01-05-095_법무부_법무부고시제2025_257호_국적취득_회복-b1ba33942d",
-      "layer": "gazette",
-      "title": "법무부고시제2025-257호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-095_법무부_법무부고시제2025_257호_국적취득_회복-b1ba33942d.json"
-    },
-    {
-      "id": "gazette-2026-01-05-096_법무부_법무부고시제2025_117호_국적취득_회복-d04634997f",
-      "layer": "gazette",
-      "title": "법무부고시제2025-117호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-096_법무부_법무부고시제2025_117호_국적취득_회복-d04634997f.json"
-    },
-    {
-      "id": "gazette-2026-01-05-097_법무부_법무부고시제2025_121호_국적취득_회복-12b0e37967",
-      "layer": "gazette",
-      "title": "법무부고시제2025-121호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-097_법무부_법무부고시제2025_121호_국적취득_회복-12b0e37967.json"
-    },
-    {
-      "id": "gazette-2026-01-05-098_법무부_법무부고시제2025_133호_국적취득_회복-73d2d669cb",
-      "layer": "gazette",
-      "title": "법무부고시제2025-133호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-098_법무부_법무부고시제2025_133호_국적취득_회복-73d2d669cb.json"
-    },
-    {
-      "id": "gazette-2026-01-05-099_법무부_법무부고시제2025_134호_국적취득_회복-e7682783a4",
-      "layer": "gazette",
-      "title": "법무부고시제2025-134호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-099_법무부_법무부고시제2025_134호_국적취득_회복-e7682783a4.json"
-    },
-    {
-      "id": "gazette-2026-01-05-100_법무부_법무부고시제2025_135호_국적취득_회복-bb87903402",
-      "layer": "gazette",
-      "title": "법무부고시제2025-135호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-100_법무부_법무부고시제2025_135호_국적취득_회복-bb87903402.json"
-    },
-    {
-      "id": "gazette-2026-01-05-101_법무부_법무부고시제2025_139호_국적취득_회복-ca275715a5",
-      "layer": "gazette",
-      "title": "법무부고시제2025-139호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-101_법무부_법무부고시제2025_139호_국적취득_회복-ca275715a5.json"
-    },
-    {
-      "id": "gazette-2026-01-05-102_법무부_법무부고시제2025_141호_국적취득_회복-09018be497",
-      "layer": "gazette",
-      "title": "법무부고시제2025-141호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-102_법무부_법무부고시제2025_141호_국적취득_회복-09018be497.json"
-    },
-    {
-      "id": "gazette-2026-01-05-103_법무부_법무부고시제2025_143호_국적취득_회복-d48d7f1b7c",
-      "layer": "gazette",
-      "title": "법무부고시제2025-143호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-103_법무부_법무부고시제2025_143호_국적취득_회복-d48d7f1b7c.json"
-    },
-    {
-      "id": "gazette-2026-01-05-104_법무부_법무부고시제2025_148호_국적취득_회복-60bfb86b42",
-      "layer": "gazette",
-      "title": "법무부고시제2025-148호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-104_법무부_법무부고시제2025_148호_국적취득_회복-60bfb86b42.json"
-    },
-    {
-      "id": "gazette-2026-01-05-105_법무부_법무부고시제2025_150호_국적취득_회복-d871b54084",
-      "layer": "gazette",
-      "title": "법무부고시제2025-150호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-105_법무부_법무부고시제2025_150호_국적취득_회복-d871b54084.json"
-    },
-    {
-      "id": "gazette-2026-01-05-106_법무부_법무부고시제2025_152호_국적취득_회복-b0fb5d0592",
-      "layer": "gazette",
-      "title": "법무부고시제2025-152호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-106_법무부_법무부고시제2025_152호_국적취득_회복-b0fb5d0592.json"
-    },
-    {
-      "id": "gazette-2026-01-05-107_법무부_법무부고시제2025_163호_국적취득_회복-1a047558ab",
-      "layer": "gazette",
-      "title": "법무부고시제2025-163호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-107_법무부_법무부고시제2025_163호_국적취득_회복-1a047558ab.json"
-    },
-    {
-      "id": "gazette-2026-01-05-108_법무부_법무부고시제2025_174호_국적취득_회복-3578f4a90f",
-      "layer": "gazette",
-      "title": "법무부고시제2025-174호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-108_법무부_법무부고시제2025_174호_국적취득_회복-3578f4a90f.json"
-    },
-    {
-      "id": "gazette-2026-01-05-109_법무부_법무부고시제2025_179호_국적취득_회복-2abd26196a",
-      "layer": "gazette",
-      "title": "법무부고시제2025-179호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-109_법무부_법무부고시제2025_179호_국적취득_회복-2abd26196a.json"
-    },
-    {
-      "id": "gazette-2026-01-05-110_법무부_법무부고시제2025_180호_국적취득_회복-c4487a797c",
-      "layer": "gazette",
-      "title": "법무부고시제2025-180호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-110_법무부_법무부고시제2025_180호_국적취득_회복-c4487a797c.json"
-    },
-    {
-      "id": "gazette-2026-01-05-111_법무부_법무부고시제2025_181호_국적취득_회복-d75d76eb4e",
-      "layer": "gazette",
-      "title": "법무부고시제2025-181호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-111_법무부_법무부고시제2025_181호_국적취득_회복-d75d76eb4e.json"
-    },
-    {
-      "id": "gazette-2026-01-05-112_법무부_법무부고시제2025_188호_국적취득_회복-c1595b5b3b",
-      "layer": "gazette",
-      "title": "법무부고시제2025-188호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-112_법무부_법무부고시제2025_188호_국적취득_회복-c1595b5b3b.json"
-    },
-    {
-      "id": "gazette-2026-01-05-113_법무부_법무부고시제2025_189호_국적취득_회복-01ffac22fb",
-      "layer": "gazette",
-      "title": "법무부고시제2025-189호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-113_법무부_법무부고시제2025_189호_국적취득_회복-01ffac22fb.json"
-    },
-    {
-      "id": "gazette-2026-01-05-114_법무부_법무부고시제2025_190호_국적취득_회복-28ec7de7b4",
-      "layer": "gazette",
-      "title": "법무부고시제2025-190호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-114_법무부_법무부고시제2025_190호_국적취득_회복-28ec7de7b4.json"
-    },
-    {
-      "id": "gazette-2026-01-05-115_법무부_법무부고시제2025_191호_국적취득_회복-7bd0cf447c",
-      "layer": "gazette",
-      "title": "법무부고시제2025-191호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-115_법무부_법무부고시제2025_191호_국적취득_회복-7bd0cf447c.json"
-    },
-    {
-      "id": "gazette-2026-01-05-116_법무부_법무부고시제2025_192호_국적취득_회복-aeba33191b",
-      "layer": "gazette",
-      "title": "법무부고시제2025-192호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-116_법무부_법무부고시제2025_192호_국적취득_회복-aeba33191b.json"
-    },
-    {
-      "id": "gazette-2026-01-05-117_법무부_법무부고시제2025_193호_국적취득_회복-c1c24171a5",
-      "layer": "gazette",
-      "title": "법무부고시제2025-193호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-117_법무부_법무부고시제2025_193호_국적취득_회복-c1c24171a5.json"
-    },
-    {
-      "id": "gazette-2026-01-05-118_법무부_법무부고시제2025_194호_국적취득_회복-58313410bd",
-      "layer": "gazette",
-      "title": "법무부고시제2025-194호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-118_법무부_법무부고시제2025_194호_국적취득_회복-58313410bd.json"
-    },
-    {
-      "id": "gazette-2026-01-05-119_법무부_법무부고시제2025_196호_국적취득_회복-5224f832f8",
-      "layer": "gazette",
-      "title": "법무부고시제2025-196호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-119_법무부_법무부고시제2025_196호_국적취득_회복-5224f832f8.json"
-    },
-    {
-      "id": "gazette-2026-01-05-120_법무부_법무부고시제2025_201호_국적취득_회복-53b2705c6d",
-      "layer": "gazette",
-      "title": "법무부고시제2025-201호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-120_법무부_법무부고시제2025_201호_국적취득_회복-53b2705c6d.json"
-    },
-    {
-      "id": "gazette-2026-01-05-121_법무부_법무부고시제2025_202호_국적취득_회복-1fc363df71",
-      "layer": "gazette",
-      "title": "법무부고시제2025-202호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-121_법무부_법무부고시제2025_202호_국적취득_회복-1fc363df71.json"
-    },
-    {
-      "id": "gazette-2026-01-05-122_법무부_법무부고시제2025_203호_국적취득_회복-1284aa276a",
-      "layer": "gazette",
-      "title": "법무부고시제2025-203호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-122_법무부_법무부고시제2025_203호_국적취득_회복-1284aa276a.json"
-    },
-    {
-      "id": "gazette-2026-01-05-123_법무부_법무부고시제2025_204호_국적취득_회복-b13c22181a",
-      "layer": "gazette",
-      "title": "법무부고시제2025-204호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-123_법무부_법무부고시제2025_204호_국적취득_회복-b13c22181a.json"
-    },
-    {
-      "id": "gazette-2026-01-05-124_법무부_법무부고시제2025_205호_국적취득_회복-deecee5327",
-      "layer": "gazette",
-      "title": "법무부고시제2025-205호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-124_법무부_법무부고시제2025_205호_국적취득_회복-deecee5327.json"
-    },
-    {
-      "id": "gazette-2026-01-05-125_법무부_법무부고시제2025_206호_국적취득_회복-bf0880fd5e",
-      "layer": "gazette",
-      "title": "법무부고시제2025-206호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-125_법무부_법무부고시제2025_206호_국적취득_회복-bf0880fd5e.json"
-    },
-    {
-      "id": "gazette-2026-01-05-126_법무부_법무부고시제2025_209호_국적취득_회복-bc452a9145",
-      "layer": "gazette",
-      "title": "법무부고시제2025-209호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-126_법무부_법무부고시제2025_209호_국적취득_회복-bc452a9145.json"
-    },
-    {
-      "id": "gazette-2026-01-05-127_법무부_법무부고시제2025_220호_국적취득_회복-9836e47ee8",
-      "layer": "gazette",
-      "title": "법무부고시제2025-220호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-127_법무부_법무부고시제2025_220호_국적취득_회복-9836e47ee8.json"
-    },
-    {
-      "id": "gazette-2026-01-05-128_법무부_법무부고시제2025_223호_국적취득_회복-9060aea6d5",
-      "layer": "gazette",
-      "title": "법무부고시제2025-223호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-128_법무부_법무부고시제2025_223호_국적취득_회복-9060aea6d5.json"
-    },
-    {
-      "id": "gazette-2026-01-05-129_법무부_법무부고시제2025_225호_국적취득_회복-68e966df53",
-      "layer": "gazette",
-      "title": "법무부고시제2025-225호(국적취득(회복))",
-      "institution": "법무부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-129_법무부_법무부고시제2025_225호_국적취득_회복-68e966df53.json"
-    },
-    {
-      "id": "gazette-2026-01-05-130_법무부_법무부공고제2025_410호_출입국관리법시행령_별표1의2의_제24호_거주_F_2_의_체류자격_차_목에_해당하는_부동-9fb4673043",
-      "layer": "gazette",
-      "title": "법무부공고제2025-410호(｢출입국관리법시행령 별표1의2의 제24호 거주(F-2)의 체류자격 ‘차’목에 해당하는 부동산의 투자지역, 투자대상 및 투자기준금액 등에 관한 기준 고시｣ 일부개정고시안 행정예고)",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "환경부공고제2024-767호(「건설폐기물법 위반사실 공표의 절차 및 방법 등에 관한 고시」제정안 행정예고)",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-130_법무부_법무부공고제2025_410호_출입국관리법시행령_별표1의2의_제24호_거주_F_2_의_체류자격_차_목에_해당하는_부동-9fb4673043.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-098_환경부_환경부공고제2024_767호_건설폐기물법_위반사실_공표의_절차_및_방법_등에_관한_고시_제정안_행정예고-c4f85b1a2f.json"
     },
     {
-      "id": "gazette-2026-01-05-131_법무부_전주출입국_외국인사무소고시제2025_66호_국적상실-7eeadf749b",
+      "id": "gazette-2024-12-12-099_환경부_한강홍수통제소고시제2024_130호_하천수_사용허가_고시-ec2383e513",
       "layer": "gazette",
-      "title": "전주출입국.외국인사무소고시제2025-66호(국적상실)",
-      "institution": "법무부",
-      "date": "2026-01-05",
+      "title": "한강홍수통제소고시제2024-130호(하천수 사용허가 고시)",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-131_법무부_전주출입국_외국인사무소고시제2025_66호_국적상실-7eeadf749b.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-099_환경부_한강홍수통제소고시제2024_130호_하천수_사용허가_고시-ec2383e513.json"
     },
     {
-      "id": "gazette-2026-01-05-132_병무청_병무청공고제2025_144호_공직자_등의_병역사항_공개-f59dae86d1",
+      "id": "gazette-2024-12-12-100_환경부_한강홍수통제소고시제2024_129호_하천수_사용허가_고시-50f563d66f",
       "layer": "gazette",
-      "title": "병무청공고제2025-144호(공직자 등의 병역사항 공개)",
-      "institution": "병무청",
-      "date": "2026-01-05",
+      "title": "한강홍수통제소고시제2024-129호(하천수 사용허가 고시)",
+      "institution": "환경부",
+      "date": "2024-12-12",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-100_환경부_한강홍수통제소고시제2024_129호_하천수_사용허가_고시-50f563d66f.json"
+    },
+    {
+      "id": "gazette-2024-12-12-101_환경부_환경부공고제2024_769호_건설폐기물의_재활용촉진에_관한_법률_시행규칙_일부개정령안_재입법예고-7d7d6e1b2a",
+      "layer": "gazette",
+      "title": "환경부공고제2024-769호(「건설폐기물의 재활용촉진에 관한 법률 시행규칙」일부개정령안 재입법예고)",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-132_병무청_병무청공고제2025_144호_공직자_등의_병역사항_공개-f59dae86d1.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-101_환경부_환경부공고제2024_769호_건설폐기물의_재활용촉진에_관한_법률_시행규칙_일부개정령안_재입법예고-7d7d6e1b2a.json"
     },
     {
-      "id": "gazette-2026-01-05-133_산림청_서부지방산림청고시제2026_3호_산림보호구역_산림유전자원보호구역_지정_정정고시-3f54cb1470",
+      "id": "gazette-2024-12-12-102_환경부_환경부공고제2024_768호_건설폐기물의_재활용촉진에_관한_법률_시행령_일부개정령안_재입법예고-a714d86955",
       "layer": "gazette",
-      "title": "서부지방산림청고시제2026-3호(산림보호구역(산림유전자원보호구역) 지정 정정고시)",
-      "institution": "산림청",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-133_산림청_서부지방산림청고시제2026_3호_산림보호구역_산림유전자원보호구역_지정_정정고시-3f54cb1470.json"
-    },
-    {
-      "id": "gazette-2026-01-05-134_산림청_서부지방산림청고시제2026_2호_산림보호구역_지정해제_고시-6e7669e44b",
-      "layer": "gazette",
-      "title": "서부지방산림청고시제2026-2호(산림보호구역 지정해제 고시)",
-      "institution": "산림청",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-134_산림청_서부지방산림청고시제2026_2호_산림보호구역_지정해제_고시-6e7669e44b.json"
-    },
-    {
-      "id": "gazette-2026-01-05-135_산림청_산림청공고제2026_1호_산림치유지도사의_등급별_자격기준에_관한_세부규정_일부개정고시안_행정예고-c07a49af75",
-      "layer": "gazette",
-      "title": "산림청공고제2026-1호(산림치유지도사의 등급별 자격기준에 관한 세부규정 일부개정고시안 행정예고)",
-      "institution": "산림청",
-      "date": "2026-01-05",
+      "title": "환경부공고제2024-768호(「건설폐기물의 재활용촉진에 관한 법률 시행령」 일부개정령안 재입법예고)",
+      "institution": "환경부",
+      "date": "2024-12-12",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-135_산림청_산림청공고제2026_1호_산림치유지도사의_등급별_자격기준에_관한_세부규정_일부개정고시안_행정예고-c07a49af75.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-12-102_환경부_환경부공고제2024_768호_건설폐기물의_재활용촉진에_관한_법률_시행령_일부개정령안_재입법예고-a714d86955.json"
     },
     {
-      "id": "gazette-2026-01-05-136_산림청_산림청고시제2026_3호_국가숲길_운영_및_관리에_관한_지침-65ce813565",
+      "id": "gazette-2024-12-13-001_강원특별자치도_강원특별자치도_고시제2024_534호_2018_평창_동계올림픽_특별구역_종합계획변경_경미한_사항_고시-6cd26f9630",
       "layer": "gazette",
-      "title": "산림청고시제2026-3호(국가숲길 운영 및 관리에 관한 지침)",
-      "institution": "산림청",
-      "date": "2026-01-05",
-      "docType": "고시",
+      "title": "강원특별자치도 고시제2024-534호(2018 평창 동계올림픽 특별구역 종합계획변경(경미한 사항) 고시)",
+      "institution": "강원특별자치도",
+      "date": "2024-12-13",
+      "docType": "지방자치단체",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-136_산림청_산림청고시제2026_3호_국가숲길_운영_및_관리에_관한_지침-65ce813565.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-001_강원특별자치도_강원특별자치도_고시제2024_534호_2018_평창_동계올림픽_특별구역_종합계획변경_경미한_사항_고시-6cd26f9630.json"
     },
     {
-      "id": "gazette-2026-01-05-137_산림청_동부지방산림청고시제2025_26호_2026년_봄철_입산통제구역_지정_고시-6e38e49457",
+      "id": "gazette-2024-12-13-002_경상남도_경상남도고시제2024_566호_광양만권경제자유구역_하동지구_대송산업단지_개발계획_변경_고시-661bf4d1bb",
       "layer": "gazette",
-      "title": "동부지방산림청고시제2025-26호(2026년 봄철 입산통제구역 지정 고시)",
-      "institution": "산림청",
-      "date": "2026-01-05",
-      "docType": "고시",
+      "title": "경상남도고시제2024-566호(광양만권경제자유구역 하동지구 대송산업단지 개발계획 변경 고시)",
+      "institution": "경상남도",
+      "date": "2024-12-13",
+      "docType": "지방자치단체",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-137_산림청_동부지방산림청고시제2025_26호_2026년_봄철_입산통제구역_지정_고시-6e38e49457.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-002_경상남도_경상남도고시제2024_566호_광양만권경제자유구역_하동지구_대송산업단지_개발계획_변경_고시-661bf4d1bb.json"
     },
     {
-      "id": "gazette-2026-01-05-138_산림청_산림청고시제2026_5호_공립_옥화자연휴양림_지정구역_변경_및_지형도면_고시-9042a58058",
+      "id": "gazette-2024-12-13-003_경찰청_금산경찰서공고제2024_경무_01호_관인_공인_등록_폐기-962f730891",
       "layer": "gazette",
-      "title": "산림청고시제2026-5호(공립 옥화자연휴양림 지정구역 변경 및 지형도면 고시)",
-      "institution": "산림청",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-138_산림청_산림청고시제2026_5호_공립_옥화자연휴양림_지정구역_변경_및_지형도면_고시-9042a58058.json"
-    },
-    {
-      "id": "gazette-2026-01-05-139_산림청_산림청고시제2026_6호_공립_청도자연휴양림_지정구역_변경_및_지형도면_고시-f2ff54312d",
-      "layer": "gazette",
-      "title": "산림청고시제2026-6호(공립 청도자연휴양림 지정구역 변경 및 지형도면 고시)",
-      "institution": "산림청",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-139_산림청_산림청고시제2026_6호_공립_청도자연휴양림_지정구역_변경_및_지형도면_고시-f2ff54312d.json"
-    },
-    {
-      "id": "gazette-2026-01-05-140_산업통상부_산업통상부고시제2026_001호_국가산업단지_포항블루밸리_관리기본계획_일부개정-4e2a6e69e7",
-      "layer": "gazette",
-      "title": "산업통상부고시제2026-001호(국가산업단지[포항블루밸리] 관리기본계획 일부개정)",
-      "institution": "산업통상부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-140_산업통상부_산업통상부고시제2026_001호_국가산업단지_포항블루밸리_관리기본계획_일부개정-4e2a6e69e7.json"
-    },
-    {
-      "id": "gazette-2026-01-05-141_산업통상부_국가기술표준원고시제2025_0715호_한국산업표준_개정_예고-44ed877ec7",
-      "layer": "gazette",
-      "title": "국가기술표준원고시제2025-0715호(한국산업표준 개정 예고)",
-      "institution": "산업통상부",
-      "date": "2026-01-05",
-      "docType": "고시",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-141_산업통상부_국가기술표준원고시제2025_0715호_한국산업표준_개정_예고-44ed877ec7.json"
-    },
-    {
-      "id": "gazette-2026-01-05-142_서울특별시교육청_서울인공지능고등학교공고제2025_13호_관인_폐기-a6d4c4c162",
-      "layer": "gazette",
-      "title": "서울인공지능고등학교공고제2025-13호(관인 폐기)",
-      "institution": "서울특별시교육청",
-      "date": "2026-01-05",
+      "title": "금산경찰서공고제2024-경무-01호(관인(공인)등록/폐기)",
+      "institution": "경찰청",
+      "date": "2024-12-13",
       "docType": "기타",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-142_서울특별시교육청_서울인공지능고등학교공고제2025_13호_관인_폐기-a6d4c4c162.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-003_경찰청_금산경찰서공고제2024_경무_01호_관인_공인_등록_폐기-962f730891.json"
     },
     {
-      "id": "gazette-2026-01-05-143_성평등가족부_성평등가족부고시제2025_14호_청소년유해매체물_간행물_고시-e7e4884dfe",
+      "id": "gazette-2024-12-13-004_경찰청_경찰청공고제2024_48호_경찰관_직무집행법_시행령_일부개정령안_입법예고-faf83b34f8",
       "layer": "gazette",
-      "title": "성평등가족부고시제2025-14호(청소년유해매체물(간행물) 고시)",
-      "institution": "성평등가족부",
-      "date": "2026-01-05",
+      "title": "경찰청공고제2024-48호(경찰관 직무집행법 시행령 일부개정령안 입법예고)",
+      "institution": "경찰청",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-004_경찰청_경찰청공고제2024_48호_경찰관_직무집행법_시행령_일부개정령안_입법예고-faf83b34f8.json"
+    },
+    {
+      "id": "gazette-2024-12-13-005_고용노동부_광주지방고용노동청공고제2024_231호_국민취업지원제도_행정처분_사전통지_및_의견제출요청_공시송달_공고-169898d254",
+      "layer": "gazette",
+      "title": "광주지방고용노동청공고제2024-231호(국민취업지원제도 행정처분 사전통지 및 의견제출요청 공시송달 공고)",
+      "institution": "고용노동부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-005_고용노동부_광주지방고용노동청공고제2024_231호_국민취업지원제도_행정처분_사전통지_및_의견제출요청_공시송달_공고-169898d254.json"
+    },
+    {
+      "id": "gazette-2024-12-13-006_과학기술정보통신부_부산지방우정청공고제2024_259호_군사우편출장소_운영시간_조정_행정예고-bd6ff0d2ea",
+      "layer": "gazette",
+      "title": "부산지방우정청공고제2024-259호(군사우편출장소 운영시간 조정 행정예고)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-006_과학기술정보통신부_부산지방우정청공고제2024_259호_군사우편출장소_운영시간_조정_행정예고-bd6ff0d2ea.json"
+    },
+    {
+      "id": "gazette-2024-12-13-007_과학기술정보통신부_전파시험인증센터공고제2024_28호_방송통신기자재등의_적합인증_적합등록_해지-dd91fd54c2",
+      "layer": "gazette",
+      "title": "전파시험인증센터공고제2024-28호(방송통신기자재등의 적합인증, 적합등록, 해지)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-007_과학기술정보통신부_전파시험인증센터공고제2024_28호_방송통신기자재등의_적합인증_적합등록_해지-dd91fd54c2.json"
+    },
+    {
+      "id": "gazette-2024-12-13-008_과학기술정보통신부_과학기술정보통신부령제141호_지능정보화_기본법_시행규칙_일부개정령-029f60704d",
+      "layer": "gazette",
+      "title": "과학기술정보통신부령제141호(지능정보화 기본법 시행규칙 일부개정령)",
+      "institution": "과학기술정보통신부",
+      "date": "2024-12-13",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-008_과학기술정보통신부_과학기술정보통신부령제141호_지능정보화_기본법_시행규칙_일부개정령-029f60704d.json"
+    },
+    {
+      "id": "gazette-2024-12-13-009_국가유산청_국가유산청고시제2024_92호_천연기념물_제주_선흘리_거문오름_등_6건_역사문화환경_보존지역_내_건축행위_등에_-54e9c31c7c",
+      "layer": "gazette",
+      "title": "국가유산청고시제2024-92호(천연기념물「제주 선흘리 거문오름」등 6건 역사문화환경 보존지역 내  건축행위 등에 관한 허용기준 조정)",
+      "institution": "국가유산청",
+      "date": "2024-12-13",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-143_성평등가족부_성평등가족부고시제2025_14호_청소년유해매체물_간행물_고시-e7e4884dfe.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-009_국가유산청_국가유산청고시제2024_92호_천연기념물_제주_선흘리_거문오름_등_6건_역사문화환경_보존지역_내_건축행위_등에_-54e9c31c7c.json"
     },
     {
-      "id": "gazette-2026-01-05-144_식품의약품안전처_광주지방식품의약품안전청공고제2025_93호_식품위생법_위반업체_과태료_부과처분_공고-2fb3c80224",
+      "id": "gazette-2024-12-13-010_국가유산청_국가유산청고시제2024_97호_국가무형유산_완초장_보유자_인정-33024e4a32",
       "layer": "gazette",
-      "title": "광주지방식품의약품안전청공고제2025-93호(식품위생법 위반업체 과태료 부과처분 공고)",
-      "institution": "식품의약품안전처",
-      "date": "2026-01-05",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-144_식품의약품안전처_광주지방식품의약품안전청공고제2025_93호_식품위생법_위반업체_과태료_부과처분_공고-2fb3c80224.json"
-    },
-    {
-      "id": "gazette-2026-01-05-145_식품의약품안전처_광주지방식품의약품안전청공고제2025_94호_식품위생법_위반업체_과태료_부과처분_공고-9d39a20a19",
-      "layer": "gazette",
-      "title": "광주지방식품의약품안전청공고제2025-94호(식품위생법 위반업체 과태료 부과처분 공고)",
-      "institution": "식품의약품안전처",
-      "date": "2026-01-05",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-145_식품의약품안전처_광주지방식품의약품안전청공고제2025_94호_식품위생법_위반업체_과태료_부과처분_공고-9d39a20a19.json"
-    },
-    {
-      "id": "gazette-2026-01-05-146_식품의약품안전처_경인지방식품의약품안전청공고제2025_171호_약사법_위반업체_행정처분_통지-ac28db3b58",
-      "layer": "gazette",
-      "title": "경인지방식품의약품안전청공고제2025-171호(약사법 위반업체 행정처분 통지)",
-      "institution": "식품의약품안전처",
-      "date": "2026-01-05",
-      "docType": "공고",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-146_식품의약품안전처_경인지방식품의약품안전청공고제2025_171호_약사법_위반업체_행정처분_통지-ac28db3b58.json"
-    },
-    {
-      "id": "gazette-2026-01-05-147_인사혁신처_상훈_39_2025년_우수공무원_포상_39_정부포상_수여_인사혁신처-c1963b329c",
-      "layer": "gazette",
-      "title": "상훈(& #39;2025년 우수공무원 포상& #39; 정부포상 수여 (인사혁신처))",
-      "institution": "인사혁신처",
-      "date": "2026-01-05",
-      "docType": "상훈",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-147_인사혁신처_상훈_39_2025년_우수공무원_포상_39_정부포상_수여_인사혁신처-c1963b329c.json"
-    },
-    {
-      "id": "gazette-2026-01-05-148_인사혁신처_상훈_39_2025년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_인사혁신처-3769d813a7",
-      "layer": "gazette",
-      "title": "상훈(& #39;2025년 하반기 퇴직공무원(일반) 포상& #39; 정부포상 수여 (인사혁신처))",
-      "institution": "인사혁신처",
-      "date": "2026-01-05",
-      "docType": "상훈",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-148_인사혁신처_상훈_39_2025년_하반기_퇴직공무원_일반_포상_39_정부포상_수여_인사혁신처-3769d813a7.json"
-    },
-    {
-      "id": "gazette-2026-01-05-149_인사혁신처_상훈_39_2025년_하반기_모범공무원_일반_39_정부포상_수여_인사혁신처-b9c655a5a8",
-      "layer": "gazette",
-      "title": "상훈(& #39;2025년 하반기 모범공무원(일반)& #39; 정부포상 수여 (인사혁신처))",
-      "institution": "인사혁신처",
-      "date": "2026-01-05",
-      "docType": "상훈",
-      "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-149_인사혁신처_상훈_39_2025년_하반기_모범공무원_일반_39_정부포상_수여_인사혁신처-b9c655a5a8.json"
-    },
-    {
-      "id": "gazette-2026-01-05-150_정부산하기관및위원회_대청댐지사고시제2025_48호_하천점용허가_고시-44f9c31040",
-      "layer": "gazette",
-      "title": "대청댐지사고시제2025-48호(하천점용허가 고시)",
-      "institution": "정부산하기관및위원회",
-      "date": "2026-01-05",
+      "title": "국가유산청고시제2024-97호(국가무형유산 완초장 보유자 인정)",
+      "institution": "국가유산청",
+      "date": "2024-12-13",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-150_정부산하기관및위원회_대청댐지사고시제2025_48호_하천점용허가_고시-44f9c31040.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-010_국가유산청_국가유산청고시제2024_97호_국가무형유산_완초장_보유자_인정-33024e4a32.json"
     },
     {
-      "id": "gazette-2026-01-05-151_정부산하기관및위원회_대청댐지사고시제2025_49호_하천점용허가_고시-dd3e2ea98a",
+      "id": "gazette-2024-12-13-011_국토교통부_국토교통부고시제2024_751호_건설신기술_지정_2641-378b545d2a",
       "layer": "gazette",
-      "title": "대청댐지사고시제2025-49호(하천점용허가 고시)",
-      "institution": "정부산하기관및위원회",
-      "date": "2026-01-05",
+      "title": "국토교통부고시제2024-751호(건설신기술 지정(2641))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-151_정부산하기관및위원회_대청댐지사고시제2025_49호_하천점용허가_고시-dd3e2ea98a.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-011_국토교통부_국토교통부고시제2024_751호_건설신기술_지정_2641-378b545d2a.json"
     },
     {
-      "id": "gazette-2026-01-05-152_정부산하기관및위원회_대청댐지사고시제2025_50호_하천점용허가_고시-5fa548f881",
+      "id": "gazette-2024-12-13-012_국토교통부_국토교통부고시제2024_740호_충북선_오송_청주간_미호천교_교량개량공사_실시계획_변경_1차_승인-3aec4cd83c",
       "layer": "gazette",
-      "title": "대청댐지사고시제2025-50호(하천점용허가 고시)",
-      "institution": "정부산하기관및위원회",
-      "date": "2026-01-05",
+      "title": "국토교통부고시제2024-740호(충북선 오송∼청주간 미호천교 교량개량공사 실시계획 변경(1차) 승인)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
       "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-152_정부산하기관및위원회_대청댐지사고시제2025_50호_하천점용허가_고시-5fa548f881.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-012_국토교통부_국토교통부고시제2024_740호_충북선_오송_청주간_미호천교_교량개량공사_실시계획_변경_1차_승인-3aec4cd83c.json"
     },
     {
-      "id": "gazette-2026-01-05-153_조달청_조달청공고제2025_548호_다수공급자계약_중간점검_미신청에_따른_거래정지_처분을_위한_사전통지_공시송달-ae22a6701a",
+      "id": "gazette-2024-12-13-013_국토교통부_국토교통부고시제2024_739호_경부고속철도_시험선구간_천안아산_대전_전철전원설비_개량사업_실시계획_변경_1차_-ef0f0efdd5",
       "layer": "gazette",
-      "title": "조달청공고제2025-548호(다수공급자계약 중간점검  미신청에 따른 거래정지 처분을 위한 사전통지 공시송달)",
-      "institution": "조달청",
-      "date": "2026-01-05",
-      "docType": "공고",
+      "title": "국토교통부고시제2024-739호(경부고속철도 시험선구간(천안아산~대전) 전철전원설비 개량사업 실시계획 변경(1차) 승인)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-153_조달청_조달청공고제2025_548호_다수공급자계약_중간점검_미신청에_따른_거래정지_처분을_위한_사전통지_공시송달-ae22a6701a.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-013_국토교통부_국토교통부고시제2024_739호_경부고속철도_시험선구간_천안아산_대전_전철전원설비_개량사업_실시계획_변경_1차_-ef0f0efdd5.json"
     },
     {
-      "id": "gazette-2026-01-05-154_조달청_조달청공고제2025_546호_부정당업자_입찰참가자격_제한_처분_예정_사전통지_공시송달-fb2498a0b2",
+      "id": "gazette-2024-12-13-014_국토교통부_원주지방국토관리청공고제2024_105호_행정처분_과태료_공고-37feddf03e",
       "layer": "gazette",
-      "title": "조달청공고제2025-546호(부정당업자 입찰참가자격 제한 처분(예정) 사전통지 공시송달)",
-      "institution": "조달청",
-      "date": "2026-01-05",
+      "title": "원주지방국토관리청공고제2024-105호(행정처분(과태료) 공고)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
       "docType": "공고",
       "excerpt": "",
-      "detailPath": "docs/details/gazette/gazette-2026-01-05-154_조달청_조달청공고제2025_546호_부정당업자_입찰참가자격_제한_처분_예정_사전통지_공시송달-fb2498a0b2.json"
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-014_국토교통부_원주지방국토관리청공고제2024_105호_행정처분_과태료_공고-37feddf03e.json"
+    },
+    {
+      "id": "gazette-2024-12-13-015_국토교통부_국토교통부고시제2024_761호_도로구역_결정_변경_고시_울산선_범서_하이패스IC_설치공사-a21c30b94c",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-761호(도로구역 결정(변경) 고시(울산선 범서 하이패스IC 설치공사))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-015_국토교통부_국토교통부고시제2024_761호_도로구역_결정_변경_고시_울산선_범서_하이패스IC_설치공사-a21c30b94c.json"
+    },
+    {
+      "id": "gazette-2024-12-13-016_국토교통부_국토교통부고시제2024_760호_도로구역_결정_변경_고시_서해안선_영광졸음쉼터_하이패스IC_설치공사-d312e480e7",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-760호(도로구역 결정(변경) 고시(서해안선 영광졸음쉼터 하이패스IC 설치공사))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-016_국토교통부_국토교통부고시제2024_760호_도로구역_결정_변경_고시_서해안선_영광졸음쉼터_하이패스IC_설치공사-d312e480e7.json"
+    },
+    {
+      "id": "gazette-2024-12-13-017_국토교통부_서울지방항공청고시제2024_186호_공항개발사업_실시계획승인-ce26f953b7",
+      "layer": "gazette",
+      "title": "서울지방항공청고시제2024-186호(공항개발사업 실시계획승인)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-017_국토교통부_서울지방항공청고시제2024_186호_공항개발사업_실시계획승인-ce26f953b7.json"
+    },
+    {
+      "id": "gazette-2024-12-13-018_국토교통부_국토교통부고시제2024_726호_공공주택건설_사업계획_승인_양산사송_B_1BL-43e333ae12",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-726호(공공주택건설 사업계획 승인(양산사송 B-1BL))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-018_국토교통부_국토교통부고시제2024_726호_공공주택건설_사업계획_승인_양산사송_B_1BL-43e333ae12.json"
+    },
+    {
+      "id": "gazette-2024-12-13-019_국토교통부_국토교통부고시제2024_749호_공공주택건설_사업계획_경미한_변경_화천신읍_마을정비형-a1009c82f5",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-749호(공공주택건설 사업계획 경미한 변경 (화천신읍 마을정비형))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-019_국토교통부_국토교통부고시제2024_749호_공공주택건설_사업계획_경미한_변경_화천신읍_마을정비형-a1009c82f5.json"
+    },
+    {
+      "id": "gazette-2024-12-13-020_국토교통부_국토교통부고시제2024_750호_공공주택건설_사업계획_경미한_변경_홍천갈마곡_마을정비형-eeb7a5bf89",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-750호(공공주택건설 사업계획 경미한 변경 (홍천갈마곡 마을정비형))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-020_국토교통부_국토교통부고시제2024_750호_공공주택건설_사업계획_경미한_변경_홍천갈마곡_마을정비형-eeb7a5bf89.json"
+    },
+    {
+      "id": "gazette-2024-12-13-021_국토교통부_국토교통부고시제2024_753호_공공주택건설_사업계획_변경승인_인천검단_AA21BL-1ab8968deb",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-753호(공공주택건설 사업계획 변경승인(인천검단 AA21BL))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-021_국토교통부_국토교통부고시제2024_753호_공공주택건설_사업계획_변경승인_인천검단_AA21BL-1ab8968deb.json"
+    },
+    {
+      "id": "gazette-2024-12-13-022_국토교통부_국토교통부고시제2024_754호_공공주택건설_사업계획_경미한_변경_부천도당_A1BL-08cf359659",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-754호(공공주택건설 사업계획 경미한 변경 (부천도당 A1BL))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-022_국토교통부_국토교통부고시제2024_754호_공공주택건설_사업계획_경미한_변경_부천도당_A1BL-08cf359659.json"
+    },
+    {
+      "id": "gazette-2024-12-13-023_국토교통부_국토교통부고시제2024_755호_공공주택건설_사업계획_변경승인_원주무실_A_2BL-217da44941",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-755호(공공주택건설 사업계획 변경승인 (원주무실 A-2BL))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-023_국토교통부_국토교통부고시제2024_755호_공공주택건설_사업계획_변경승인_원주무실_A_2BL-217da44941.json"
+    },
+    {
+      "id": "gazette-2024-12-13-024_국토교통부_국토교통부고시제2024_752호_공공주택건설_사업계획_변경승인_행정중심복합도시_6_3_L2BL_통합공공임대-fae8a57064",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-752호(공공주택건설 사업계획 변경승인 (행정중심복합도시 6-3 L2BL, 통합공공임대))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-024_국토교통부_국토교통부고시제2024_752호_공공주택건설_사업계획_변경승인_행정중심복합도시_6_3_L2BL_통합공공임대-fae8a57064.json"
+    },
+    {
+      "id": "gazette-2024-12-13-025_국토교통부_국토교통부고시제2024_725호_공공주택건설_사업계획_승인_양산사송_A_6BL-8d2569cc9d",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-725호(공공주택건설 사업계획 승인(양산사송 A-6BL))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-025_국토교통부_국토교통부고시제2024_725호_공공주택건설_사업계획_승인_양산사송_A_6BL-8d2569cc9d.json"
+    },
+    {
+      "id": "gazette-2024-12-13-026_국토교통부_국토교통부고시제2024_738호_동해선_포항_동해_전철화_사업_실시계획_변경_승인-16ff31f24f",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-738호(동해선(포항~동해) 전철화 사업 실시계획 변경 승인)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-026_국토교통부_국토교통부고시제2024_738호_동해선_포항_동해_전철화_사업_실시계획_변경_승인-16ff31f24f.json"
+    },
+    {
+      "id": "gazette-2024-12-13-027_국토교통부_국토교통부고시제2024_716호_이천_문경_철도건설사업_실시계획_변경_승인-f0e12aad97",
+      "layer": "gazette",
+      "title": "국토교통부고시제2024-716호(이천~문경 철도건설사업 실시계획 변경 승인)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-027_국토교통부_국토교통부고시제2024_716호_이천_문경_철도건설사업_실시계획_변경_승인-f0e12aad97.json"
+    },
+    {
+      "id": "gazette-2024-12-13-028_국토교통부_원주지방국토관리청고시제2024_46호_도로구역_결정_변경_접도구역_변경_지형도면_변경_고시_인제_북_한계-4e4fc4bf94",
+      "layer": "gazette",
+      "title": "원주지방국토관리청고시제2024-46호(도로구역 결정(변경), 접도구역(변경), 지형도면(변경)고시(인제 북 한계))",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-028_국토교통부_원주지방국토관리청고시제2024_46호_도로구역_결정_변경_접도구역_변경_지형도면_변경_고시_인제_북_한계-4e4fc4bf94.json"
+    },
+    {
+      "id": "gazette-2024-12-13-029_국토교통부_서울지방국토관리청고시제2024_50호_도로구역_결정_변경_및_지형도면_변경_고시-8228221976",
+      "layer": "gazette",
+      "title": "서울지방국토관리청고시제2024-50호(도로구역 결정(변경) 및 지형도면(변경) 고시)",
+      "institution": "국토교통부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-029_국토교통부_서울지방국토관리청고시제2024_50호_도로구역_결정_변경_및_지형도면_변경_고시-8228221976.json"
+    },
+    {
+      "id": "gazette-2024-12-13-030_금융위원회_금융위원회공고제2024_462호_전자금융업_등록_주_페이즈북앤라이프-dd0528deac",
+      "layer": "gazette",
+      "title": "금융위원회공고제2024-462호(전자금융업 등록((주)페이즈북앤라이프))",
+      "institution": "금융위원회",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-030_금융위원회_금융위원회공고제2024_462호_전자금융업_등록_주_페이즈북앤라이프-dd0528deac.json"
+    },
+    {
+      "id": "gazette-2024-12-13-031_금융위원회_금융위원회공고제2024_461호_전자금융업_등록_주_쿠프마케팅-30813d90f0",
+      "layer": "gazette",
+      "title": "금융위원회공고제2024-461호(전자금융업 등록((주)쿠프마케팅))",
+      "institution": "금융위원회",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-031_금융위원회_금융위원회공고제2024_461호_전자금융업_등록_주_쿠프마케팅-30813d90f0.json"
+    },
+    {
+      "id": "gazette-2024-12-13-032_기상청_기상청공고제2024_162호_기상측기_형식승인_검정_대행기관_지정_요건_및_형식승인대행기관_지정_방법_사후관리_일부-e3e80568eb",
+      "layer": "gazette",
+      "title": "기상청공고제2024-162호(「기상측기 형식승인·검정 대행기관 지정 요건 및 형식승인대행기관 지정 방법·사후관리」 일부개정고시안 행정예고)",
+      "institution": "기상청",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-032_기상청_기상청공고제2024_162호_기상측기_형식승인_검정_대행기관_지정_요건_및_형식승인대행기관_지정_방법_사후관리_일부-e3e80568eb.json"
+    },
+    {
+      "id": "gazette-2024-12-13-033_기획재정부_기획재정부공고제2024_278호_조세특례제한법_시행령_일부개정령_안_입법예고-93241c0733",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-278호(｢조세특례제한법 시행령｣ 일부개정령(안) 입법예고)",
+      "institution": "기획재정부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-033_기획재정부_기획재정부공고제2024_278호_조세특례제한법_시행령_일부개정령_안_입법예고-93241c0733.json"
+    },
+    {
+      "id": "gazette-2024-12-13-034_기획재정부_기획재정부공고제2024_275호_소득세법_시행령_일부개정령_안_입법예고-153ebd3cf3",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-275호(｢소득세법 시행령｣ 일부개정령(안) 입법예고)",
+      "institution": "기획재정부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-034_기획재정부_기획재정부공고제2024_275호_소득세법_시행령_일부개정령_안_입법예고-153ebd3cf3.json"
+    },
+    {
+      "id": "gazette-2024-12-13-035_기획재정부_기획재정부공고제2024_276호_소득세법_시행규칙_일부개정령_안_입법예고-bd9088feb1",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-276호(｢소득세법 시행규칙｣ 일부개정령(안) 입법예고)",
+      "institution": "기획재정부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-035_기획재정부_기획재정부공고제2024_276호_소득세법_시행규칙_일부개정령_안_입법예고-bd9088feb1.json"
+    },
+    {
+      "id": "gazette-2024-12-13-036_기획재정부_기획재정부공고제2024_279호_조세특례제한법_시행규칙_일부개정령_안_입법예고-c3687f0ed2",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-279호(｢조세특례제한법 시행규칙｣ 일부개정령(안) 입법예고)",
+      "institution": "기획재정부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-036_기획재정부_기획재정부공고제2024_279호_조세특례제한법_시행규칙_일부개정령_안_입법예고-c3687f0ed2.json"
+    },
+    {
+      "id": "gazette-2024-12-13-037_기획재정부_기획재정부공고제2024_277호_법인세법_시행령_일부개정령_안_입법예고-e66e2aa8af",
+      "layer": "gazette",
+      "title": "기획재정부공고제2024-277호(｢법인세법 시행령｣ 일부개정령(안) 입법예고)",
+      "institution": "기획재정부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-037_기획재정부_기획재정부공고제2024_277호_법인세법_시행령_일부개정령_안_입법예고-e66e2aa8af.json"
+    },
+    {
+      "id": "gazette-2024-12-13-038_농림축산식품부_농림축산식품부공고제2024_524호_농업_농촌_공익기능_증진_직접지불제도_운영에_관한_법률_시행령_일부개정령-ae1ac01e84",
+      "layer": "gazette",
+      "title": "농림축산식품부공고제2024-524호(농업·농촌 공익기능 증진 직접지불제도 운영에 관한 법률 시행령 일부개정령안 입법예고)",
+      "institution": "농림축산식품부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-038_농림축산식품부_농림축산식품부공고제2024_524호_농업_농촌_공익기능_증진_직접지불제도_운영에_관한_법률_시행령_일부개정령-ae1ac01e84.json"
+    },
+    {
+      "id": "gazette-2024-12-13-039_농림축산식품부_농림축산식품부공고제2024_523호_한국농어촌공사_및_농지관리기금법_시행령_일부개정령안_입법예고-8ffe3cc970",
+      "layer": "gazette",
+      "title": "농림축산식품부공고제2024-523호(「한국농어촌공사 및 농지관리기금법 시행령」일부개정령안 입법예고)",
+      "institution": "농림축산식품부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-039_농림축산식품부_농림축산식품부공고제2024_523호_한국농어촌공사_및_농지관리기금법_시행령_일부개정령안_입법예고-8ffe3cc970.json"
+    },
+    {
+      "id": "gazette-2024-12-13-040_대검찰청_기타_압수물환부공고_영덕지청-7fb3f33561",
+      "layer": "gazette",
+      "title": "기타(압수물환부공고 (영덕지청))",
+      "institution": "대검찰청",
+      "date": "2024-12-13",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-040_대검찰청_기타_압수물환부공고_영덕지청-7fb3f33561.json"
+    },
+    {
+      "id": "gazette-2024-12-13-041_대법원_대법원규칙제3179호_사법보좌관제도발전_추진단_설치_및_운영에_관한_규칙-483142d49f",
+      "layer": "gazette",
+      "title": "대법원규칙제3179호(사법보좌관제도발전 추진단 설치 및 운영에 관한 규칙)",
+      "institution": "대법원",
+      "date": "2024-12-13",
+      "docType": "법원",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-041_대법원_대법원규칙제3179호_사법보좌관제도발전_추진단_설치_및_운영에_관한_규칙-483142d49f.json"
+    },
+    {
+      "id": "gazette-2024-12-13-042_대학_부경대학교공고제2024_60호_부경대학교공고제2024_60호_관인_공인_등록_폐기-d70e99da8c",
+      "layer": "gazette",
+      "title": "부경대학교공고제2024-60호(부경대학교공고제2024-60호(관인(공인)등록/폐기))",
+      "institution": "대학",
+      "date": "2024-12-13",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-042_대학_부경대학교공고제2024_60호_부경대학교공고제2024_60호_관인_공인_등록_폐기-d70e99da8c.json"
+    },
+    {
+      "id": "gazette-2024-12-13-043_문화체육관광부_문화체육관광부공고제2024_0446호_유기시설_또는_유기기구_안전성검사기관_지정_고시_일부개정고시_안_행정예-d29808e04d",
+      "layer": "gazette",
+      "title": "문화체육관광부공고제2024-0446호(「유기시설 또는 유기기구 안전성검사기관 지정 고시」 일부개정고시(안) 행정예고)",
+      "institution": "문화체육관광부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-043_문화체육관광부_문화체육관광부공고제2024_0446호_유기시설_또는_유기기구_안전성검사기관_지정_고시_일부개정고시_안_행정예-d29808e04d.json"
+    },
+    {
+      "id": "gazette-2024-12-13-044_문화체육관광부_문화체육관광부공고제2024_0447호_유원시설_안전관리자_안전교육_기관_고시_일부개정고시_안_행정예고-13d1ee9375",
+      "layer": "gazette",
+      "title": "문화체육관광부공고제2024-0447호(「유원시설 안전관리자 안전교육 기관 고시」 일부개정고시(안) 행정예고)",
+      "institution": "문화체육관광부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-044_문화체육관광부_문화체육관광부공고제2024_0447호_유원시설_안전관리자_안전교육_기관_고시_일부개정고시_안_행정예고-13d1ee9375.json"
+    },
+    {
+      "id": "gazette-2024-12-13-045_문화체육관광부_문화체육관광부공고제2024_0450호_점자법_시행규칙_제정규칙안_입법예고-396ac7f15a",
+      "layer": "gazette",
+      "title": "문화체육관광부공고제2024-0450호(「점자법 시행규칙」제정규칙안 입법예고)",
+      "institution": "문화체육관광부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-045_문화체육관광부_문화체육관광부공고제2024_0450호_점자법_시행규칙_제정규칙안_입법예고-396ac7f15a.json"
+    },
+    {
+      "id": "gazette-2024-12-13-046_문화체육관광부_문화체육관광부공고제2024_0449호_점자법_시행령_일부개정령안_입법예고-56bc3c7677",
+      "layer": "gazette",
+      "title": "문화체육관광부공고제2024-0449호(「점자법 시행령」 일부개정령안 입법예고)",
+      "institution": "문화체육관광부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-046_문화체육관광부_문화체육관광부공고제2024_0449호_점자법_시행령_일부개정령안_입법예고-56bc3c7677.json"
+    },
+    {
+      "id": "gazette-2024-12-13-047_법무부_법무부고시제2024_611호_국적상실_중_정정-1515f0ef09",
+      "layer": "gazette",
+      "title": "법무부고시제2024-611호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-047_법무부_법무부고시제2024_611호_국적상실_중_정정-1515f0ef09.json"
+    },
+    {
+      "id": "gazette-2024-12-13-048_법무부_법무부고시제2024_603호_국적상실_중_정정-34604e09a6",
+      "layer": "gazette",
+      "title": "법무부고시제2024-603호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-048_법무부_법무부고시제2024_603호_국적상실_중_정정-34604e09a6.json"
+    },
+    {
+      "id": "gazette-2024-12-13-049_법무부_법무부고시제2024_604호_국적상실_중_정정-106d09b6e5",
+      "layer": "gazette",
+      "title": "법무부고시제2024-604호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-049_법무부_법무부고시제2024_604호_국적상실_중_정정-106d09b6e5.json"
+    },
+    {
+      "id": "gazette-2024-12-13-050_법무부_법무부고시제2024_605호_국적상실_중_정정-dad10844e1",
+      "layer": "gazette",
+      "title": "법무부고시제2024-605호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-050_법무부_법무부고시제2024_605호_국적상실_중_정정-dad10844e1.json"
+    },
+    {
+      "id": "gazette-2024-12-13-051_법무부_법무부고시제2024_606호_국적상실_중_정정-9409df207d",
+      "layer": "gazette",
+      "title": "법무부고시제2024-606호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-051_법무부_법무부고시제2024_606호_국적상실_중_정정-9409df207d.json"
+    },
+    {
+      "id": "gazette-2024-12-13-052_법무부_법무부고시제2024_607호_국적상실_중_정정-5dcecab408",
+      "layer": "gazette",
+      "title": "법무부고시제2024-607호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-052_법무부_법무부고시제2024_607호_국적상실_중_정정-5dcecab408.json"
+    },
+    {
+      "id": "gazette-2024-12-13-053_법무부_법무부고시제2024_608호_국적상실_중_정정-089bd436aa",
+      "layer": "gazette",
+      "title": "법무부고시제2024-608호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-053_법무부_법무부고시제2024_608호_국적상실_중_정정-089bd436aa.json"
+    },
+    {
+      "id": "gazette-2024-12-13-054_법무부_법무부고시제2024_609호_국적상실_중_정정-ff73811bad",
+      "layer": "gazette",
+      "title": "법무부고시제2024-609호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-054_법무부_법무부고시제2024_609호_국적상실_중_정정-ff73811bad.json"
+    },
+    {
+      "id": "gazette-2024-12-13-055_법무부_법무부고시제2024_610호_국적상실_중_정정-706a919f85",
+      "layer": "gazette",
+      "title": "법무부고시제2024-610호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-055_법무부_법무부고시제2024_610호_국적상실_중_정정-706a919f85.json"
+    },
+    {
+      "id": "gazette-2024-12-13-056_법무부_동해출장소고시제2024_14호_국적상실-d8d1819bea",
+      "layer": "gazette",
+      "title": "동해출장소고시제2024-14호(국적상실)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-056_법무부_동해출장소고시제2024_14호_국적상실-d8d1819bea.json"
+    },
+    {
+      "id": "gazette-2024-12-13-057_법무부_서울출입국_외국인청고시제2024_84호_국적취득_신고-f9096ededd",
+      "layer": "gazette",
+      "title": "서울출입국.외국인청고시제2024-84호(국적취득 신고)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-057_법무부_서울출입국_외국인청고시제2024_84호_국적취득_신고-f9096ededd.json"
+    },
+    {
+      "id": "gazette-2024-12-13-058_법무부_서울출입국_외국인청고시제2024_83호_국적상실_신고-b2ad4018f6",
+      "layer": "gazette",
+      "title": "서울출입국.외국인청고시제2024-83호(국적상실 신고)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-058_법무부_서울출입국_외국인청고시제2024_83호_국적상실_신고-b2ad4018f6.json"
+    },
+    {
+      "id": "gazette-2024-12-13-059_법무부_법무부고시제2005_114호_국적취득_귀화-82412b041b",
+      "layer": "gazette",
+      "title": "법무부고시제2005-114호(국적취득(귀화))",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-059_법무부_법무부고시제2005_114호_국적취득_귀화-82412b041b.json"
+    },
+    {
+      "id": "gazette-2024-12-13-060_법무부_전주출입국_외국인사무소고시제2024_29호_국적상실-ce4ab716cf",
+      "layer": "gazette",
+      "title": "전주출입국.외국인사무소고시제2024-29호(국적상실)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-060_법무부_전주출입국_외국인사무소고시제2024_29호_국적상실-ce4ab716cf.json"
+    },
+    {
+      "id": "gazette-2024-12-13-061_법무부_전주출입국_외국인사무소고시제2024_28호_국적취득-b4b0cb401a",
+      "layer": "gazette",
+      "title": "전주출입국.외국인사무소고시제2024-28호(국적취득)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-061_법무부_전주출입국_외국인사무소고시제2024_28호_국적취득-b4b0cb401a.json"
+    },
+    {
+      "id": "gazette-2024-12-13-062_법무부_창원출입국_외국인사무소고시제2024_59호_국적상실_중_정정-0460fe6ef1",
+      "layer": "gazette",
+      "title": "창원출입국.외국인사무소고시제2024-59호(국적상실 중 정정)",
+      "institution": "법무부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-062_법무부_창원출입국_외국인사무소고시제2024_59호_국적상실_중_정정-0460fe6ef1.json"
+    },
+    {
+      "id": "gazette-2024-12-13-063_보건복지부_보건복지부공고제2024_843호_농어촌_등_보건의료를_위한_특별조치법_시행규칙_일부개정령_안_입법예고-aa911c2d49",
+      "layer": "gazette",
+      "title": "보건복지부공고제2024-843호(「농어촌 등 보건의료를 위한 특별조치법 시행규칙」 일부개정령(안) 입법예고)",
+      "institution": "보건복지부",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-063_보건복지부_보건복지부공고제2024_843호_농어촌_등_보건의료를_위한_특별조치법_시행규칙_일부개정령_안_입법예고-aa911c2d49.json"
+    },
+    {
+      "id": "gazette-2024-12-13-064_부산광역시_부산광역시고시제2024_452호_부산진해경제자유구역_명지지구_개발계획_변경_고시-adffe9826d",
+      "layer": "gazette",
+      "title": "부산광역시고시제2024-452호(부산진해경제자유구역 명지지구  개발계획 변경  고시)",
+      "institution": "부산광역시",
+      "date": "2024-12-13",
+      "docType": "지방자치단체",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-064_부산광역시_부산광역시고시제2024_452호_부산진해경제자유구역_명지지구_개발계획_변경_고시-adffe9826d.json"
+    },
+    {
+      "id": "gazette-2024-12-13-065_산림청_산림청공고제2024_428호_임업_및_산촌_진흥촉진에_관한_법률_시행령_일부개정령_안_입법예고-43a4a694e1",
+      "layer": "gazette",
+      "title": "산림청공고제2024-428호(「임업 및 산촌 진흥촉진에 관한 법률 시행령」일부개정령(안) 입법예고)",
+      "institution": "산림청",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-065_산림청_산림청공고제2024_428호_임업_및_산촌_진흥촉진에_관한_법률_시행령_일부개정령_안_입법예고-43a4a694e1.json"
+    },
+    {
+      "id": "gazette-2024-12-13-066_산림청_산림청공고제2024_427호_탄소흡수원_유지_및_증진에_관한_법률_시행령_일부개정령_안_입법예고-2a712235b7",
+      "layer": "gazette",
+      "title": "산림청공고제2024-427호(「탄소흡수원 유지 및 증진에 관한 법률 시행령」일부개정령(안) 입법예고)",
+      "institution": "산림청",
+      "date": "2024-12-13",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-066_산림청_산림청공고제2024_427호_탄소흡수원_유지_및_증진에_관한_법률_시행령_일부개정령_안_입법예고-2a712235b7.json"
+    },
+    {
+      "id": "gazette-2024-12-13-067_산업통상자원부_국가기술표준원고시제2024_0612호_한국산업표준_제정_예고-4604bda00e",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0612호(한국산업표준 제정 예고)",
+      "institution": "산업통상자원부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-067_산업통상자원부_국가기술표준원고시제2024_0612호_한국산업표준_제정_예고-4604bda00e.json"
+    },
+    {
+      "id": "gazette-2024-12-13-068_산업통상자원부_국가기술표준원고시제2024_0622호_한국산업표준_개정_예고-ec654a6588",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0622호(한국산업표준 개정 예고)",
+      "institution": "산업통상자원부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-068_산업통상자원부_국가기술표준원고시제2024_0622호_한국산업표준_개정_예고-ec654a6588.json"
+    },
+    {
+      "id": "gazette-2024-12-13-069_산업통상자원부_국가기술표준원고시제2024_0608호_한국산업표준_제정-a294b6a74f",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0608호(한국산업표준 제정)",
+      "institution": "산업통상자원부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-069_산업통상자원부_국가기술표준원고시제2024_0608호_한국산업표준_제정-a294b6a74f.json"
+    },
+    {
+      "id": "gazette-2024-12-13-070_산업통상자원부_국가기술표준원고시제2024_0607호_한국산업표준_개정_고시-640f58a7a4",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0607호(한국산업표준 개정 고시)",
+      "institution": "산업통상자원부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-070_산업통상자원부_국가기술표준원고시제2024_0607호_한국산업표준_개정_고시-640f58a7a4.json"
+    },
+    {
+      "id": "gazette-2024-12-13-071_산업통상자원부_국가기술표준원고시제2024_0621호_한국산업표준_확인-d9cb6bb12a",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-0621호(한국산업표준 확인)",
+      "institution": "산업통상자원부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-071_산업통상자원부_국가기술표준원고시제2024_0621호_한국산업표준_확인-d9cb6bb12a.json"
+    },
+    {
+      "id": "gazette-2024-12-13-072_산업통상자원부_국가기술표준원고시제2024_643호_KS인증기관_지정_품목_확대-c63475bef5",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2024-643호(KS인증기관 지정 품목 확대)",
+      "institution": "산업통상자원부",
+      "date": "2024-12-13",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2024-12-13-072_산업통상자원부_국가기술표준원고시제2024_643호_KS인증기관_지정_품목_확대-c63475bef5.json"
     }
   ]
 }
