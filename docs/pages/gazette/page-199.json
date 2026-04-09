@@ -1,0 +1,1009 @@
+{
+  "layer": "gazette",
+  "page": 199,
+  "pageSize": 100,
+  "totalItems": 26139,
+  "totalPages": 262,
+  "items": [
+    {
+      "id": "gazette-2025-12-30-223_법제처_법률제21241호_형사소송법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21241호(형사소송법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-223_법제처_법률제21241호_형사소송법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-224_법제처_법률제21242호_방위사업법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21242호(방위사업법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-224_법제처_법률제21242호_방위사업법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-225_법제처_법률제21243호_5_18민주화운동_관련자_보상_등에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21243호(5·18민주화운동 관련자 보상 등에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-225_법제처_법률제21243호_5_18민주화운동_관련자_보상_등에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-226_법제처_법률제21244호_간토_대지진_조선인_희생사건_진상규명_및_희생자_명예회복에_관한_특별법",
+      "layer": "gazette",
+      "title": "법률제21244호(간토 대지진 조선인 희생사건 진상규명 및 희생자 명예회복에 관한 특별법)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-226_법제처_법률제21244호_간토_대지진_조선인_희생사건_진상규명_및_희생자_명예회복에_관한_특별법.json"
+    },
+    {
+      "id": "gazette-2025-12-30-227_법제처_법률제21245호_경찰관_직무집행법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21245호(경찰관 직무집행법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-227_법제처_법률제21245호_경찰관_직무집행법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-228_법제처_법률제21246호_도로교통법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21246호(도로교통법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-228_법제처_법률제21246호_도로교통법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-229_법제처_법률제21247호_인천광역시_제물포구_영종구_및_검단구_설치_등에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21247호(인천광역시 제물포구·영종구 및 검단구 설치 등에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-229_법제처_법률제21247호_인천광역시_제물포구_영종구_및_검단구_설치_등에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-230_법제처_법률제21248호_농업_농촌_및_식품산업_기본법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21248호(농업·농촌 및 식품산업 기본법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-230_법제처_법률제21248호_농업_농촌_및_식품산업_기본법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-231_법제처_법률제21249호_광업법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21249호(광업법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-231_법제처_법률제21249호_광업법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-232_법제처_법률제21250호_산업_디지털_전환_촉진법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21250호(산업 디지털 전환 촉진법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-232_법제처_법률제21250호_산업_디지털_전환_촉진법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-233_법제처_법률제21251호_석유화학산업의_경쟁력_강화_및_지원에_관한_특별법",
+      "layer": "gazette",
+      "title": "법률제21251호(석유화학산업의 경쟁력 강화 및 지원에 관한 특별법)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-233_법제처_법률제21251호_석유화학산업의_경쟁력_강화_및_지원에_관한_특별법.json"
+    },
+    {
+      "id": "gazette-2025-12-30-234_법제처_법률제21252호_액화석유가스의_안전관리_및_사업법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21252호(액화석유가스의 안전관리 및 사업법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-234_법제처_법률제21252호_액화석유가스의_안전관리_및_사업법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-235_법제처_법률제21253호_이러닝_전자학습_산업_발전_및_이러닝_활용_촉진에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21253호(이러닝(전자학습)산업 발전 및 이러닝 활용 촉진에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-235_법제처_법률제21253호_이러닝_전자학습_산업_발전_및_이러닝_활용_촉진에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-236_법제처_법률제21254호_폐광지역_개발_지원에_관한_특별법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21254호(폐광지역 개발 지원에 관한 특별법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-236_법제처_법률제21254호_폐광지역_개발_지원에_관한_특별법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-237_법제처_법률제21255호_검역법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21255호(검역법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-237_법제처_법률제21255호_검역법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-238_법제처_법률제21256호_노인복지법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21256호(노인복지법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-238_법제처_법률제21256호_노인복지법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-239_법제처_법률제21257호_노인장기요양보험법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21257호(노인장기요양보험법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-239_법제처_법률제21257호_노인장기요양보험법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-240_법제처_법률제21258호_보건의료인력지원법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21258호(보건의료인력지원법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-240_법제처_법률제21258호_보건의료인력지원법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-241_법제처_법률제21259호_사회복지공동모금회법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21259호(사회복지공동모금회법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-241_법제처_법률제21259호_사회복지공동모금회법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-242_법제처_법률제21260호_사회복지사_등의_처우_및_지위_향상을_위한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21260호(사회복지사 등의 처우 및 지위 향상을 위한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-242_법제처_법률제21260호_사회복지사_등의_처우_및_지위_향상을_위한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-243_법제처_법률제21261호_아동복지법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21261호(아동복지법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-243_법제처_법률제21261호_아동복지법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-244_법제처_법률제21262호_암관리법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21262호(암관리법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-244_법제처_법률제21262호_암관리법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-245_법제처_법률제21263호_의료기기법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21263호(의료기기법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-245_법제처_법률제21263호_의료기기법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-246_법제처_법률제21264호_의료기사_등에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21264호(의료기사 등에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-246_법제처_법률제21264호_의료기사_등에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-247_법제처_법률제21265호_자살예방_및_생명존중문화_조성을_위한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21265호(자살예방 및 생명존중문화 조성을 위한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-247_법제처_법률제21265호_자살예방_및_생명존중문화_조성을_위한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-248_법제처_법률제21266호_장애인복지법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21266호(장애인복지법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-248_법제처_법률제21266호_장애인복지법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-249_법제처_법률제21267호_전공의의_수련환경_개선_및_지위_향상을_위한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21267호(전공의의 수련환경 개선 및 지위 향상을 위한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-249_법제처_법률제21267호_전공의의_수련환경_개선_및_지위_향상을_위한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-250_법제처_법률제21268호_항공안전법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21268호(항공안전법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-250_법제처_법률제21268호_항공안전법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-251_법제처_법률제21269호_여성의_경제활동_촉진과_경력단절_예방법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21269호(여성의 경제활동 촉진과 경력단절 예방법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-251_법제처_법률제21269호_여성의_경제활동_촉진과_경력단절_예방법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-252_법제처_법률제21270호_가족친화_사회환경의_조성_촉진에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21270호(가족친화 사회환경의 조성 촉진에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-252_법제처_법률제21270호_가족친화_사회환경의_조성_촉진에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-253_법제처_법률제21271호_결혼중개업의_관리에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21271호(결혼중개업의 관리에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-253_법제처_법률제21271호_결혼중개업의_관리에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-254_법제처_법률제21272호_다문화가족지원법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21272호(다문화가족지원법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-254_법제처_법률제21272호_다문화가족지원법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-255_법제처_대통령령제35948호_기획예산처와_그_소속기관_직제",
+      "layer": "gazette",
+      "title": "대통령령제35948호(기획예산처와 그 소속기관 직제)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "대통령령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-255_법제처_대통령령제35948호_기획예산처와_그_소속기관_직제.json"
+    },
+    {
+      "id": "gazette-2025-12-30-256_법제처_법률제21284호_1인_창조기업_육성에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21284호(1인 창조기업 육성에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-256_법제처_법률제21284호_1인_창조기업_육성에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-257_법제처_대통령령제35947호_재정경제부_직제",
+      "layer": "gazette",
+      "title": "대통령령제35947호(재정경제부 직제)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "대통령령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-257_법제처_대통령령제35947호_재정경제부_직제.json"
+    },
+    {
+      "id": "gazette-2025-12-30-258_법제처_법률제21291호_중소기업기술_보호_지원에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21291호(중소기업기술 보호 지원에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-258_법제처_법률제21291호_중소기업기술_보호_지원에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-259_법제처_법률제21292호_중소기업진흥에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21292호(중소기업진흥에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-259_법제처_법률제21292호_중소기업진흥에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-260_법제처_법률제21293호_중소기업창업_지원법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21293호(중소기업창업 지원법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-260_법제처_법률제21293호_중소기업창업_지원법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-261_법제처_법률제21294호_지역상권_상생_및_활성화에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21294호(지역상권 상생 및 활성화에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-261_법제처_법률제21294호_지역상권_상생_및_활성화에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-262_법제처_법률제21295호_가맹사업거래의_공정화에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21295호(가맹사업거래의 공정화에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-262_법제처_법률제21295호_가맹사업거래의_공정화에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-263_법제처_법률제21296호_은행법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21296호(은행법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-263_법제처_법률제21296호_은행법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-264_법제처_법률제21297호_바이오의약품_위탁개발생산_기업_등의_규제지원에_관한_특별법",
+      "layer": "gazette",
+      "title": "법률제21297호(바이오의약품 위탁개발생산 기업 등의 규제지원에 관한 특별법)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-264_법제처_법률제21297호_바이오의약품_위탁개발생산_기업_등의_규제지원에_관한_특별법.json"
+    },
+    {
+      "id": "gazette-2025-12-30-265_법제처_법률제21298호_건강기능식품에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21298호(건강기능식품에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-265_법제처_법률제21298호_건강기능식품에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-266_법제처_법률제21299호_식품위생법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21299호(식품위생법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-266_법제처_법률제21299호_식품위생법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-267_법제처_법률제21300호_위생용품_관리법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21300호(위생용품 관리법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-267_법제처_법률제21300호_위생용품_관리법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-268_법제처_법률제21301호_축산물_위생관리법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21301호(축산물 위생관리법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-268_법제처_법률제21301호_축산물_위생관리법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-269_법제처_법률제21302호_화장품법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21302호(화장품법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-269_법제처_법률제21302호_화장품법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-270_법제처_법률제21303호_선거관리위원회법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21303호(선거관리위원회법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-270_법제처_법률제21303호_선거관리위원회법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-271_법제처_법률제21279호_선박평형수_관리법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21279호(선박평형수(船舶平衡水) 관리법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-271_법제처_법률제21279호_선박평형수_관리법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-272_법제처_법률제21280호_수산업협동조합법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21280호(수산업협동조합법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-272_법제처_법률제21280호_수산업협동조합법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-273_법제처_법률제21281호_양식산업발전법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21281호(양식산업발전법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-273_법제처_법률제21281호_양식산업발전법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-274_법제처_법률제21282호_어선안전조업_및_어선원의_안전_보건_증진_등에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21282호(어선안전조업 및 어선원의 안전·보건 증진 등에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-274_법제처_법률제21282호_어선안전조업_및_어선원의_안전_보건_증진_등에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-275_법제처_법률제21283호_해양환경관리법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21283호(해양환경관리법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-275_법제처_법률제21283호_해양환경관리법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-276_법제처_법률제21285호_규제자유특구_및_지역특화발전특구에_관한_규제특례법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21285호(규제자유특구 및 지역특화발전특구에 관한 규제특례법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-276_법제처_법률제21285호_규제자유특구_및_지역특화발전특구에_관한_규제특례법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-277_법제처_법률제21286호_벤처기업육성에_관한_특별법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21286호(벤처기업육성에 관한 특별법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-277_법제처_법률제21286호_벤처기업육성에_관한_특별법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-278_법제처_법률제21287호_벤처투자_촉진에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21287호(벤처투자 촉진에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-278_법제처_법률제21287호_벤처투자_촉진에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-279_법제처_법률제21288호_소상공인_보호_및_지원에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21288호(소상공인 보호 및 지원에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-279_법제처_법률제21288호_소상공인_보호_및_지원에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-280_법제처_법률제21289호_중소기업_기술혁신_촉진법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21289호(중소기업 기술혁신 촉진법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-280_법제처_법률제21289호_중소기업_기술혁신_촉진법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-281_법제처_법률제21290호_중소기업기본법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21290호(중소기업기본법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-281_법제처_법률제21290호_중소기업기본법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-282_법제처_법률제21273호_성폭력방지_및_피해자보호_등에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21273호(성폭력방지 및 피해자보호 등에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-282_법제처_법률제21273호_성폭력방지_및_피해자보호_등에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-283_법제처_법률제21274호_아동_청소년의_성보호에_관한_법률_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21274호(아동·청소년의 성보호에 관한 법률 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-283_법제처_법률제21274호_아동_청소년의_성보호에_관한_법률_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-284_법제처_법률제21275호_양성평등기본법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21275호(양성평등기본법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-284_법제처_법률제21275호_양성평등기본법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-285_법제처_법률제21276호_여성폭력방지기본법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21276호(여성폭력방지기본법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-285_법제처_법률제21276호_여성폭력방지기본법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-286_법제처_법률제21277호_청소년_보호법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21277호(청소년 보호법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-286_법제처_법률제21277호_청소년_보호법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-287_법제처_법률제21278호_청소년복지_지원법_일부개정법률",
+      "layer": "gazette",
+      "title": "법률제21278호(청소년복지 지원법 일부개정법률)",
+      "institution": "법제처",
+      "date": "2025-12-30",
+      "docType": "법률",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-287_법제처_법률제21278호_청소년복지_지원법_일부개정법률.json"
+    },
+    {
+      "id": "gazette-2025-12-30-288_병무청_인천병무지청공고제2025_23호_병역의무자_국외여행허가_취소_처분_청문실시_통지_알림",
+      "layer": "gazette",
+      "title": "인천병무지청공고제2025-23호(병역의무자 국외여행허가 취소 처분 청문실시 통지 알림)",
+      "institution": "병무청",
+      "date": "2025-12-30",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-288_병무청_인천병무지청공고제2025_23호_병역의무자_국외여행허가_취소_처분_청문실시_통지_알림.json"
+    },
+    {
+      "id": "gazette-2025-12-30-289_보건복지부_보건복지부령제1147호_보건복지부와_그_소속기관_직제_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "보건복지부령제1147호(보건복지부와 그 소속기관 직제 시행규칙 일부개정령)",
+      "institution": "보건복지부",
+      "date": "2025-12-30",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-289_보건복지부_보건복지부령제1147호_보건복지부와_그_소속기관_직제_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-290_보건복지부_보건복지부령제1146호_의료급여법_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "보건복지부령제1146호(의료급여법 시행규칙 일부개정령)",
+      "institution": "보건복지부",
+      "date": "2025-12-30",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-290_보건복지부_보건복지부령제1146호_의료급여법_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-291_부산광역시교육청_강서초등학교공고제2025_1호_강서초등학교_공인_등록",
+      "layer": "gazette",
+      "title": "강서초등학교공고제2025-1호(강서초등학교 공인 등록)",
+      "institution": "부산광역시교육청",
+      "date": "2025-12-30",
+      "docType": "기타",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-291_부산광역시교육청_강서초등학교공고제2025_1호_강서초등학교_공인_등록.json"
+    },
+    {
+      "id": "gazette-2025-12-30-292_산림청_남부지방산림청고시제2025_17호_산림보호구역_수원함양보호구역_지정_고시",
+      "layer": "gazette",
+      "title": "남부지방산림청고시제2025-17호(산림보호구역(수원함양보호구역) 지정 고시)",
+      "institution": "산림청",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-292_산림청_남부지방산림청고시제2025_17호_산림보호구역_수원함양보호구역_지정_고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-293_산림청_남부지방산림청고시제2025_18호_산림보호구역_산림유전자원보호구역_지정_고시",
+      "layer": "gazette",
+      "title": "남부지방산림청고시제2025-18호(산림보호구역(산림유전자원보호구역) 지정 고시)",
+      "institution": "산림청",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-293_산림청_남부지방산림청고시제2025_18호_산림보호구역_산림유전자원보호구역_지정_고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-294_산림청_남부지방산림청고시제2025_19호_산림보호구역_산림유전자원보호구역_지정해제_고시",
+      "layer": "gazette",
+      "title": "남부지방산림청고시제2025-19호(산림보호구역(산림유전자원보호구역) 지정해제 고시)",
+      "institution": "산림청",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-294_산림청_남부지방산림청고시제2025_19호_산림보호구역_산림유전자원보호구역_지정해제_고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-295_산림청_동부지방산림청고시제2025_22호_산림보호구역_산림유전자원보호구역_지정_고시",
+      "layer": "gazette",
+      "title": "동부지방산림청고시제2025-22호(산림보호구역(산림유전자원보호구역) 지정 고시)",
+      "institution": "산림청",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-295_산림청_동부지방산림청고시제2025_22호_산림보호구역_산림유전자원보호구역_지정_고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-296_산림청_북부지방산림청고시제2025_27호_산림보호구역_제3종_수원함양보호구역_지정해제_고시",
+      "layer": "gazette",
+      "title": "북부지방산림청고시제2025-27호(산림보호구역(제3종 수원함양보호구역) 지정해제 고시)",
+      "institution": "산림청",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-296_산림청_북부지방산림청고시제2025_27호_산림보호구역_제3종_수원함양보호구역_지정해제_고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-297_산업통상부_산업통상부고시제2025_040호_2025년_광해방지사업계획_변경_3차_고시",
+      "layer": "gazette",
+      "title": "산업통상부고시제2025-040호(2025년 광해방지사업계획 변경(3차) 고시)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-297_산업통상부_산업통상부고시제2025_040호_2025년_광해방지사업계획_변경_3차_고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-298_산업통상부_산업통상부령제4호_산업통상부와_그_소속기관_직제_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "산업통상부령제4호(산업통상부와 그 소속기관 직제 시행규칙 일부개정령)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-298_산업통상부_산업통상부령제4호_산업통상부와_그_소속기관_직제_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-299_산업통상부_국가기술표준원고시제2025_0681호_한국산업표준_확인_고시_KSBISO16111_등_2종",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0681호(한국산업표준 확인 고시(KSBISO16111 등 2종))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-299_산업통상부_국가기술표준원고시제2025_0681호_한국산업표준_확인_고시_KSBISO16111_등_2종.json"
+    },
+    {
+      "id": "gazette-2025-12-30-300_산업통상부_국가기술표준원고시제2025_0704호_한국산업표준_개정_예고",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0704호(한국산업표준 개정 예고)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-300_산업통상부_국가기술표준원고시제2025_0704호_한국산업표준_개정_예고.json"
+    },
+    {
+      "id": "gazette-2025-12-30-301_산업통상부_국가기술표준원고시제2025_0705호_한국산업표준_제정_예고",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0705호(한국산업표준 제정 예고)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-301_산업통상부_국가기술표준원고시제2025_0705호_한국산업표준_제정_예고.json"
+    },
+    {
+      "id": "gazette-2025-12-30-302_산업통상부_국가기술표준원고시제2025_0700호_한국산업표준_개정_예고_고시_KS_B_ISO_4190_3",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0700호(한국산업표준 개정 예고 고시(KS B ISO 4190-3))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-302_산업통상부_국가기술표준원고시제2025_0700호_한국산업표준_개정_예고_고시_KS_B_ISO_4190_3.json"
+    },
+    {
+      "id": "gazette-2025-12-30-303_산업통상부_국가기술표준원고시제2025_0699호_한국산업표준_제정_예고_고시_KS_B_NEW_2025_2680_등_6종",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0699호(한국산업표준 제정 예고 고시(KS_B_NEW 2025_2680 등 6종))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-303_산업통상부_국가기술표준원고시제2025_0699호_한국산업표준_제정_예고_고시_KS_B_NEW_2025_2680_등_6종.json"
+    },
+    {
+      "id": "gazette-2025-12-30-304_산업통상부_국가기술표준원고시제2025_0710호_한국산업표준_폐지_예고",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0710호(한국산업표준 폐지 예고)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-304_산업통상부_국가기술표준원고시제2025_0710호_한국산업표준_폐지_예고.json"
+    },
+    {
+      "id": "gazette-2025-12-30-305_산업통상부_국가기술표준원고시제2025_0694호_한국산업표준_개정",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0694호(한국산업표준 개정)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-305_산업통상부_국가기술표준원고시제2025_0694호_한국산업표준_개정.json"
+    },
+    {
+      "id": "gazette-2025-12-30-306_산업통상부_국가기술표준원고시제2025_0709호_한국산업표준_제정_예고",
+      "layer": "gazette",
+      "title": "국가기술표준원고시제2025-0709호(한국산업표준 제정 예고)",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-306_산업통상부_국가기술표준원고시제2025_0709호_한국산업표준_제정_예고.json"
+    },
+    {
+      "id": "gazette-2025-12-30-307_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부",
+      "layer": "gazette",
+      "title": "상훈(& #39;생산성 향상 및 녹색경영 유공& #39; 정부포상 수여 (산업통상부))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-307_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부.json"
+    },
+    {
+      "id": "gazette-2025-12-30-308_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부",
+      "layer": "gazette",
+      "title": "상훈(& #39;생산성 향상 및 녹색경영 유공& #39; 정부포상 수여 (산업통상부))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-308_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부.json"
+    },
+    {
+      "id": "gazette-2025-12-30-309_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부",
+      "layer": "gazette",
+      "title": "상훈(& #39;생산성 향상 및 녹색경영 유공& #39; 정부포상 수여 (산업통상부))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-309_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부.json"
+    },
+    {
+      "id": "gazette-2025-12-30-310_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부",
+      "layer": "gazette",
+      "title": "상훈(& #39;생산성 향상 및 녹색경영 유공& #39; 정부포상 수여 (산업통상부))",
+      "institution": "산업통상부",
+      "date": "2025-12-30",
+      "docType": "상훈",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-310_산업통상부_상훈_39_생산성_향상_및_녹색경영_유공_39_정부포상_수여_산업통상부.json"
+    },
+    {
+      "id": "gazette-2025-12-30-311_성평등가족부_성평등가족부공고제2025_32호_아이돌봄_지원법_시행령_일부개정령안_입법예고",
+      "layer": "gazette",
+      "title": "성평등가족부공고제2025-32호(아이돌봄 지원법 시행령 일부개정령안 입법예고)",
+      "institution": "성평등가족부",
+      "date": "2025-12-30",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-311_성평등가족부_성평등가족부공고제2025_32호_아이돌봄_지원법_시행령_일부개정령안_입법예고.json"
+    },
+    {
+      "id": "gazette-2025-12-30-312_식품의약품안전처_총리령제2078호_위생용품_관리법_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "총리령제2078호(위생용품 관리법 시행규칙 일부개정령)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "총리령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-312_식품의약품안전처_총리령제2078호_위생용품_관리법_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-313_식품의약품안전처_대구지방식품의약품안전청공고제2025_41호_의료기기법_위반에_따른_과태료_부과_처분_중_정정",
+      "layer": "gazette",
+      "title": "대구지방식품의약품안전청공고제2025-41호(의료기기법 위반에 따른 과태료 부과 처분 중 정정)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-313_식품의약품안전처_대구지방식품의약품안전청공고제2025_41호_의료기기법_위반에_따른_과태료_부과_처분_중_정정.json"
+    },
+    {
+      "id": "gazette-2025-12-30-314_식품의약품안전처_대구지방식품의약품안전청공고제2025_42호_화장품법_위반에_따른_과태료_부과_처분_철회",
+      "layer": "gazette",
+      "title": "대구지방식품의약품안전청공고제2025-42호(화장품법 위반에 따른 과태료 부과 처분 철회)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-314_식품의약품안전처_대구지방식품의약품안전청공고제2025_42호_화장품법_위반에_따른_과태료_부과_처분_철회.json"
+    },
+    {
+      "id": "gazette-2025-12-30-315_식품의약품안전처_서울지방식품의약품안전청공고제2025_172호_화장품법_위반업체_과태료_부과_처분_철회_계획",
+      "layer": "gazette",
+      "title": "서울지방식품의약품안전청공고제2025-172호(「화장품법」위반업체 과태료 부과 처분 철회 계획)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-315_식품의약품안전처_서울지방식품의약품안전청공고제2025_172호_화장품법_위반업체_과태료_부과_처분_철회_계획.json"
+    },
+    {
+      "id": "gazette-2025-12-30-316_식품의약품안전처_총리령제2076호_식품의약품안전처와_그_소속기관_직제_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "총리령제2076호(식품의약품안전처와 그 소속기관 직제 시행규칙 일부개정령)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "총리령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-316_식품의약품안전처_총리령제2076호_식품의약품안전처와_그_소속기관_직제_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-317_식품의약품안전처_총리령제2079호_인체조직안전에_관한_규칙_일부개정령",
+      "layer": "gazette",
+      "title": "총리령제2079호(인체조직안전에 관한 규칙 일부개정령)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "총리령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-317_식품의약품안전처_총리령제2079호_인체조직안전에_관한_규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-318_식품의약품안전처_경인지방식품의약품안전청공고제2025_168호_화장품법_위반업체_과태료부과_처분_철회",
+      "layer": "gazette",
+      "title": "경인지방식품의약품안전청공고제2025-168호(화장품법 위반업체 과태료부과 처분 철회)",
+      "institution": "식품의약품안전처",
+      "date": "2025-12-30",
+      "docType": "공고",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-318_식품의약품안전처_경인지방식품의약품안전청공고제2025_168호_화장품법_위반업체_과태료부과_처분_철회.json"
+    },
+    {
+      "id": "gazette-2025-12-30-319_외교부_외교부령제155호_외교부와_그_소속기관_직제_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "외교부령제155호(외교부와 그 소속기관 직제 시행규칙 일부개정령)",
+      "institution": "외교부",
+      "date": "2025-12-30",
+      "docType": "부령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-319_외교부_외교부령제155호_외교부와_그_소속기관_직제_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-320_원자력안전위원회_원자력안전위원회고시제2025_9호_원자력안전관리부담금에_관한_규정_전부개정고시",
+      "layer": "gazette",
+      "title": "원자력안전위원회고시제2025-9호(원자력안전관리부담금에 관한 규정 전부개정고시)",
+      "institution": "원자력안전위원회",
+      "date": "2025-12-30",
+      "docType": "고시",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-320_원자력안전위원회_원자력안전위원회고시제2025_9호_원자력안전관리부담금에_관한_규정_전부개정고시.json"
+    },
+    {
+      "id": "gazette-2025-12-30-321_인사혁신처_총리령제2080호_공무원_징계령_시행규칙_일부개정령",
+      "layer": "gazette",
+      "title": "총리령제2080호(공무원 징계령 시행규칙 일부개정령)",
+      "institution": "인사혁신처",
+      "date": "2025-12-30",
+      "docType": "총리령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-321_인사혁신처_총리령제2080호_공무원_징계령_시행규칙_일부개정령.json"
+    },
+    {
+      "id": "gazette-2025-12-30-322_인사혁신처_대통령훈령제479호_공무원_비위사건_처리규정_일부개정령",
+      "layer": "gazette",
+      "title": "대통령훈령제479호(공무원 비위사건 처리규정 일부개정령)",
+      "institution": "인사혁신처",
+      "date": "2025-12-30",
+      "docType": "훈령",
+      "excerpt": "",
+      "detailPath": "docs/details/gazette/gazette-2025-12-30-322_인사혁신처_대통령훈령제479호_공무원_비위사건_처리규정_일부개정령.json"
+    }
+  ]
+}

@@ -2,15 +2,17 @@
 import argparse
 import json
 import math
+import os
 import re
+import shutil
 from collections import defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
-WORKSPACE = Path('/Users/seohoseong/.openclaw/workspace')
-APP_ROOT = WORKSPACE / 'ai-readable-government'
-PRESS_ROOT = WORKSPACE / 'gov-press-md'
-GAZETTE_ROOT = WORKSPACE / 'gov-gazette-md'
+APP_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_WORKSPACE = APP_ROOT.parent
+PRESS_ROOT = Path(os.environ.get('GOV_PRESS_ROOT', DEFAULT_WORKSPACE / 'gov-press-md')).expanduser()
+GAZETTE_ROOT = Path(os.environ.get('GOV_GAZETTE_ROOT', DEFAULT_WORKSPACE / 'gov-gazette-md')).expanduser()
 PAGE_SIZE = 100
 
 
@@ -218,6 +220,12 @@ def group_by_institution(*datasets):
     return result
 
 
+def reset_generated_dir(path: Path):
+    if path.exists():
+        shutil.rmtree(path)
+    path.mkdir(parents=True, exist_ok=True)
+
+
 def write_details(items: list, docs_dir: Path):
     for item in items:
         rel = Path(item['detailPath'].replace('docs/', '', 1))
@@ -263,6 +271,8 @@ def main():
 
     docs_dir = APP_ROOT / 'docs'
     docs_dir.mkdir(parents=True, exist_ok=True)
+    reset_generated_dir(docs_dir / 'pages')
+    reset_generated_dir(docs_dir / 'details')
 
     press = []
     gazette = []
