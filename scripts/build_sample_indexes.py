@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import hashlib
 import json
 import math
 import os
@@ -53,8 +54,10 @@ def iterate_days(start_day: str, end_day: str):
 
 def safe_id(layer: str, day: str, filename: str) -> str:
     stem = Path(filename).stem
-    stem = re.sub(r'[^0-9A-Za-z가-힣_-]+', '-', stem)
-    return f'{layer}-{day}-{stem}'
+    normalized = re.sub(r'[^0-9A-Za-z가-힣_-]+', '-', stem).strip('-')
+    compact = normalized[:72].rstrip('-') if normalized else 'doc'
+    digest = hashlib.sha1(stem.encode('utf-8')).hexdigest()[:10]
+    return f'{layer}-{day}-{compact}-{digest}'
 
 
 def detail_rel_path(layer: str, doc_id: str) -> str:
