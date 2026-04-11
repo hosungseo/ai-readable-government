@@ -24,10 +24,10 @@
       <main>
         <section class="hero hero-board" id="home">
           <div class="hero-copy">
-            <p class="eyebrow">PUBLIC DOCUMENT BOARD</p>
-            <h1>정부 문서 게시판</h1>
+            <p class="eyebrow">AI-READABLE GOVERNMENT</p>
+            <h1>정부는 관보에 기록하고, 보도자료로 설명합니다</h1>
             <p class="hero-body">
-              보도자료와 관보를 날짜·기관 기준으로 바로 훑고 들어가는 공공 문서 게시판형 리더.
+              관보는 정부의 일기이고, 보도자료는 정부의 설명문입니다. Ai readable government는 관보 약 10만 건과 보도자료 75,842건을 Markdown 기반 문서 DB로 정리해, 정부 기록을 읽고·찾고·해설할 수 있게 만듭니다.
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#by-date">최근 날짜 보기</a>
@@ -40,19 +40,22 @@
               <p class="card-label">게시판 현황</p>
               <div class="coverage-grid">
                 <div>
-                  <span class="coverage-value" id="coverage-gazette">315</span>
-                  <span class="coverage-unit">gazette docs</span>
+                  <span class="coverage-value" id="coverage-gazette">100k+</span>
+                  <span class="coverage-unit">gazette corpus</span>
                 </div>
                 <div>
-                  <span class="coverage-value" id="coverage-press">680+</span>
-                  <span class="coverage-unit">press docs</span>
+                  <span class="coverage-value" id="coverage-press">75,842</span>
+                  <span class="coverage-unit">press corpus</span>
                 </div>
               </div>
               <div class="coverage-meta">
-                <span class="badge badge-final">Readable</span>
-                <span class="badge badge-source">Source PDF</span>
-                <span class="badge badge-meta">Metadata</span>
+                <span class="badge badge-final">Readable Markdown</span>
+                <span class="badge badge-source">Source Layer</span>
+                <span class="badge badge-meta">Public Record</span>
               </div>
+              <p class="hero-body" id="usable-gazette-summary-line" style="margin-top:14px; font-size:14px; color:rgba(15,23,42,0.78);">
+                usable gazette corpus loading…
+              </p>
             </div>
           </div>
         </section>
@@ -61,17 +64,18 @@
           <article class="board-panel">
             <p class="section-kicker">탐색 방식</p>
             <h3>날짜별</h3>
-            <p>문서가 많이 올라온 날짜부터 확인합니다.</p>
+            <p>정부가 특정 날 무엇을 기록하고 무엇을 설명했는지 함께 읽습니다.</p>
           </article>
           <article class="board-panel">
             <p class="section-kicker">탐색 방식</p>
             <h3>기관별</h3>
-            <p>기관별 문서 흐름과 편중(press/gazette)을 봅니다.</p>
+            <p>기관별로 기록 레이어(관보)와 설명 레이어(보도자료)의 흐름을 비교합니다.</p>
           </article>
           <article class="board-panel">
             <p class="section-kicker">레이어</p>
             <h3>Press / Gazette</h3>
-            <p>설명 레이어와 공식 기록 레이어를 나란히 읽습니다.</p>
+            <p>정부의 설명문과 정부의 일기를 나란히 읽는, 두 층위의 공공 문서 리더입니다.</p>
+            <p id="usable-gazette-topline" style="margin-top:10px; color:#475569; font-size:14px;">usable gazette stats loading…</p>
           </article>
         </section>
 
@@ -470,8 +474,12 @@
 
       async function boot() {
         try {
-          const res = await fetch('./docs/index-data.json');
-          const data = await res.json();
+          const [dataRes, usableRes] = await Promise.all([
+            fetch('./docs/index-data.json'),
+            fetch('./docs/usable-gazette-summary.json').catch(() => null)
+          ]);
+          const data = await dataRes.json();
+          const usable = usableRes && usableRes.ok ? await usableRes.json() : null;
 
           const range = data.generatedForRange;
           const activeDay = range ? `${range.start} → ${range.end}` : (data.generatedForDay || data.day || 'sample');
@@ -483,6 +491,12 @@
           $('press-count-chip').textContent = `${(data.coverage && data.coverage.pressSampleCount) || 0} docs`;
           $('by-date-count-chip').textContent = `${(data.byDate || []).length} groups`;
           $('by-institution-count-chip').textContent = `${(data.byInstitution || []).length} groups`;
+
+          if (usable) {
+            const topPublisher = (usable.topPublishers || [])[0];
+            $('usable-gazette-summary-line').textContent = `usable gazette corpus ${usable.total.toLocaleString('en-US')} docs · ${Object.keys(usable.years || {}).length} years · top publisher ${topPublisher ? topPublisher.publisher : '-'}`;
+            $('usable-gazette-topline').textContent = `usable ${usable.total.toLocaleString('en-US')} docs · 2024 ${((usable.years || {})['2024'] || 0).toLocaleString('en-US')} · 2025 ${((usable.years || {})['2025'] || 0).toLocaleString('en-US')}`;
+          }
 
           const lists = data.lists || {};
           if (lists.gazette) await populateGazette(lists.gazette);

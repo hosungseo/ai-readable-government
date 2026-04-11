@@ -1,0 +1,414 @@
+{
+  "total": 104532,
+  "years": {
+    "2020": 2962,
+    "2021": 17582,
+    "2022": 13824,
+    "2023": 21544,
+    "2024": 22451,
+    "2025": 20217,
+    "2026": 5885
+  },
+  "topPublishers": [
+    {
+      "publisher": "국토교통부",
+      "count": 13283
+    },
+    {
+      "publisher": "환경부",
+      "count": 8060
+    },
+    {
+      "publisher": "법제처",
+      "count": 7949
+    },
+    {
+      "publisher": "법무부",
+      "count": 7869
+    },
+    {
+      "publisher": "해양수산부",
+      "count": 6814
+    },
+    {
+      "publisher": "과학기술정보통신부",
+      "count": 5542
+    },
+    {
+      "publisher": "산업통상자원부",
+      "count": 4344
+    },
+    {
+      "publisher": "대법원",
+      "count": 4123
+    },
+    {
+      "publisher": "행정안전부",
+      "count": 3592
+    },
+    {
+      "publisher": "국방부",
+      "count": 3034
+    },
+    {
+      "publisher": "대검찰청",
+      "count": 2448
+    },
+    {
+      "publisher": "식품의약품안전처",
+      "count": 1948
+    },
+    {
+      "publisher": "산림청",
+      "count": 1901
+    },
+    {
+      "publisher": "고용노동부",
+      "count": 1713
+    },
+    {
+      "publisher": "보건복지부",
+      "count": 1650
+    },
+    {
+      "publisher": "금융위원회",
+      "count": 1368
+    },
+    {
+      "publisher": "기획재정부",
+      "count": 1249
+    },
+    {
+      "publisher": "정부산하기관및위원회",
+      "count": 1176
+    },
+    {
+      "publisher": "문화체육관광부",
+      "count": 1032
+    },
+    {
+      "publisher": "외교부",
+      "count": 999
+    },
+    {
+      "publisher": "중소벤처기업부",
+      "count": 991
+    },
+    {
+      "publisher": "농림축산식품부",
+      "count": 946
+    },
+    {
+      "publisher": "기후에너지환경부",
+      "count": 879
+    },
+    {
+      "publisher": "문화재청",
+      "count": 863
+    },
+    {
+      "publisher": "해양경찰청",
+      "count": 830
+    },
+    {
+      "publisher": "교육부",
+      "count": 829
+    },
+    {
+      "publisher": "경기도교육청",
+      "count": 827
+    },
+    {
+      "publisher": "소방청",
+      "count": 818
+    },
+    {
+      "publisher": "인사혁신처",
+      "count": 799
+    },
+    {
+      "publisher": "방송통신위원회",
+      "count": 749
+    },
+    {
+      "publisher": "대학",
+      "count": 670
+    },
+    {
+      "publisher": "여성가족부",
+      "count": 628
+    },
+    {
+      "publisher": "조달청",
+      "count": 617
+    },
+    {
+      "publisher": "경찰청",
+      "count": 556
+    },
+    {
+      "publisher": "산업통상부",
+      "count": 531
+    },
+    {
+      "publisher": "경기도",
+      "count": 505
+    },
+    {
+      "publisher": "기상청",
+      "count": 493
+    },
+    {
+      "publisher": "국가보훈부",
+      "count": 489
+    },
+    {
+      "publisher": "국가유산청",
+      "count": 477
+    },
+    {
+      "publisher": "헌법재판소",
+      "count": 398
+    },
+    {
+      "publisher": "공정거래위원회",
+      "count": 381
+    },
+    {
+      "publisher": "부산광역시교육청",
+      "count": 337
+    },
+    {
+      "publisher": "병무청",
+      "count": 327
+    },
+    {
+      "publisher": "국가보훈처",
+      "count": 321
+    },
+    {
+      "publisher": "행정중심복합도시건설청",
+      "count": 302
+    },
+    {
+      "publisher": "서울특별시",
+      "count": 297
+    },
+    {
+      "publisher": "국세청",
+      "count": 283
+    },
+    {
+      "publisher": "원자력안전위원회",
+      "count": 272
+    },
+    {
+      "publisher": "질병관리청",
+      "count": 272
+    },
+    {
+      "publisher": "중앙선거관리위원회",
+      "count": 255
+    },
+    {
+      "publisher": "관세청",
+      "count": 229
+    },
+    {
+      "publisher": "서울특별시교육청",
+      "count": 221
+    },
+    {
+      "publisher": "통일부",
+      "count": 206
+    },
+    {
+      "publisher": "충청남도교육청",
+      "count": 204
+    },
+    {
+      "publisher": "경상남도교육청",
+      "count": 190
+    },
+    {
+      "publisher": "경상북도교육청",
+      "count": 188
+    },
+    {
+      "publisher": "특허청",
+      "count": 188
+    },
+    {
+      "publisher": "전라남도교육청",
+      "count": 176
+    },
+    {
+      "publisher": "개인정보보호위원회",
+      "count": 175
+    },
+    {
+      "publisher": "인천광역시",
+      "count": 162
+    },
+    {
+      "publisher": "새만금개발청",
+      "count": 161
+    },
+    {
+      "publisher": "충청남도",
+      "count": 161
+    },
+    {
+      "publisher": "농촌진흥청",
+      "count": 141
+    },
+    {
+      "publisher": "국무조정실",
+      "count": 136
+    },
+    {
+      "publisher": "경상남도",
+      "count": 129
+    },
+    {
+      "publisher": "재정경제부",
+      "count": 117
+    },
+    {
+      "publisher": "국민권익위원회",
+      "count": 110
+    },
+    {
+      "publisher": "대구광역시",
+      "count": 109
+    },
+    {
+      "publisher": "전라남도",
+      "count": 105
+    },
+    {
+      "publisher": "강원도교육청",
+      "count": 99
+    },
+    {
+      "publisher": "서울중앙지방검찰청",
+      "count": 98
+    },
+    {
+      "publisher": "대구광역시교육청",
+      "count": 91
+    },
+    {
+      "publisher": "경상북도",
+      "count": 90
+    },
+    {
+      "publisher": "부산광역시",
+      "count": 87
+    },
+    {
+      "publisher": "정부공직자윤리위원회",
+      "count": 83
+    },
+    {
+      "publisher": "통계청",
+      "count": 83
+    },
+    {
+      "publisher": "제주특별자치도교육청",
+      "count": 80
+    },
+    {
+      "publisher": "방송미디어통신위원회",
+      "count": 78
+    },
+    {
+      "publisher": "강원도",
+      "count": 74
+    },
+    {
+      "publisher": "강원특별자치도교육청",
+      "count": 73
+    },
+    {
+      "publisher": "충청북도",
+      "count": 72
+    },
+    {
+      "publisher": "방위사업청",
+      "count": 71
+    },
+    {
+      "publisher": "대전광역시",
+      "count": 69
+    },
+    {
+      "publisher": "인천광역시교육청",
+      "count": 67
+    },
+    {
+      "publisher": "고위공직자범죄수사처",
+      "count": 65
+    },
+    {
+      "publisher": "성평등가족부",
+      "count": 64
+    },
+    {
+      "publisher": "감사원",
+      "count": 61
+    },
+    {
+      "publisher": "광주광역시교육청",
+      "count": 61
+    },
+    {
+      "publisher": "진실화해를위한과거사정리위원회",
+      "count": 61
+    },
+    {
+      "publisher": "재외동포청",
+      "count": 55
+    },
+    {
+      "publisher": "서울고등법원",
+      "count": 51
+    },
+    {
+      "publisher": "제주특별자치도",
+      "count": 50
+    },
+    {
+      "publisher": "대전광역시교육청",
+      "count": 49
+    },
+    {
+      "publisher": "세종특별자치시교육청",
+      "count": 49
+    },
+    {
+      "publisher": "서울서부지방검찰청",
+      "count": 48
+    },
+    {
+      "publisher": "울산광역시교육청",
+      "count": 48
+    },
+    {
+      "publisher": "서울동부지방검찰청",
+      "count": 47
+    },
+    {
+      "publisher": "국회",
+      "count": 46
+    },
+    {
+      "publisher": "의정부지방검찰청",
+      "count": 45
+    },
+    {
+      "publisher": "대전지방국토관리청",
+      "count": 43
+    }
+  ]
+}
