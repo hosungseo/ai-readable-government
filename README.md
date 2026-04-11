@@ -14,11 +14,13 @@
 
 ## 지금 반영된 범위
 현재 프로토타입은 누적 기준으로 다음 범위를 반영합니다.
-- `2025-01-01 ~ 2026-04-08`
-- press sample total: `9391`
-- gazette sample total: `7175`
-- date groups: `462`
-- institution groups: `94`
+- `2024-01-01 ~ 2026-04-08`
+- press sample total: `34134`
+- gazette sample total: `48614`
+- date groups: `710`
+- institution groups: `130`
+- press source corpus: `75842`
+- gazette source corpus: `about 100k`
 
 ## 핵심 원칙
 - source first
