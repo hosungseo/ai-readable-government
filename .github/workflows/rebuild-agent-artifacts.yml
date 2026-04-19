@@ -1,0 +1,45 @@
+name: Rebuild agent artifacts
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # Mondays 00:00 UTC = 09:00 KST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: python -m pip install lxml
+
+      - name: Build agent artifacts
+        run: python scripts/build_agent_artifacts.py
+
+      - name: Validate artifacts
+        run: python scripts/validate_agent_artifacts.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- sitemap.xml agent-catalog.json llms.txt sitemaps/; then
+            echo "no artifact changes"
+            exit 0
+          fi
+          git add sitemap.xml agent-catalog.json llms.txt sitemaps/
+          git commit -m "Rebuild agent artifacts ($(date -u +%Y-%m-%d))"
+          git push
