@@ -36,7 +36,17 @@
 - 커뮤니티·댓글 엔드포인트
 - `Accept: text/markdown` 헤더 분기 및 `x-markdown-tokens` 헤더 (정적 호스팅으로는 불가)
 
-### 1.4 성공 기준 (verifiable)
+### 1.4 선결 조건 (Prerequisites — 구현 플랜 Phase 0)
+
+MVP 공개 배포를 위해 다음 세 리포를 public 전환해야 한다 (사용자 2026-04-19 승인):
+
+- `hosungseo/ai-readable-government` — **private → public**, GitHub Pages **OFF → ON** (main branch / root)
+- `hosungseo/gov-gazette-md` — **private → public** (관보는 저작권법 제7조로 자유 이용, `ai-readable-gazette-kr`가 이미 corrected 버전 공개 중이라 실질적 차이 작음)
+- `hosungseo/gov-press-md` — **private → public** (정부 보도자료는 공공 정보)
+
+미완결 시 MVP 성공 기준 미달. 구현 플랜 Phase 0에서 수동으로 처리.
+
+### 1.5 성공 기준 (verifiable)
 
 1. 다음 네 URL이 모두 200으로 응답
    - `https://hosungseo.github.io/ai-readable-government/robots.txt`
@@ -329,6 +339,7 @@ jobs:
 | D7 | ~~GitHub API `git/trees?recursive=true` 사용~~ → **tree-filter 부분 clone(`--filter=tree:0`) + `git ls-tree`** 로 변경 | 실측 결과 두 소스 리포 모두 API 응답이 `truncated: true` 로 잘림. blob 없는 부분 clone은 잘림 없고 수 초 내 완료 |
 | D8 | Agent-ready artifact는 **리포 root level**에 배치 (docs/가 아님) | `robots.txt`는 프로토콜상 `/robots.txt`여야 함. 그리고 현 리포의 `index.html`이 root에 있어 Pages가 root 서빙 중임이 실측 확인됨 |
 | D9 | `agent-catalog.json`에 `$schema` 필드 선언 안 함 | JSON Schema 파일을 공급하지 않는 상태에서 참조만 걸면 404 → 에이전트 신뢰 훼손. 스키마 공개 필요 시 별도 사이클에서 도입 |
+| D10 | 세 리포(`ai-readable-government`, `gov-gazette-md`, `gov-press-md`) 모두 **public 전환 + Pages ON**. 사용자 2026-04-19 승인 | 검증 결과 세 리포 모두 private였고 Pages 미활성. MVP 전제(`hosungseo.github.io/ai-readable-government/*` 200, `raw.githubusercontent.com/hosungseo/gov-*-md/...` 200) 성립 위해 불가결. 공공 데이터 공개 취지와도 부합 |
 
 ---
 
