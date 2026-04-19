@@ -1,26 +1,27 @@
-# Ai readable government
+# ai-readable-government
 
-정부 문서를 사람이 읽고 AI가 처리하기 쉬운 형태로 다시 제공하는 공공 문서 리더 프로젝트.
+정부 문서를 **사람이 읽기 쉽고 AI가 처리하기 쉬운 형태**로 다시 보여 주는 공공 문서 리더 프로젝트입니다.
+
+이 저장소는 단순 링크 모음이 아니라, `gov-press-md`와 `gov-gazette-md` 같은 공개 문서 DB를 하나의 읽기 경험으로 묶는 **reader layer**를 목표로 합니다.
 
 ## Live
 - GitHub Pages: <https://hosungseo.github.io/ai-readable-government/>
 - Press source repo: <https://github.com/hosungseo/gov-press-md>
 - Gazette source repo: <https://github.com/hosungseo/gov-gazette-md>
 
-## 제품 한 줄 정의
-- `gov-press-md`는 정부의 **설명/보도 레이어**
-- `gov-gazette-md`는 정부의 **공식 기록 레이어**
-- `Ai readable government`는 이 둘을 한 인터페이스에서 읽게 하는 **공공 문서 리더**
+## 한 줄 정의
+- `gov-press-md` = 정부의 설명, 보도, 브리핑 레이어
+- `gov-gazette-md` = 정부의 공식 기록, 고시, 공고 레이어
+- `ai-readable-government` = 이 둘을 함께 읽게 하는 공공 문서 리더
 
-## 지금 반영된 범위
-현재 프로토타입은 누적 기준으로 다음 범위를 반영합니다.
-- `2024-01-01 ~ 2026-04-08`
-- press sample total: `34134`
-- gazette sample total: `48614`
-- date groups: `710`
-- institution groups: `130`
-- press source corpus: `75842`
-- gazette source corpus: `about 100k`
+## 현재 프로토타입 상태
+현재 공개 프로토타입은 샘플 인덱스 기준으로 다음 범위를 반영합니다.
+- 반영 범위: **2024-01-01 ~ 2026-04-08**
+- press sample total: **34,134**
+- gazette sample total: **48,614**
+- date groups: **710**
+- institution groups: **130**
+- backing press corpus: **165,938+ documents** (`gov-press-md` 기준)
 
 ## 핵심 원칙
 - source first
@@ -30,27 +31,32 @@
 - archive over campaign
 
 ## 이 프로젝트가 하는 일
-이 프로젝트는 정부 문서를 단순히 링크하는 것이 아니라,
-**git-backed public document DB를 읽는 리더**를 목표로 합니다.
+이 프로젝트는 정부 문서를 단순히 링크하는 대신, **source + metadata + readable layer**를 한 화면 안에서 함께 보여 주려 합니다.
 
-구조는 다음과 같습니다.
+사용자는 한 인터페이스에서:
+- press / gazette 두 레이어를 구분해 보고
+- 날짜별 흐름을 훑고
+- 기관별 문서 흐름을 탐색하고
+- 원문 링크와 readable representation의 관계를 함께 볼 수 있습니다.
+
+## 저장소 관계
 - `gov-press-md` = 보도자료 DB
 - `gov-gazette-md` = 관보 DB
-- `ai-readable-government` = 그 DB를 읽는 public reader
+- `ai-readable-government` = public reader / prototype UI
 
-사용자는 한 화면 안에서:
-- press / gazette 두 레이어를 구분해 보고
-- 날짜별로 흐름을 훑고
-- 기관별로 문서 흐름을 보고
-- 원문 source 링크와 metadata/readable 관계를 함께 볼 수 있습니다.
+## 이 저장소에 포함된 것
+- 정적 HTML 기반 reader prototype
+- 통합 샘플 인덱스(`docs/index-data.json`)
+- 날짜별 / 기관별 browse 데이터
+- 디자인 및 정보구조 문서
 
-## 문서
+## 주요 문서
 - `DESIGN.md` — 디자인 시스템과 제품 톤
-- `docs/IA.md` — 정보구조 및 화면 설계 초안
+- `docs/IA.md` — 정보구조와 화면 설계 초안
 - `docs/INDEXES.md` — 샘플 인덱스 계층과 공통 스키마 메모
 - `docs/index-data.json` — 프론트엔드가 읽는 통합 샘플 인덱스
 
-## 샘플 데이터 일반화
+## 데이터 생성 방식
 메인 프로토타입은 HTML 내부 하드코딩 데이터 대신 `docs/index-data.json`을 읽습니다.
 
 생성 스크립트:
@@ -61,7 +67,7 @@ python3 scripts/build_sample_indexes.py
 기본 동작:
 - `gov-press-md`에서 보도자료 샘플 추출
 - `gov-gazette-md`에서 관보 샘플 추출
-- 아래 파일 생성/갱신
+- 아래 파일 생성 또는 갱신
   - `docs/press-sample.json`
   - `docs/gazette-sample.json`
   - `docs/by-date.json`
@@ -74,21 +80,15 @@ python3 scripts/build_sample_indexes.py --day 2026-04-06 --press-limit 10 --gaze
 python3 scripts/build_sample_indexes.py --start-day 2025-01-01 --end-day 2026-04-08 --press-limit-per-day 24 --gazette-limit-per-day 24
 ```
 
-범위 모드에서는 여러 날짜의 샘플을 합쳐:
-- `press`
-- `gazette`
-- `byDate`
-- `byInstitution`
-를 다시 계산합니다.
-
-## 알려진 한계
-- 현재는 정적 HTML 프로토타입 기반입니다.
-- 브라우저 툴 스냅샷은 데이터가 커지면 payload limit에 걸릴 수 있습니다.
-- 관보 원천 API에는 확인된 장애 구간이 있습니다.
+## 현재 한계
+- 아직은 **정적 HTML 프로토타입** 중심입니다.
+- 현재 노출 범위는 전체 원천 DB가 아니라 **샘플 인덱스 계층**입니다.
+- 브라우저 스냅샷 계열 도구는 데이터가 커지면 payload limit에 걸릴 수 있습니다.
+- 관보 원천 API에는 upstream 장애 구간이 존재합니다.
   - 예: `2025-09-22 ~ 2025-09-25` → `302 APPLICATION_ERROR`
-  - 이 구간은 로컬 파이프라인 문제가 아니라 upstream outage hole로 취급합니다.
 
 ## 다음 단계
-- browse 정렬/필터 강화
-- 정적 HTML을 앱 구조로 승격
-- sample index를 실제 browseable reader 데이터 계층으로 확장
+- browse 정렬과 필터 강화
+- 정적 HTML에서 앱 구조로 승격
+- 샘플 인덱스를 실제 browseable reader 데이터 계층으로 확장
+- press와 gazette를 넘나드는 cross-link UX 보강
