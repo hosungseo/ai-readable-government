@@ -91,6 +91,9 @@ body::before {
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
+  /* F-004: raise effective touch target above 44px without visible chrome */
+  padding: 12px 2px;
+  line-height: 1;
 }
 
 .topnav a:hover {
@@ -386,7 +389,8 @@ body::before {
   border: 1px solid rgba(17,19,24,0.12);
   background: rgba(255,255,255,0.75);
   border-radius: 999px;
-  padding: 8px 12px;
+  padding: 10px 14px;
+  min-height: 44px;
   font: inherit;
   font-size: 13px;
   font-weight: 700;
@@ -475,7 +479,8 @@ body::before {
   border: 1px solid rgba(17,19,24,0.12);
   background: transparent;
   border-radius: 999px;
-  padding: 8px 12px;
+  padding: 10px 14px;
+  min-height: 44px;
   font: inherit;
   font-size: 13px;
   font-weight: 700;
