@@ -27,7 +27,7 @@
             <p class="eyebrow">AI-READABLE GOVERNMENT</p>
             <h1>정부는 관보에 기록하고, 보도자료로 설명합니다</h1>
             <p class="hero-body">
-              관보는 정부의 일기이고, 보도자료는 정부의 설명문입니다. 이 프로토타입은 사람용 샘플 리더를 먼저 보여 주고, 전체 코퍼스 규모는 별도의 agent catalog로 제공합니다. 화면의 수치는 샘플 기준, 전체 press corpus는 source repo 기준으로 별도 관리합니다.
+              관보는 정부의 일기이고, 보도자료는 정부의 설명문입니다. 이 첫 화면은 사람이 빠르게 훑어보는 샘플 리더이고, 카드에 보이는 숫자는 현재 화면에 반영된 샘플 기준입니다. 전체 코퍼스 규모는 아래 별도 안내선과 agent catalog에서 분리해 제공합니다.
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#by-date">최근 날짜 보기</a>
@@ -41,11 +41,11 @@
               <div class="coverage-grid">
                 <div>
                   <span class="coverage-value" id="coverage-gazette">100k+</span>
-                  <span class="coverage-unit">gazette sample</span>
+                  <span class="coverage-unit">관보 샘플</span>
                 </div>
                 <div>
                   <span class="coverage-value" id="coverage-press">34,134</span>
-                  <span class="coverage-unit">press sample</span>
+                  <span class="coverage-unit">보도자료 샘플</span>
                 </div>
               </div>
               <div class="coverage-meta">
@@ -55,6 +55,9 @@
               </div>
               <p class="hero-body" id="usable-gazette-summary-line" style="margin-top:14px; font-size:14px; color:rgba(15,23,42,0.78);">
                 usable gazette corpus loading…
+              </p>
+              <p class="hero-body" id="full-corpus-line" style="margin-top:8px; font-size:14px; color:rgba(15,23,42,0.78);">
+                전체 코퍼스 정보 로딩 중…
               </p>
             </div>
           </div>
@@ -474,12 +477,14 @@
 
       async function boot() {
         try {
-          const [dataRes, usableRes] = await Promise.all([
+          const [dataRes, usableRes, catalogRes] = await Promise.all([
             fetch('./docs/index-data.json'),
-            fetch('./docs/usable-gazette-summary.json').catch(() => null)
+            fetch('./docs/usable-gazette-summary.json').catch(() => null),
+            fetch('./agent-catalog.json').catch(() => null)
           ]);
           const data = await dataRes.json();
           const usable = usableRes && usableRes.ok ? await usableRes.json() : null;
+          const catalog = catalogRes && catalogRes.ok ? await catalogRes.json() : null;
 
           const range = data.generatedForRange;
           const activeDay = range ? `${range.start} → ${range.end}` : (data.generatedForDay || data.day || 'sample');
@@ -496,6 +501,12 @@
             const topPublisher = (usable.topPublishers || [])[0];
             $('usable-gazette-summary-line').textContent = `usable gazette corpus ${usable.total.toLocaleString('en-US')} docs · ${Object.keys(usable.years || {}).length} years · top publisher ${topPublisher ? topPublisher.publisher : '-'}`;
             $('usable-gazette-topline').textContent = `usable ${usable.total.toLocaleString('en-US')} docs · 2024 ${((usable.years || {})['2024'] || 0).toLocaleString('en-US')} · 2025 ${((usable.years || {})['2025'] || 0).toLocaleString('en-US')}`;
+          }
+
+          if (catalog && Array.isArray(catalog.datasets)) {
+            const press = catalog.datasets.find((x) => x.id === 'press');
+            const gazette = catalog.datasets.find((x) => x.id === 'gazette');
+            $('full-corpus-line').textContent = `전체 코퍼스 기준: press ${press ? Number(press.total_documents || 0).toLocaleString('en-US') : '-'}건 · gazette ${gazette ? Number(gazette.total_documents || 0).toLocaleString('en-US') : '-'}건`;
           }
 
           const lists = data.lists || {};
