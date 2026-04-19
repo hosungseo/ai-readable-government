@@ -234,6 +234,15 @@ body::before {
   background: rgba(25, 58, 107, 0.1);
 }
 
+/* F-002: hero coverage card neutralizes its badges so they don't introduce a
+   3rd accent color on the first viewport (DESIGN.md: max two accents per view).
+   Colored variants still apply in archive rows / summary lists where a badge's
+   color carries real document-state meaning. */
+.coverage-card .badge {
+  color: var(--muted-ink);
+  background: rgba(17, 19, 24, 0.05);
+}
+
 .split-intro {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
