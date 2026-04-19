@@ -47,8 +47,13 @@ class SourceRepo:
         )
 
     def list_md_paths(self) -> list[str]:
+        # core.quotePath=false disables git's default double-quoting of non-ASCII
+        # paths; without it, Korean filenames come back as `"...".md` and the
+        # .endswith('.md') check silently misses 98% of the corpus.
         result = subprocess.run(
-            ["git", "-C", str(self.clone_dir),
+            ["git",
+             "-C", str(self.clone_dir),
+             "-c", "core.quotePath=false",
              "ls-tree", "-r", "--name-only", "HEAD"],
             check=True,
             capture_output=True,
