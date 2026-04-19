@@ -2,7 +2,7 @@
 
 정부 문서를 **사람이 읽기 쉽고 AI가 처리하기 쉬운 형태**로 다시 보여 주는 공공 문서 리더 프로젝트입니다.
 
-이 저장소는 단순 링크 모음이 아니라, `gov-press-md`와 `gov-gazette-md` 같은 공개 문서 DB를 하나의 읽기 경험으로 묶는 **reader layer**를 목표로 합니다.
+이 저장소는 단순 링크 모음이 아니라, `gov-press-md`와 `ai-readable-gazette-kr` 같은 공개 문서 DB를 하나의 읽기 경험으로 묶는 **reader layer**를 목표로 합니다.
 
 ## Live
 - GitHub Pages: <https://hosungseo.github.io/ai-readable-government/>
@@ -11,7 +11,7 @@
 
 ## 한 줄 정의
 - `gov-press-md` = 정부의 설명, 보도, 브리핑 레이어
-- `gov-gazette-md` = 정부의 공식 기록, 고시, 공고 레이어
+- `ai-readable-gazette-kr` = 정부의 공식 기록, 고시, 공고 레이어
 - `ai-readable-government` = 이 둘을 함께 읽게 하는 공공 문서 리더
 
 ## 현재 프로토타입 상태
@@ -46,8 +46,7 @@
 
 ## 저장소 관계
 - `gov-press-md` = 보도자료 DB (public)
-- `ai-readable-gazette-kr` = 관보 DB 공개본 (OCR 보정 corrected 코퍼스 포함, public)
-- `gov-gazette-md` = 관보 원본 + derived 작업 저장소 (private)
+- `ai-readable-gazette-kr` = 관보 DB (OCR 보정 corrected 코퍼스 포함, public)
 - `ai-readable-government` = public reader 프로토타입 + 에이전트 발견 레이어 허브
 
 ## 이 저장소에 포함된 것
@@ -72,7 +71,7 @@ python3 scripts/build_sample_indexes.py
 
 기본 동작:
 - `gov-press-md`에서 보도자료 샘플 추출
-- `gov-gazette-md`에서 관보 샘플 추출
+- `ai-readable-gazette-kr`에서 관보 샘플 추출
 - 아래 파일 생성 또는 갱신
   - `docs/press-sample.json`
   - `docs/gazette-sample.json`
