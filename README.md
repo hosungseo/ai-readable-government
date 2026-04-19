@@ -92,3 +92,19 @@ python3 scripts/build_sample_indexes.py --start-day 2025-01-01 --end-day 2026-04
 - 정적 HTML에서 앱 구조로 승격
 - 샘플 인덱스를 실제 browseable reader 데이터 계층으로 확장
 - press와 gazette를 넘나드는 cross-link UX 보강
+
+## Agent-ready layer
+
+In addition to the human-browsable reader, the site serves a machine-readable
+discovery layer so external AI agents can enumerate and consume the underlying
+markdown corpora directly.
+
+- Machine catalog: [`/agent-catalog.json`](https://hosungseo.github.io/ai-readable-government/agent-catalog.json)
+- Sitemap index: [`/sitemap.xml`](https://hosungseo.github.io/ai-readable-government/sitemap.xml)
+- LLM summary: [`/llms.txt`](https://hosungseo.github.io/ai-readable-government/llms.txt)
+- Crawler policy: [`/robots.txt`](https://hosungseo.github.io/ai-readable-government/robots.txt)
+
+The catalog points agents at `raw.githubusercontent.com` URLs in the source
+markdown repos (`gov-press-md`, `ai-readable-gazette-kr`); this repo itself
+stores only the catalog and sitemap artifacts, rebuilt weekly via GitHub
+Actions (`.github/workflows/rebuild-agent-artifacts.yml`).
