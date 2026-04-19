@@ -7,7 +7,7 @@
 ## Live
 - GitHub Pages: <https://hosungseo.github.io/ai-readable-government/>
 - Press source repo: <https://github.com/hosungseo/gov-press-md>
-- Gazette source repo: <https://github.com/hosungseo/gov-gazette-md>
+- Gazette source repo (공개본): <https://github.com/hosungseo/ai-readable-gazette-kr>
 
 ## 한 줄 정의
 - `gov-press-md` = 정부의 설명, 보도, 브리핑 레이어
@@ -15,13 +15,18 @@
 - `ai-readable-government` = 이 둘을 함께 읽게 하는 공공 문서 리더
 
 ## 현재 프로토타입 상태
-현재 공개 프로토타입은 샘플 인덱스 기준으로 다음 범위를 반영합니다.
+사람용 리더 프로토타입은 샘플 인덱스 기준, 에이전트용 카탈로그는 전체 코퍼스 기준입니다.
+
+**사람 리더 샘플 (`docs/index-data.json`)**
 - 반영 범위: **2024-01-01 ~ 2026-04-08**
 - press sample total: **34,134**
 - gazette sample total: **48,614**
 - date groups: **710**
 - institution groups: **130**
-- backing press corpus: **165,938+ documents** (`gov-press-md` 기준)
+
+**에이전트 카탈로그 (`agent-catalog.json`, 주 1회 재빌드)**
+- **press 전체**: 168,225 문서 (`2020-01-01 ~ 2026-04-11`, 소스 `gov-press-md`)
+- **gazette 전체**: 128,403 문서 (`2020-01-02 ~ 2026-04-07`, 소스 `ai-readable-gazette-kr` `derived/readable-corrected/`)
 
 ## 핵심 원칙
 - source first
@@ -40,9 +45,10 @@
 - 원문 링크와 readable representation의 관계를 함께 볼 수 있습니다.
 
 ## 저장소 관계
-- `gov-press-md` = 보도자료 DB
-- `gov-gazette-md` = 관보 DB
-- `ai-readable-government` = public reader / prototype UI
+- `gov-press-md` = 보도자료 DB (public)
+- `ai-readable-gazette-kr` = 관보 DB 공개본 (OCR 보정 corrected 코퍼스 포함, public)
+- `gov-gazette-md` = 관보 원본 + derived 작업 저장소 (private)
+- `ai-readable-government` = public reader 프로토타입 + 에이전트 발견 레이어 허브
 
 ## 이 저장소에 포함된 것
 - 정적 HTML 기반 reader prototype
