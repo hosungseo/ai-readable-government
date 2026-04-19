@@ -1,0 +1,85 @@
+{
+  "name": "ai-readable-government",
+  "description": "Korean government public documents — agent-readable index. Points to source markdown corpora hosted on GitHub.",
+  "site_url": "https://hosungseo.github.io/ai-readable-government/",
+  "generated_at": "2026-04-19T14:11:37Z",
+  "generator": "scripts/build_agent_artifacts.py",
+  "license_note": "Index/catalog under MIT. Document license varies per dataset — see `license` per dataset.",
+  "contact": "https://github.com/hosungseo/ai-readable-government/issues",
+  "datasets": [
+    {
+      "id": "gazette",
+      "name": "대한민국 관보 (Government Gazette of Korea)",
+      "description": "Official government record layer — dictionary-corrected markdown corpus.",
+      "format": "text/markdown",
+      "total_documents": 128403,
+      "date_range": {
+        "start": "2020-01-02",
+        "end": "2026-04-07"
+      },
+      "update_cadence": "near-daily (source repo)",
+      "license": "Korean Copyright Act Art. 7 — not protected; derived corpus CC0 1.0",
+      "source_repo": "hosungseo/ai-readable-gazette-kr",
+      "variants": [
+        {
+          "id": "readable-corrected",
+          "description": "OCR-corrected, dictionary-based fixup (recommended for LLM).",
+          "raw_base": "https://raw.githubusercontent.com/hosungseo/ai-readable-gazette-kr/main/derived/readable-corrected/",
+          "path_pattern": "{YYYY-MM-DD}/{NNN}_{institution}_{title}.md"
+        }
+      ],
+      "frontmatter_fields": [
+        "title",
+        "publisher",
+        "date",
+        "source_raw_md"
+      ],
+      "sitemap_url": "https://hosungseo.github.io/ai-readable-government/sitemaps/sitemap-gazette-index.xml",
+      "sample_documents": [
+        "https://raw.githubusercontent.com/hosungseo/ai-readable-gazette-kr/main/derived/readable-corrected/2020-01-02/001_%EA%B2%BD%EA%B8%B0%EB%8F%84_%EA%B2%BD%EA%B8%B0%EB%8F%84%EA%B3%B5%EA%B3%A0%EC%A0%9C2019_1966%ED%98%B8_%EB%8C%80%EA%B8%B0_%ED%99%98%EA%B2%BD%EC%A0%84%EB%AC%B8%EA%B3%B5%EC%82%AC%EC%97%85_%EB%93%B1%EB%A1%9D%EB%A7%90%EC%86%8C.md",
+        "https://raw.githubusercontent.com/hosungseo/ai-readable-gazette-kr/main/derived/readable-corrected/2023-04-17/077_%ED%97%8C%EB%B2%95%EC%9E%AC%ED%8C%90%EC%86%8C_%ED%97%8C%EB%B2%95%EC%9E%AC%ED%8C%90%EC%86%8C%EA%B3%B5%EC%8B%9C%EC%A0%9C1988%ED%98%B8_%EA%B2%B0%EC%A0%95.md",
+        "https://raw.githubusercontent.com/hosungseo/ai-readable-gazette-kr/main/derived/readable-corrected/2026-04-07/021_%ED%95%B4%EC%96%91%EC%88%98%EC%82%B0%EB%B6%80_%EB%B6%80%EC%82%B0%ED%95%AD%EA%B1%B4%EC%84%A4%EC%82%AC%EB%AC%B4%EC%86%8C%EA%B3%B5%EA%B3%A0%EC%A0%9C2026_31%ED%98%B8_%ED%95%AD%EB%A7%8C%EA%B0%9C%EB%B0%9C%EC%82%AC%EC%97%85_%EC%8B%A4%EC%8B%9C%EA%B3%84%ED%9A%8D_%EC%8B%A0%EA%B3%A0_%EC%88%98%EB%A6%AC_%EA%B3%B5%EA%B3%A0.md"
+      ]
+    },
+    {
+      "id": "press",
+      "name": "정부 보도자료 (Government Press Releases)",
+      "description": "Government explanatory layer — ministry press releases as markdown.",
+      "format": "text/markdown",
+      "total_documents": 168225,
+      "date_range": {
+        "start": "2020-01-01",
+        "end": "2026-04-11"
+      },
+      "update_cadence": "daily (source repo)",
+      "license": "See individual ministry terms (public information, generally open).",
+      "source_repo": "hosungseo/gov-press-md",
+      "variants": [
+        {
+          "id": "data",
+          "description": "Press releases under per-year folders.",
+          "raw_base": "https://raw.githubusercontent.com/hosungseo/gov-press-md/main/data/",
+          "path_pattern": "{YYYY}/{YYYY-MM-DD}/{...}.md"
+        }
+      ],
+      "frontmatter_fields": [
+        "title",
+        "agency",
+        "date",
+        "source_url"
+      ],
+      "sitemap_url": "https://hosungseo.github.io/ai-readable-government/sitemaps/sitemap-press-index.xml",
+      "sample_documents": [
+        "https://raw.githubusercontent.com/hosungseo/gov-press-md/main/data/2020/2020-01/2020-01-01/001_%EA%B5%AD%ED%86%A0%EA%B5%90%ED%86%B5%EB%B6%80_%EC%9E%90%EB%8F%99%EC%B0%A8_%EA%B5%90%ED%99%98_%ED%99%98%EB%B6%88_%EC%A4%91%EC%9E%AC_%EC%9D%B8%ED%84%B0%EB%84%B7%EC%9C%BC%EB%A1%9C_%ED%8E%B8%EB%A6%AC%ED%95%98%EA%B2%8C_%EC%8B%A0%EC%B2%AD%ED%95%98%EC%84%B8%EC%9A%94.md",
+        "https://raw.githubusercontent.com/hosungseo/gov-press-md/main/data/2023/2023-03/2023-03-24/017_%EB%86%8D%EC%B4%8C%EC%A7%84%ED%9D%A5%EC%B2%AD_%EB%86%8D%EC%B4%8C%EC%A7%84%ED%9D%A5%EC%B2%AD_%EB%86%8D%EC%8B%9D%ED%92%88_%EC%88%98%EC%B6%9C_%ED%99%95%EB%8C%80_%EA%B8%B0%EC%88%A0%EA%B0%9C%EB%B0%9C_%EB%B0%95%EC%B0%A8.md",
+        "https://raw.githubusercontent.com/hosungseo/gov-press-md/main/data/2026/2026-04/README.md"
+      ]
+    }
+  ],
+  "how_to_use": [
+    "1. GET /agent-catalog.json for machine-readable index.",
+    "2. For structure, fetch each dataset's sitemap_url (XML sitemap index).",
+    "3. For documents, fetch raw_base + date/path — plain markdown with YAML frontmatter.",
+    "4. For a human-browsable reader, see site_url."
+  ]
+}

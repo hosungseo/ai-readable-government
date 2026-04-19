@@ -1,0 +1,48 @@
+# ai-readable-government
+
+> Korean government public documents — agent-readable index. Points to source markdown corpora hosted on GitHub. The human-browsable reader lives at the site root; this `llms.txt` summarizes the machine-readable layer.
+
+## Entry points
+
+- Machine-readable catalog: `https://hosungseo.github.io/ai-readable-government/agent-catalog.json`
+- Sitemap index: `https://hosungseo.github.io/ai-readable-government/sitemap.xml`
+- Human reader: `https://hosungseo.github.io/ai-readable-government/`
+
+## Fetching documents
+
+Each dataset below lists a `raw_base` and a `path_pattern`. To fetch a document, concatenate `raw_base` with the URL-encoded path.
+All documents are plain markdown with YAML frontmatter.
+
+## 대한민국 관보 (Government Gazette of Korea)
+
+Official government record layer — dictionary-corrected markdown corpus.
+
+- Documents: 128,403
+- Date range: 2020-01-02 ~ 2026-04-07
+- Update cadence: near-daily (source repo)
+- License: Korean Copyright Act Art. 7 — not protected; derived corpus CC0 1.0
+- Source repo: https://github.com/hosungseo/ai-readable-gazette-kr
+- Sitemap: https://hosungseo.github.io/ai-readable-government/sitemaps/sitemap-gazette-index.xml
+- Variants:
+  - **readable-corrected** — OCR-corrected, dictionary-based fixup (recommended for LLM).
+    - Raw base: `https://raw.githubusercontent.com/hosungseo/ai-readable-gazette-kr/main/derived/readable-corrected/`
+    - Path pattern: `{YYYY-MM-DD}/{NNN}_{institution}_{title}.md`
+
+## 정부 보도자료 (Government Press Releases)
+
+Government explanatory layer — ministry press releases as markdown.
+
+- Documents: 168,225
+- Date range: 2020-01-01 ~ 2026-04-11
+- Update cadence: daily (source repo)
+- License: See individual ministry terms (public information, generally open).
+- Source repo: https://github.com/hosungseo/gov-press-md
+- Sitemap: https://hosungseo.github.io/ai-readable-government/sitemaps/sitemap-press-index.xml
+- Variants:
+  - **data** — Press releases under per-year folders.
+    - Raw base: `https://raw.githubusercontent.com/hosungseo/gov-press-md/main/data/`
+    - Path pattern: `{YYYY}/{YYYY-MM-DD}/{...}.md`
+
+## License
+
+Index and catalog artifacts: MIT. Individual document licensing is noted per dataset above. The gazette originates from a legally unprotected public record (Korean Copyright Act Art. 7); the press releases are public information.
