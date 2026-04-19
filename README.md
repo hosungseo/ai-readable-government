@@ -25,8 +25,10 @@
 - institution groups: **130**
 
 **에이전트 카탈로그 (`agent-catalog.json`, 주 1회 재빌드)**
-- **press 전체**: 168,225 문서 (`2020-01-01 ~ 2026-04-11`, 소스 `gov-press-md`)
-- **gazette 전체**: 128,403 문서 (`2020-01-02 ~ 2026-04-07`, 소스 `ai-readable-gazette-kr` `derived/readable-corrected/`)
+- **press 전체**: **165,938** 문서 (`2020-01-01 ~ 2026-04-11`, 소스 `gov-press-md` 실제 문서 기준)
+- **gazette 전체**: **128,403** 문서 (`2020-01-02 ~ 2026-04-07`, 소스 `ai-readable-gazette-kr` `derived/readable-corrected/`)
+
+> 참고: press 전체 수치는 날짜 디렉터리용 `README.md`를 제외한 실제 문서 수입니다. 사람용 샘플 인덱스와 전체 코퍼스 수치를 섞지 않도록 분리해 표기합니다.
 
 ## 핵심 원칙
 - source first

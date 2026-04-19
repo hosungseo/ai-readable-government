@@ -32,7 +32,7 @@ Official government record layer — dictionary-corrected markdown corpus.
 
 Government explanatory layer — ministry press releases as markdown.
 
-- Documents: 168,225
+- Documents: 165,938
 - Date range: 2020-01-01 ~ 2026-04-11
 - Update cadence: daily (source repo)
 - License: See individual ministry terms (public information, generally open).

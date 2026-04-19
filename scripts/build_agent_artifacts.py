@@ -34,7 +34,11 @@ def main() -> int:
             repo.ensure_cloned()
             paths = repo.list_md_paths()
             variant = next(v for v in ds.variants if v.id == ds.primary_variant_id)
-            filtered = [p for p in paths if p.startswith(variant.source_subpath)]
+            filtered = [
+                p for p in paths
+                if p.startswith(variant.source_subpath)
+                and Path(p).name != "README.md"
+            ]
             print(f"    md_paths={len(paths)} primary_variant_paths={len(filtered)}", flush=True)
 
             date_buckets = group_by_date(filtered)
