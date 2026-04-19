@@ -37,21 +37,14 @@ GAZETTE = Dataset(
     description="Official government record layer — dictionary-corrected markdown corpus.",
     update_cadence="near-daily (source repo)",
     license="Korean Copyright Act Art. 7 — not protected; derived corpus CC0 1.0",
-    source_repo="hosungseo/gov-gazette-md",
+    source_repo="hosungseo/ai-readable-gazette-kr",
     variants=(
         Variant(
             id="readable-corrected",
             description="OCR-corrected, dictionary-based fixup (recommended for LLM).",
-            raw_base="https://raw.githubusercontent.com/hosungseo/gov-gazette-md/main/derived/readable-corrected/",
+            raw_base="https://raw.githubusercontent.com/hosungseo/ai-readable-gazette-kr/main/derived/readable-corrected/",
             path_pattern="{YYYY-MM-DD}/{NNN}_{institution}_{title}.md",
             source_subpath="derived/readable-corrected/",
-        ),
-        Variant(
-            id="readable-final",
-            description="Pre-correction baseline (for diff / research).",
-            raw_base="https://raw.githubusercontent.com/hosungseo/gov-gazette-md/main/readable-final/",
-            path_pattern="{YYYY-MM-DD}/{NNN}_{institution}_{title}.md",
-            source_subpath="readable-final/",
         ),
     ),
     frontmatter_fields=("title", "publisher", "date", "source_raw_md"),

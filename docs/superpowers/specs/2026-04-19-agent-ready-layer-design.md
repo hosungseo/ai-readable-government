@@ -340,6 +340,7 @@ jobs:
 | D8 | Agent-ready artifact는 **리포 root level**에 배치 (docs/가 아님) | `robots.txt`는 프로토콜상 `/robots.txt`여야 함. 그리고 현 리포의 `index.html`이 root에 있어 Pages가 root 서빙 중임이 실측 확인됨 |
 | D9 | `agent-catalog.json`에 `$schema` 필드 선언 안 함 | JSON Schema 파일을 공급하지 않는 상태에서 참조만 걸면 404 → 에이전트 신뢰 훼손. 스키마 공개 필요 시 별도 사이클에서 도입 |
 | D10 | 세 리포(`ai-readable-government`, `gov-gazette-md`, `gov-press-md`) 모두 **public 전환 + Pages ON**. 사용자 2026-04-19 승인 | 검증 결과 세 리포 모두 private였고 Pages 미활성. MVP 전제(`hosungseo.github.io/ai-readable-government/*` 200, `raw.githubusercontent.com/hosungseo/gov-*-md/...` 200) 성립 위해 불가결. 공공 데이터 공개 취지와도 부합 |
+| D11 | 관보 데이터 소스를 `gov-gazette-md` → **`ai-readable-gazette-kr`** 로 전환. `readable-final` 변형은 드롭 | 사용자가 `gov-gazette-md`는 private 유지를 선호. 자매 리포 `ai-readable-gazette-kr`는 이미 public이며 동일한 `derived/readable-corrected/` 구조 + 동일 건수(128,403) 보유. `readable-final/` 은 이 리포에 없으므로 variant에서 제외 — LLM 소비 대상은 corrected 만으로 충분 |
 
 ---
 
