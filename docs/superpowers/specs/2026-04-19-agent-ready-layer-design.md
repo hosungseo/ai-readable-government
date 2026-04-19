@@ -51,51 +51,53 @@
 
 ## 2. 파일 배치
 
+**전제.** `ai-readable-government` 리포의 `index.html`·`styles.css`가 리포 root에 있고, GitHub Pages가 main branch의 root를 서빙한다 (실측 확인됨). 따라서 에이전트 대상 artifact는 **전부 root level**에 배치. `docs/`는 기존 데이터 JSON 전용으로 둔다.
+
 ```
 ai-readable-government/
-├── docs/
-│   ├── index.html                    (existing, no change)
-│   ├── styles.css                    (existing, no change)
-│   ├── index-data.json               (existing, no change)
-│   ├── press-sample.json             (existing, no change)
-│   ├── gazette-sample.json           (existing, no change)
-│   │
-│   ├── robots.txt                    NEW
-│   ├── llms.txt                      NEW
-│   ├── sitemap.xml                   NEW (site-wide sitemap index, 2 entries)
-│   ├── sitemaps/                     NEW
-│   │   ├── sitemap-gazette-index.xml    (dataset index → year files)
-│   │   ├── sitemap-gazette-2020.xml
-│   │   ├── sitemap-gazette-2021.xml
-│   │   ├── sitemap-gazette-2022.xml
-│   │   ├── sitemap-gazette-2023.xml
-│   │   ├── sitemap-gazette-2024.xml
-│   │   ├── sitemap-gazette-2025.xml
-│   │   ├── sitemap-gazette-2026.xml
-│   │   ├── sitemap-press-index.xml      (dataset index → year files)
-│   │   ├── sitemap-press-2020.xml
-│   │   ├── sitemap-press-2021.xml
-│   │   ├── sitemap-press-2022.xml
-│   │   ├── sitemap-press-2023.xml
-│   │   ├── sitemap-press-2024.xml
-│   │   ├── sitemap-press-2025.xml
-│   │   └── sitemap-press-2026.xml
-│   │
-│   └── agent-catalog.json            NEW
+├── index.html                      (existing, no change)
+├── styles.css                      (existing, no change)
+├── README.md                       EDIT (append "Agent-ready layer" section)
+├── DESIGN.md                       (existing, no change)
+│
+├── robots.txt                      NEW (root — protocol requires /robots.txt)
+├── llms.txt                        NEW (root)
+├── sitemap.xml                     NEW (root, site-wide sitemap index, 2 entries)
+├── agent-catalog.json              NEW (root)
+├── sitemaps/                       NEW (root)
+│   ├── sitemap-gazette-index.xml      (dataset index → year files)
+│   ├── sitemap-gazette-2020.xml
+│   ├── sitemap-gazette-2021.xml
+│   ├── sitemap-gazette-2022.xml
+│   ├── sitemap-gazette-2023.xml
+│   ├── sitemap-gazette-2024.xml
+│   ├── sitemap-gazette-2025.xml
+│   ├── sitemap-gazette-2026.xml
+│   ├── sitemap-press-index.xml        (dataset index → year files)
+│   ├── sitemap-press-2020.xml
+│   ├── sitemap-press-2021.xml
+│   ├── sitemap-press-2022.xml
+│   ├── sitemap-press-2023.xml
+│   ├── sitemap-press-2024.xml
+│   ├── sitemap-press-2025.xml
+│   └── sitemap-press-2026.xml
+│
+├── docs/                           (existing data — no change)
+│   ├── index-data.json
+│   ├── press-sample.json
+│   └── gazette-sample.json
 │
 ├── scripts/
-│   ├── build_sample_indexes.py       (existing, no change)
-│   ├── build_agent_artifacts.py      NEW
-│   └── validate_agent_artifacts.py   NEW
+│   ├── build_sample_indexes.py     (existing, no change)
+│   ├── build_agent_artifacts.py    NEW
+│   └── validate_agent_artifacts.py NEW
 │
-├── README.md                         EDIT (append "Agent-ready layer" section)
-└── .github/workflows/
-    └── rebuild-agent-artifacts.yml   NEW
+└── .github/workflows/              NEW directory (not yet exist)
+    └── rebuild-agent-artifacts.yml NEW
 ```
 
 **Notes.**
-- GitHub Pages가 `docs/`를 서빙하는지 `main` root를 서빙하는지는 구현 시점에 리포 설정에서 확인 후 경로 조정. 이 spec은 `docs/` 기준.
-- 보도자료 연도별 파일 수가 50k를 넘는 해(예: 2024, 2025)가 있으면 빌더가 자동으로 월별 분할(`sitemap-press-2024-01.xml` 등)로 fallback.
+- 보도자료 연도별 파일 수가 50k를 넘는 해가 있으면 빌더가 자동으로 월별 분할(`sitemap-press-2024-01.xml` 등)로 fallback.
 - 아티팩트 파일만 커밋됨. 30만 MD 원본은 소스 리포(`gov-gazette-md`, `gov-press-md`)에 그대로 둠 (복제 금지).
 
 ---
@@ -106,7 +108,6 @@ ai-readable-government/
 
 ```json
 {
-  "$schema": "https://hosungseo.github.io/ai-readable-government/agent-catalog.schema.json",
   "name": "ai-readable-government",
   "description": "Korean government public documents — agent-readable index. Points to source markdown corpora hosted on GitHub.",
   "site_url": "https://hosungseo.github.io/ai-readable-government/",
@@ -184,6 +185,7 @@ ai-readable-government/
 - **`how_to_use`** — 사람/에이전트 공통 안내. `llms.txt`와 정보 중복이지만 이 파일만 봐도 이해 가능해야 함.
 - **`frontmatter_fields`** — YAML 파싱 시 기대 키 선언.
 - **`generated_at` + `generator`** — 신선도·재현성 표식.
+- **`$schema` 필드 생략** — JSON Schema 파일을 실제로 제공하지 않는 상태에서 선언만 하면 404로 에이전트 신뢰 훼손. 스키마 공개가 필요해지면 그때 `agent-catalog.schema.json`과 함께 도입.
 
 ### 3.3 의도적으로 뺀 것
 
@@ -213,18 +215,29 @@ jobs:
     steps:
       - checkout (this repo)
       - setup Python 3.11
-      - pip install requests jsonschema lxml pyyaml
+      - pip install jsonschema lxml requests
       - python3 scripts/build_agent_artifacts.py
+          # internally does: partial clone of source repos to /tmp, git ls-tree, cleanup
       - python3 scripts/validate_agent_artifacts.py
-      - commit + push if diff (message: "chore: rebuild agent artifacts (YYYY-MM-DD)")
+      - commit + push if diff (message: "Rebuild agent artifacts (YYYY-MM-DD)")
 ```
 
 ### 4.2 빌더 동작
 
-1. GitHub API로 소스 리포 트리 조회:
-   - `GET /repos/hosungseo/gov-gazette-md/git/trees/main?recursive=true`
-   - `GET /repos/hosungseo/gov-press-md/git/trees/main?recursive=true`
-   - `GITHUB_TOKEN`으로 인증 (한도 5000/hr, 실제 호출 2회로 충분)
+1. **소스 리포 트리 확보 (blob 없는 부분 clone)**:
+   ```bash
+   for repo in gov-gazette-md gov-press-md; do
+     git clone --no-checkout --filter=tree:0 --depth 1 \
+       https://github.com/hosungseo/$repo.git /tmp/$repo
+     git -C /tmp/$repo ls-tree -r --name-only HEAD > /tmp/$repo.paths
+   done
+   ```
+   - `--filter=tree:0`: tree 객체만, blob(파일 내용) 다운로드 안 함
+   - `--no-checkout`: 작업 디렉토리에 파일 펼치지 않음
+   - `--depth 1`: 최신 커밋만
+   - 전체 경로 획득 비용: 네트워크·디스크 모두 수 초~십수 초
+   - **왜 API 아니고 clone**: GitHub `trees?recursive=true`는 `truncated: true` 이슈 있음 (실측 결과 두 소스 리포 모두 트리 반환이 실제 파일 수보다 훨씬 적게 잘림). 부분 clone은 잘림 없음.
+   - **소스 리포 접근성 전제**: 두 리포 모두 public. private로 바뀌면 워크플로우에 PAT secret 추가.
 2. `*.md` 경로만 필터, 데이터셋별 group.
 3. 연도별 bucket → 각 bucket 50k 초과 시 월별 재분할.
 4. 카탈로그 메타 재계산:
@@ -232,16 +245,17 @@ jobs:
    - `date_range.start` / `date_range.end` = 최소·최대 날짜 폴더
    - `sample_documents` = 각 variant에서 최근 3건 균등 샘플
 5. 파일 생성 (3-tier sitemap):
-   - `docs/agent-catalog.json`
-   - `docs/llms.txt`
-   - `docs/sitemap.xml` — 사이트 최상위 인덱스 (entry 2: gazette 데이터셋 인덱스 + press 데이터셋 인덱스)
-   - `docs/sitemaps/sitemap-{dataset}-index.xml` — 데이터셋별 인덱스 (entry ~7: 연도별 서브맵)
-   - `docs/sitemaps/sitemap-{dataset}-{YYYY}[-{MM}].xml` — 실제 URL 목록
+   - `agent-catalog.json` (root)
+   - `llms.txt` (root)
+   - `sitemap.xml` (root) — 사이트 최상위 인덱스 (entry 2: gazette 데이터셋 인덱스 + press 데이터셋 인덱스)
+   - `sitemaps/sitemap-{dataset}-index.xml` — 데이터셋별 인덱스 (entry ~7: 연도별 서브맵)
+   - `sitemaps/sitemap-{dataset}-{YYYY}[-{MM}].xml` — 실제 URL 목록
+6. `/tmp/gov-*-md` 정리.
 
 ### 4.3 검증 단계
 
 `validate_agent_artifacts.py`:
-- `agent-catalog.json` → JSON Schema 검증 (`jsonschema`)
+- `agent-catalog.json` → 필수 필드 presence 검증 (빌더 내부에 Python dict로 하드코딩한 스키마에 `jsonschema.validate` 적용). 외부 스키마 파일 의존 없음
 - 각 dataset의 `sample_documents[0]` → HEAD 200 확인
 - `sitemap.xml` → `lxml`로 파싱, `sitemapindex` 유효성
 - 각 dataset-level 인덱스(`sitemap-{dataset}-index.xml`) → `sitemapindex` 유효성
@@ -293,7 +307,8 @@ jobs:
 | 리스크 | 완화 |
 |---|---|
 | 소스 리포 rename / delete → 전체 링크 깨짐 | `README.md` · `llms.txt` 에 의존 리포 명시. 본인이 판단해 이동 시 본 스크립트 경로 교체 |
-| GitHub API 레이트 리밋 | 워크플로우 기본 `GITHUB_TOKEN`(5000/hr) 사용, 호출 2회라 여유 큼 |
+| 부분 clone 네트워크 실패 | 워크플로우 자동 재시도 1회 + 수동 재실행으로 복구. clone 실패는 빌드 실패로 처리(부분 결과 커밋 금지) |
+| 소스 리포가 private로 전환될 경우 | `SOURCE_REPOS_TOKEN` repo secret 추가 후 clone URL에 토큰 주입 |
 | Pages CDN 캐시 ~10분 stale | 수용. MVP 신선도 요구 없음 |
 | isitagentready.com 표준 자체가 초기 단계 → 스펙 변동 | 분기 1회 표준 재확인, 아티팩트 포맷만 조정 |
 | 행안부 조직국 공무원 개인 프로젝트 + 정부 데이터 미러링 이해충돌 | 본인이 사전 정리(기존 `ai-readable-government`·`ai-readable-gazette-kr` 운영 근거와 동일). 이 사이클은 공식성 주장하지 않는 개인 아카이브 포지셔닝 유지 |
@@ -311,7 +326,9 @@ jobs:
 | D4 | 데이터는 `raw.githubusercontent.com` 직접 포인팅, Pages 리포에 MD 복제 없음 | 중복 0 · `ai-readable-gazette-kr` 검증 패턴 재사용 |
 | D5 | `.well-known/mcp.json` · `agent-skills.json` 생략, 실제 MCP 서버 생기는 다음 사이클에서 도입 | 지금 선언하면 tool call 시 깨짐 → 에이전트 신뢰 훼손 |
 | D6 | 업데이트 주기 = 주 1회 cron + 수동 디스패치 | 에이전트 유즈케이스상 일 단위 정확도 불필요, 운영 단순 |
-| D7 | GitHub Actions에서 clone 대신 API `git/trees?recursive=true` 사용 | 소스 리포 수 GB, 경로만 필요 → API 1회 호출이 빠르고 가벼움 |
+| D7 | ~~GitHub API `git/trees?recursive=true` 사용~~ → **tree-filter 부분 clone(`--filter=tree:0`) + `git ls-tree`** 로 변경 | 실측 결과 두 소스 리포 모두 API 응답이 `truncated: true` 로 잘림. blob 없는 부분 clone은 잘림 없고 수 초 내 완료 |
+| D8 | Agent-ready artifact는 **리포 root level**에 배치 (docs/가 아님) | `robots.txt`는 프로토콜상 `/robots.txt`여야 함. 그리고 현 리포의 `index.html`이 root에 있어 Pages가 root 서빙 중임이 실측 확인됨 |
+| D9 | `agent-catalog.json`에 `$schema` 필드 선언 안 함 | JSON Schema 파일을 공급하지 않는 상태에서 참조만 걸면 404 → 에이전트 신뢰 훼손. 스키마 공개 필요 시 별도 사이클에서 도입 |
 
 ---
 
