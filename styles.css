@@ -119,6 +119,7 @@ body::before {
 
 .hero h1 {
   font-size: clamp(36px, 4.4vw, 60px);
+  text-wrap: balance;
 }
 
 .hero-body {
@@ -187,9 +188,10 @@ body::before {
 
 .coverage-value {
   display: block;
-  font-size: clamp(42px, 5vw, 64px);
-  font-weight: 800;
+  font-size: clamp(28px, 3vw, 40px);
+  font-weight: 700;
   line-height: 0.95;
+  font-variant-numeric: tabular-nums;
 }
 
 .coverage-unit {
@@ -314,6 +316,15 @@ body::before {
   gap: 20px;
   align-items: end;
   margin-bottom: 24px;
+}
+
+.preview-header h2 {
+  font-size: clamp(24px, 2.4vw, 32px);
+}
+
+.reader-preview .document-head h3,
+.reader-preview-press .document-head h3 {
+  font-size: 24px;
 }
 
 .filter-strip {
