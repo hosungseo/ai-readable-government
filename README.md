@@ -1,18 +1,32 @@
 # ai-readable-government
 
-정부 문서를 **사람이 읽기 쉽고 AI가 처리하기 쉬운 형태**로 다시 보여 주는 공공 문서 리더 프로젝트입니다.
+`ai-readable-government`는 기존 정부 API와 공개 문서 코퍼스를 **AEO(Agentic Engine Optimization) 기준으로 다시 정렬해**, 사람과 AI 에이전트가 더 잘 찾고, 읽고, 활용할 수 있게 만드는 **public reader and discovery layer**입니다.
 
-이 저장소는 단순 링크 모음이 아니라, `gov-press-md`와 `ai-readable-gazette-kr` 같은 공개 문서 DB를 하나의 읽기 경험으로 묶는 **reader layer**를 목표로 합니다.
+이 저장소는 정부 보도자료와 관보 같은 원천 문서를 readable corpus로 묶고, 동시에 `robots.txt`, `sitemap.xml`, `llms.txt`, `agent-catalog.json` 같은 agent-facing surface를 제공합니다. 즉, 단순 프록시가 아니라 **reader layer + agent discovery layer + transition-request layer**를 함께 설계하는 프로젝트입니다.
 
 ## Live
 - GitHub Pages: <https://hosungseo.github.io/ai-readable-government/>
 - Press source repo: <https://github.com/hosungseo/gov-press-md>
 - Gazette source repo (공개본): <https://github.com/hosungseo/ai-readable-gazette-kr>
 
-## 한 줄 정의
+## English summary
+`ai-readable-government` is a public reader and discovery layer for Korean government data. Rather than trying to become the authoritative API for every dataset, it reorganizes existing public APIs and document corpora around AEO so both humans and AI agents can discover, read, and use them more effectively.
+
+## 프로젝트 정의
 - `gov-press-md` = 정부의 설명, 보도, 브리핑 레이어
 - `ai-readable-gazette-kr` = 정부의 공식 기록, 고시, 공고 레이어
-- `ai-readable-government` = 이 둘을 함께 읽게 하는 공공 문서 리더
+- `ai-readable-government` = 이 둘을 함께 읽게 하는 public reader and discovery layer
+
+## 3가지 방향
+
+### 1. API 집합 레이어
+이미 존재하는 정부 API를 한곳에서 발견하고 읽을 수 있게 정리하는 층입니다. 이 저장소가 모든 데이터를 직접 제공하기보다, 어디에 무엇이 있고 어떻게 접근해야 하는지 보여 주는 catalog 성격을 가집니다.
+
+### 2. Readable corpus 레이어
+관보, 보도자료 같은 공개 문서를 사람이 읽기 쉽고 AI가 처리하기 쉬운 corpus로 다시 묶는 층입니다. sample reader, metadata, source link, full corpus discovery가 이 축에 속합니다.
+
+### 3. File-to-API transition request 레이어
+파일데이터를 이 저장소가 직접 authoritative API로 바꾸는 것이 아니라, 어떤 데이터가 API 전환 대상으로 구조화되어야 하는지 드러내는 층입니다. 즉, 전환 실행기라기보다 전환 필요성과 우선순위를 드러내는 요청 레이어입니다.
 
 ## 현재 프로토타입 상태
 사람용 리더 프로토타입은 샘플 인덱스 기준, 에이전트용 카탈로그는 전체 코퍼스 기준입니다.
@@ -61,6 +75,7 @@
 - `DESIGN.md` — 디자인 시스템과 제품 톤
 - `docs/IA.md` — 정보구조와 화면 설계 초안
 - `docs/INDEXES.md` — 샘플 인덱스 계층과 공통 스키마 메모
+- `docs/AEO-CHECKLIST.md` — agent-friendly 공개 표면 점검 체크리스트
 - `docs/index-data.json` — 프론트엔드가 읽는 통합 샘플 인덱스
 
 ## 데이터 생성 방식
