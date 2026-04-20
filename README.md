@@ -8,6 +8,7 @@
 - GitHub Pages: <https://hosungseo.github.io/ai-readable-government/>
 - Press source repo: <https://github.com/hosungseo/gov-press-md>
 - Gazette source repo (공개본): <https://github.com/hosungseo/ai-readable-gazette-kr>
+- File-to-API transition repo: <https://github.com/hosungseo/public-data-portal-intelligence>
 
 ## English summary
 `ai-readable-government` is a public reader and discovery layer for Korean government data. Rather than trying to become the authoritative API for every dataset, it reorganizes existing public APIs and document corpora around AEO so both humans and AI agents can discover, read, and use them more effectively.
@@ -15,7 +16,8 @@
 ## 프로젝트 정의
 - `gov-press-md` = 정부의 설명, 보도, 브리핑 레이어
 - `ai-readable-gazette-kr` = 정부의 공식 기록, 고시, 공고 레이어
-- `ai-readable-government` = 이 둘을 함께 읽게 하는 public reader and discovery layer
+- `public-data-portal-intelligence` = 파일데이터→API 전환 후보를 구조화하는 transition-request 레이어
+- `ai-readable-government` = 이 축들을 함께 읽게 하는 public reader and discovery layer
 
 ## 3가지 방향
 
@@ -27,6 +29,8 @@
 
 ### 3. File-to-API transition request 레이어
 파일데이터를 이 저장소가 직접 authoritative API로 바꾸는 것이 아니라, 어떤 데이터가 API 전환 대상으로 구조화되어야 하는지 드러내는 층입니다. 즉, 전환 실행기라기보다 전환 필요성과 우선순위를 드러내는 요청 레이어입니다.
+
+현재 이 축의 연결 저장소는 [`public-data-portal-intelligence`](https://github.com/hosungseo/public-data-portal-intelligence)입니다. 이 저장소는 파일데이터를 바로 공식 API로 대체하는 제품이 아니라, 전환 후보를 검토하고 구조화하는 큐/리더 성격을 가집니다.
 
 ## 현재 프로토타입 상태
 사람용 리더 프로토타입은 샘플 인덱스 기준, 에이전트용 카탈로그는 전체 코퍼스 기준입니다.
@@ -63,7 +67,8 @@
 ## 저장소 관계
 - `gov-press-md` = 보도자료 DB (public)
 - `ai-readable-gazette-kr` = 관보 DB (OCR 보정 corrected 코퍼스 포함, public)
-- `ai-readable-government` = public reader 프로토타입 + 에이전트 발견 레이어 허브
+- `public-data-portal-intelligence` = 파일데이터→API 전환 후보 검토/구조화 레이어
+- `ai-readable-government` = 위 3축을 함께 읽게 하는 public reader 프로토타입 + 에이전트 발견 레이어 허브
 
 ## 이 저장소에 포함된 것
 - 정적 HTML 기반 reader prototype
