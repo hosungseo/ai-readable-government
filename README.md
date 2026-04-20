@@ -2,12 +2,13 @@
 
 `ai-readable-government`는 기존 정부 API와 공개 문서 코퍼스를 **AEO(Agentic Engine Optimization) 기준으로 다시 정렬해**, 사람과 AI 에이전트가 더 잘 찾고, 읽고, 활용할 수 있게 만드는 **public reader and discovery layer**입니다.
 
-이 저장소는 정부 보도자료와 관보 같은 원천 문서를 readable corpus로 묶고, 동시에 `robots.txt`, `sitemap.xml`, `llms.txt`, `agent-catalog.json` 같은 agent-facing surface를 제공합니다. 즉, 단순 프록시가 아니라 **reader layer + agent discovery layer + transition-request / transition-intelligence layer**를 함께 설계하는 프로젝트입니다.
+이 저장소는 정부 보도자료, 관보, 국무회의 회의록 같은 원천 문서를 readable corpus로 묶고, 동시에 `robots.txt`, `sitemap.xml`, `llms.txt`, `agent-catalog.json` 같은 agent-facing surface를 제공합니다. 즉, 단순 프록시가 아니라 **reader layer + agent discovery layer + transition-request / transition-intelligence layer**를 함께 설계하는 프로젝트입니다.
 
 ## Live
 - GitHub Pages: <https://hosungseo.github.io/ai-readable-government/>
 - Press source repo: <https://github.com/hosungseo/gov-press-md>
 - Gazette source repo (공개본): <https://github.com/hosungseo/ai-readable-gazette-kr>
+- Cabinet minutes + candidate links repo: <https://github.com/hosungseo/gungmuhoeui-briefing-links>
 - File-to-API transition repo: <https://github.com/hosungseo/public-data-portal-intelligence>
 
 ## English summary
@@ -16,6 +17,7 @@
 ## 프로젝트 정의
 - `gov-press-md` = 정부의 설명, 보도, 브리핑 레이어
 - `ai-readable-gazette-kr` = 정부의 공식 기록, 고시, 공고 레이어
+- `gungmuhoeui-briefing-links` = 국무회의 회의록과 발언 단위를 중심으로 관보·보도자료 후보 링크까지 묶는 회의록/링크 레이어
 - `public-data-portal-intelligence` = 파일데이터→API 전환 후보를 구조화하는 transition-request / transition-intelligence 레이어
 - `ai-readable-government` = 이 축들을 함께 읽게 하는 public reader and discovery layer
 
@@ -25,7 +27,9 @@
 이미 존재하는 정부 API를 한곳에서 발견하고 읽을 수 있게 정리하는 층입니다. 이 저장소가 모든 데이터를 직접 제공하기보다, 어디에 무엇이 있고 어떻게 접근해야 하는지 보여 주는 catalog 성격을 가집니다.
 
 ### 2. Readable corpus 레이어
-관보, 보도자료 같은 공개 문서를 사람이 읽기 쉽고 AI가 처리하기 쉬운 corpus로 다시 묶는 층입니다. sample reader, metadata, source link, full corpus discovery가 이 축에 속합니다.
+관보, 보도자료, 국무회의 회의록 같은 공개 문서를 사람이 읽기 쉽고 AI가 처리하기 쉬운 corpus로 다시 묶는 층입니다. sample reader, metadata, source link, full corpus discovery가 이 축에 속합니다.
+
+현재 이 그룹에는 `gov-press-md`, `ai-readable-gazette-kr`, `gungmuhoeui-briefing-links`가 함께 들어갑니다. 특히 `gungmuhoeui-briefing-links`는 국무회의록 Markdown 자체가 1차 가치이고, 여기에 관보·보도자료 후보 링크를 붙여 추가 부가가치를 만드는 2차 레이어라는 점에서 중요합니다.
 
 ### 3. File-to-API transition request 레이어
 파일데이터를 이 저장소가 직접 authoritative API로 바꾸는 것이 아니라, 어떤 데이터가 API 전환 대상으로 구조화되어야 하는지 드러내는 층입니다. 즉, 전환 실행기라기보다 전환 필요성과 우선순위를 드러내는 요청 레이어입니다.
@@ -67,8 +71,9 @@
 ## 저장소 관계
 - `gov-press-md` = 보도자료 DB (public)
 - `ai-readable-gazette-kr` = 관보 DB (OCR 보정 corrected 코퍼스 포함, public)
+- `gungmuhoeui-briefing-links` = 국무회의록 Markdown + 관보·보도자료 후보 링크 레이어
 - `public-data-portal-intelligence` = 파일데이터→API 전환 후보 검토/구조화 레이어 (transition-request / transition-intelligence)
-- `ai-readable-government` = 위 3축을 함께 읽게 하는 public reader 프로토타입 + 에이전트 발견 레이어 허브
+- `ai-readable-government` = 위 4축을 함께 읽게 하는 public reader 프로토타입 + 에이전트 발견 레이어 허브
 
 ## 이 저장소에 포함된 것
 - 정적 HTML 기반 reader prototype
