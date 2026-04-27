@@ -2,7 +2,7 @@
   "name": "ai-readable-government",
   "description": "Korean government public documents — agent-readable index. Points to source markdown corpora hosted on GitHub.",
   "site_url": "https://hosungseo.github.io/ai-readable-government/",
-  "generated_at": "2026-04-20T02:26:05Z",
+  "generated_at": "2026-04-27T02:30:30Z",
   "generator": "scripts/build_agent_artifacts.py",
   "license_note": "Index/catalog under MIT. Document license varies per dataset — see `license` per dataset.",
   "contact": "https://github.com/hosungseo/ai-readable-government/issues",
